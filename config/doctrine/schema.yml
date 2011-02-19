@@ -1,0 +1,527 @@
+---
+detect_relations: true
+options:
+  collate: latin1_spanish_ci
+  charset: latin1
+  type: InnoDB
+
+Municipio:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    codigo:
+      type: integer(4)
+      unique: true
+      notnull: true
+    nombre:
+      type: string(60)
+      notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Genero:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(45)
+      unique: true
+      notnull: true
+    abreviacion:
+      type: string(1)
+      notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Perfil:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(60)
+      unique: true
+      notnull: true
+    descripcion:
+      type: string(255)
+      notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+TipoInstitucion:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(45)
+      notnull: true
+    descripcion:
+      type: string(128)
+      notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Institucion:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(255)
+      unique: true
+      notnull: true
+    nombre_corto:
+      type: string(60)
+      notnull: true
+    direccion_1:
+      type: string(80)
+      notnull: true
+    direccion_2:
+      type: string(80)
+    telefono_1:
+      type: string(20)
+      notnull: true
+    telefono_2:
+      type: string(45)
+    fax:
+      type: string(20)
+    email:
+      type: string(128)
+      notnull: true
+    web:
+      type: string(128)
+    TipoInstitucion_id:
+      type: integer(4)
+      notnull: true
+    Municipio_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    TipoInstitucion:
+      class: TipoInstitucion
+      local: TipoInstitucion_id
+      foreign: id
+      foreignAlias: Instituciones
+      onDelete: cascade
+      onUpdate: cascade
+    Municipio:
+      class: Municipio
+      local: Municipio_id
+      foreign: id
+      foreignAlias: Instituciones
+      onDelete: cascade
+      onUpdate: cascade
+  indexes:
+    fk_Institucion_TipoInstitucion1:
+      fields: [TipoInstitucion_id]
+    fk_Institucion_Municipio1:
+      fields: [Municipio_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Estudiante:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    apellidos:
+      type: string(128)
+      notnull: true
+    nombres:
+      type: string(128)
+      notnull: true
+    numero_documento:
+      type: string(45)
+      notnull: true
+    direccion_1:
+      type: string(128)
+      notnull: true
+    direccion_2:
+      type: string(128)
+    acudiente:
+      type: string(128)
+      notnull: true
+    telefono:
+      type: string(20)
+      notnull: true
+    movil:
+      type: string(20)
+    email:
+      type: string(128)
+      notnull: true
+    TipoDocumento_id:
+      type: integer(4)
+      notnull: true
+    Municipio_id:
+      type: integer(4)
+      notnull: true
+    Genero_id:
+      type: integer(4)
+      notnull: true
+    Institucion_id:
+      type: integer(4)
+      notnull: true
+    TipoDocumento_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Municipio:
+      class: Municipio
+      local: Municipio_id
+      foreign: id
+      foreignAlias: Estudiantes
+      onDelete: cascade
+      onUpdate: cascade
+    Genero:
+      class: Genero
+      local: Genero_id
+      foreign: id
+      foreignAlias: Estudiantes
+      onDelete: cascade
+      onUpdate: cascade
+    Institucion:
+      class: Institucion
+      local: Institucion_id
+      foreign: id
+      foreignAlias: Estudiantes
+      onDelete: cascade
+      onUpdate: cascade
+    TipoDocumento:
+      class: TipoDocumento
+      local: TipoDocumento_id
+      foreign: id
+      foreignAlias: Estudiantes
+      onDelete: cascade
+      onUpdate: cascade
+  indexes:
+    fk_Estudiante_Municipio1:
+      fields: [Municipio_id]
+    fk_Estudiante_Genero1:
+      fields: [Genero_id]
+    fk_Estudiante_Institucion1:
+      fields: [Institucion_id]
+    fk_Estudiante_TipoDocumento1:
+      fields: [TipoDocumento_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Usuario:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    apellidos:
+      type: string(128)
+      notnull: true
+    nombres:
+      type: string(128)
+      notnull: true
+    telefono:
+      type: string(20)
+      notnull: true
+    movil:
+      type: string(20)
+    email:
+      type: string(128)
+      notnull: true
+    username:
+      type: string(20)
+      notnull: true
+    password:
+      type: string(20)
+      notnull: true
+    Perfil_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Perfil:
+      class: Perfil
+      local: Perfil_id
+      foreign: id
+      foreignAlias: Usuarios
+      onDelete: cascade
+      onUpdate: cascade
+  indexes:
+    fk_Usuario_Perfil1:
+      fields: [Perfil_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Servicio:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(128)
+      notnull: true
+    descripcion:
+      type: string(255)
+      notnull: true
+    valor:
+      type: decimal(7)
+
+      notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Curso:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(128)
+    nombre_corto:
+      type: string(60)
+    descripcion:
+      type: string(255)
+    Servicio_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Servicio:
+      class: Servicio
+      local: Servicio_id
+      foreign: id
+      foreignAlias: Cursos
+      onDelete: cascade
+      onUpdate: cascade
+  indexes:
+    fk_Curso_Servicio1:
+      fields: [Servicio_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+CursoProgramado:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    grado:
+      type: integer(4)
+      notnull: true
+    descripcion:
+      type: string(128)
+      notnull: true
+    fecha_inicio:
+      type: date
+    fecha_finalizacion:
+      type: date
+    Curso_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    Institucion_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    Programacion_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+  relations:
+    Curso:
+      class: Curso
+      local: Curso_id
+      foreign: id
+      foreignAlias: CursosProgramados
+      onDelete: cascade
+      onUpdate: cascade
+    Institucion:
+      class: Institucion
+      local: Institucion_id
+      foreign: id
+      foreignAlias: CursosProgramados
+      onDelete: cascade
+      onUpdate: cascade
+    Programacion:
+      class: Programacion
+      local: Programacion_id
+      foreign: id
+      foreignAlias: CursosProgramados
+      onDelete: cascade
+      onUpdate: cascade
+  indexes:
+    fk_CursoProgramado_Curso1:
+      fields: [Curso_id]
+    fk_CursoProgramado_Institucion1:
+      fields: [Institucion_id]
+    fk_CursoProgramado_Programación1:
+      fields: [Programacion_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Asistencia:
+  actAs:
+    Timestampable: ~
+  columns:
+    fecha:
+      type: timestamp
+      primary: true
+      notnull: true
+    asistio:
+      type: boolean
+      notnull: true
+    Estudiante_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    CursoProgramado_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    CursoProgramado_Curso_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+    CursoProgramado_Institucion_id:
+      type: integer(4)
+      primary: true
+      notnull: true
+  relations:
+    Estudiante:
+      class: Estudiante
+      local: Estudiante_id
+      foreign: id
+      foreignAlias: Asistencias
+      onDelete: cascade
+      onUpdate: cascade
+    CursoProgramado:
+      class: CursoProgramado
+      local: CursoProgramado_id
+      foreign: id
+      foreignAlias: Asistencias
+      onDelete: cascade
+      onUpdate: cascade
+  indexes:
+    fk_Asistencia_Estudiante1:
+      fields: [Estudiante_id]
+    fk_Asistencia_CursoProgramado1:
+      fields: [CursoProgramado_id, CursoProgramado_Curso_id, CursoProgramado_Institucion_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+TipoDocumento:
+  actAs:
+    Timestampable: ~
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(6)
+    descripcion:
+      type: string(60)
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Programacion:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    codigo:
+      type: string(15)
+      unique: true
+      notnull: true
+    inicio:
+      type: date
+    fin:
+      type: date
+    comentarios:
+      type: string(255)
+    Calendario_id:
+      type: integer(4)
+      notnull: true
+  relations:
+    Calendario:
+      class: Calendario
+      local: Calendario_id
+      foreign: id
+      foreignAlias: Programaciones
+      onDelete: cascade
+      onUpdate: cascade
+  indexes:
+    fk_Programación_Calendario1:
+      fields: [Calendario_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
+Calendario:
+  columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(10)
+      notnull: true
+    descripcion:
+      type: string(255)
+      notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
+
