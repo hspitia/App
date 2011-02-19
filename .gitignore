@@ -1,0 +1,8 @@
+# Ignore doc directory
+#doc/**/*
+# Ignore cache directory
+cache/*
+# Ignore log directory
+log/**/*
+# Ignore backups files
+*.*~
