@@ -1,0 +1,30 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Municipio
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          municipio
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        codigo:
+          label: Código
+          help: Código DANE del municipio
+        nombre:
+          help: Nombre del municipio (departamento)
+      list:
+        title: Administración de Municipios
+        display:  [id, codigo, =nombre]
+      filter:  ~
+      form:    ~
+      edit:
+        title: Editando "%%nombre%%"
+      new:
+        title: Nuevo Municipio

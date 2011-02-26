@@ -1,3 +1,21 @@
+municipio:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Municipio
+    module:               municipio
+    prefix_path:          /municipio
+    column:               id
+    with_wildcard_routes: true
+
+institucion:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                Institucion
+    module:               institucion
+    prefix_path:          /institucion
+    column:               id
+    with_wildcard_routes: true
+
 # You can find more information about this file on the symfony website:
 # http://www.symfony-project.org/reference/1_4/en/10-Routing
 
@@ -14,3 +32,4 @@ default_index:
 
 default:
   url:   /:module/:action/*
+  prefix_path: /:sf_culture

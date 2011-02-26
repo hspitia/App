@@ -12,5 +12,7 @@
  */
 class TipoInstitucion extends BaseTipoInstitucion
 {
-
+    public function __toString() {
+        return $this->getNombre();
+    }
 }

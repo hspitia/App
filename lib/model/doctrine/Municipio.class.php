@@ -12,5 +12,7 @@
  */
 class Municipio extends BaseMunicipio
 {
-
+    public function __toString() {
+        return $this->getNombre();
+    }
 }

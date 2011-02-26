@@ -1,0 +1,40 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Institucion
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          institucion
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions: ~
+      fields:
+        nombre:
+          help:   Nombre completo y oficial de la institución educativa
+        nombre_corto:
+          help:   Nombre abreviado de la insitución educativa
+        direccion_1:
+          label:  Dirección
+        direccion_2:
+          label:  Complemento dirección
+          help:   Zona, apto., etc.
+        telefono_1:
+          label: Teléfono 1
+        telefono_2:
+          label: Teléfono 2
+        TipoInstitucion_id:
+          label: Tipo Institución
+      list:
+        title:  Administración de Instituciones Educativas
+        display:  [=nombre, slug]
+      filter:  ~
+      form:    ~
+      edit:    
+        title:  Editando la institucion "%%nombre%%"
+      new:
+        title:  Nueva Institución Educativa
