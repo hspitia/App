@@ -15,3 +15,55 @@
 #     password: changeme
 #     name:     Kris Wallsmith
 #     email:    kris.wallsmith@symfony-project.com
+
+TipoDocumento:
+  cedulaCiudadania:
+    nombre:       C.C.
+    descripcion:  Cédula de Ciudadanía
+  cedulaExtranjeria:
+    nombre:       C.E.
+    descripcion:  Cédula de Extranjería
+  tarjetaIdentidad:
+    nombre:       T.I.
+    descripcion:  Tarjeta de Identidad
+  registroCivil:
+    nombre:       R.C.
+    descripcion:  Registro Civil
+  pasaporte:
+    nombre:       P.
+    descripcion:  Pasaporte
+    
+Genero:
+  masculino:
+    nombre:       Masculino
+    abreviacion:  M
+  femenino:
+    nombre:       Femenino
+    abreviacion:  F
+
+Perfil:
+  administrador:
+    nombre:       Administrador
+    descripcion:  Administrador del sistema. Acceso total. Todos los privilegios.
+  auxiliar_contable:
+    nombre:       Auxiliar Contable
+    descripcion:  Acceso a gestión de pagos e informes de cargos y pagos.
+  digitador:
+    nombre:       Digitador
+    descripcion:  Acceso a gestion de asistencia de estudiantes.
+
+TipoInstitucion:
+  publica:
+    nombre:       Pública
+    descripcion:  Institución educativa del Estado
+  privada:
+    nombre:       Privada
+    descripcion:  Institución no pertenenciente al Estado
+
+Calendario:
+  a:
+    nombre:       A
+    descripcion:  Calendario A
+  b:
+    nombre:       B
+    descripcion:  Calendario B

@@ -8,6 +8,8 @@ options:
 Municipio:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre]
   columns:
     id:
       type: integer(4)
@@ -28,6 +30,8 @@ Municipio:
 Genero:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre]
   columns:
     id:
       type: integer(4)
@@ -48,6 +52,8 @@ Genero:
 Perfil:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre]
   columns:
     id:
       type: integer(4)
@@ -68,6 +74,8 @@ Perfil:
 TipoInstitucion:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre]
   columns:
     id:
       type: integer(4)
@@ -87,6 +95,8 @@ TipoInstitucion:
 Institucion:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre_corto]
   columns:
     id:
       type: integer(4)
@@ -150,6 +160,8 @@ Institucion:
 Estudiante:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [apellidos, nombres]
   columns:
     id:
       type: integer(4)
@@ -241,6 +253,8 @@ Estudiante:
 Usuario:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [apellidos, nombres]
   columns:
     id:
       type: integer(4)
@@ -288,6 +302,8 @@ Usuario:
 Servicio:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre]
   columns:
     id:
       type: integer(4)
@@ -311,6 +327,8 @@ Servicio:
 Curso:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre_corto]
   columns:
     id:
       type: integer(4)
@@ -399,7 +417,7 @@ CursoProgramado:
       fields: [Curso_id]
     fk_CursoProgramado_Institucion1:
       fields: [Institucion_id]
-    fk_CursoProgramado_Programación1:
+    fk_CursoProgramado_Programacion1:
       fields: [Programacion_id]
   options:
     charset: latin1
@@ -459,6 +477,8 @@ Asistencia:
 TipoDocumento:
   actAs:
     Timestampable: ~
+    Sluggable:
+      fields:    [nombre]
   columns:
     id:
       type: integer(4)
@@ -474,6 +494,8 @@ TipoDocumento:
     collate: latin1_spanish_ci
 
 Programacion:
+  actAs:
+    Timestampable: ~
   columns:
     id:
       type: integer(4)
@@ -502,13 +524,17 @@ Programacion:
       onDelete: cascade
       onUpdate: cascade
   indexes:
-    fk_Programación_Calendario1:
+    fk_Programacion_Calendario1:
       fields: [Calendario_id]
   options:
     charset: latin1
     collate: latin1_spanish_ci
 
 Calendario:
+  actAs:
+    Timestampable: ~
+    Sluggable:
+      fields:    [descripcion]
   columns:
     id:
       type: integer(4)
