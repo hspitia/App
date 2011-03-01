@@ -1,0 +1,43 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Curso
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Curso
+    plural:                Cursos
+    route_prefix:          curso
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new:
+          label: Nuevo Curso
+      fields:
+        descripcion:
+          label: Descripción
+      list:
+        title: Administración de Cursos
+        display: [ =id, =nombre, servicio, descripcion ]
+        object_actions:
+          _edit:
+            label: Editar
+          _delete:
+            label: Eliminar
+      filter:  ~
+      form:
+        actions:
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver al Listado
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Adicionar Nuevo
+      edit:
+        title:  Editando el curso "%%nombre%%"
+      new:
+        title:  Nuevo Curso

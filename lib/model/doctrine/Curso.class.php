@@ -12,5 +12,7 @@
  */
 class Curso extends BaseCurso
 {
-
+    public function __toString() {
+        return $this->getNombre();
+    }
 }

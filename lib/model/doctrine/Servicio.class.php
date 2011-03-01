@@ -12,5 +12,7 @@
  */
 class Servicio extends BaseServicio
 {
-
+	public function __toString() {
+	    return $this->getNombre();
+	}
 }

@@ -1,0 +1,59 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Estudiante
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Estudiante
+    plural:                Estudiantes
+    route_prefix:          estudiante
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new:
+          label: Nuevo Estudiante
+       
+      fields:
+        Genero_id:
+          label: Género
+        numero_documento:
+          label: Número documento
+        direccion_1:
+          label: Dirección
+        direccion_2:
+          label: Complemento dirección
+          help: Barrio, cgto., apto., etc.
+        telefono:
+          label: Teléfono
+        movil:
+          label: Móvil
+        Institucion_id:
+          label: Institución Educativa  
+      list:
+        title: Administración de Estudiantes
+        display: [=apellidos, =nombres, institucion, acudiente]
+        fields:
+          institucion:
+            label: Institución
+        object_actions:
+          _edit:
+            label: Editar
+      filter:  ~
+      form:
+        display: [apellidos, nombres, Genero_id, TipoDocumento_id, numero_documento, acudiente, direccion_1, direccion_2, Municipio_id, telefono, movil, email, Institucion_id]
+        actions:
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver al listado
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Adicionar Nuevo
+      edit:
+        title: Editando el estudiante "%%nombres%% %%apellidos%%"
+      new:
+        title: Nuevo Estudiante

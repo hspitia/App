@@ -12,5 +12,7 @@
  */
 class Estudiante extends BaseEstudiante
 {
-
+	public function __toString() {
+	    return $this->getApellidos() . $this->getNombres();
+	}
 }

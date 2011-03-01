@@ -5,14 +5,16 @@ generator:
     theme:                 admin
     non_verbose_templates: true
     with_show:             false
-    singular:              ~
-    plural:                ~
+    singular:              Municipio
+    plural:                Municipios
     route_prefix:          municipio
     with_doctrine_route:   true
     actions_base_class:    sfActions
 
     config:
-      actions: ~
+      actions: 
+        _new: 
+          label: "Crear Nuevo Municipio"
       fields:
         codigo:
           label: Código
@@ -22,6 +24,10 @@ generator:
       list:
         title: Administración de Municipios
         display:  [id, codigo, =nombre]
+        object_actions:
+          _edit:
+            label: Editar
+        batch_actions: { }
       filter:  ~
       form:    ~
       edit:

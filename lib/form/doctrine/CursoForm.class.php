@@ -12,5 +12,13 @@ class CursoForm extends BaseCursoForm
 {
   public function configure()
   {
+  	  unset(
+  	      $this['created_at'],
+  	      $this['updated_at'],
+  	      $this['slug']
+  	  );
+  	  
+  	  $this->widgetSchema['descripcion'] = new sfWidgetFormTextarea();
+  	  
   }
 }

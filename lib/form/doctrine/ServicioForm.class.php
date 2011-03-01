@@ -12,5 +12,18 @@ class ServicioForm extends BaseServicioForm
 {
   public function configure()
   {
+  	  unset(
+  	      $this['created_at'],
+  	      $this['updated_at'],
+  	      $this['slug']
+  	  );
+  	  
+  	  $this->widgetSchema['nombre'] = new sfWidgetFormInput( array(), // required options
+  	  	  array (
+  	  	  	  'size' => 40
+  	  	  	  ));
+  	  
+  	  $this->widgetSchema['descripcion'] = new sfWidgetFormTextarea();
+  	  
   }
 }

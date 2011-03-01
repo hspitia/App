@@ -1,0 +1,43 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           Servicio
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              Servicio
+    plural:                Servicios
+    route_prefix:          servicio
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new:
+          label: Nuevo Servicio
+      fields:
+        descripcion:
+          label: Descripción
+      list:
+        title: Administración de Servicios
+        display: [=id, =nombre, descripcion, valor]
+        object_actions:
+          _edit:
+            label: Editar
+          _delete:
+            label: Eliminar
+      filter:  ~
+      form:
+        actions:
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver al Listado
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Adicionar Nuevo
+      edit:
+        title:  Editando el Servicio "%%nombre%%"
+      new:
+        title:  Nuevo Servicio

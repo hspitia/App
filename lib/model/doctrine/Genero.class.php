@@ -12,5 +12,7 @@
  */
 class Genero extends BaseGenero
 {
-
+	public function __toString() {
+		return $this->getNombre();
+	}
 }

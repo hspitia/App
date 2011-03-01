@@ -19,6 +19,18 @@
           <li>
             <?php echo link_to('Municipios', 'municipio') ?>
           </li>
+          <li>
+            <?php echo link_to('Estudiantes', 'estudiante') ?>
+          </li>
+          <li>
+            <?php echo link_to('Servicios', 'servicio') ?>
+          </li>
+          <li>
+            <?php echo link_to('Cursos', 'curso') ?>
+          </li>
+          <li>
+            <?php echo link_to('Programaciones', 'programacion') ?>
+          </li>
         </ul>
    </div>
 

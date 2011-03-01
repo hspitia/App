@@ -12,5 +12,17 @@ class ProgramacionForm extends BaseProgramacionForm
 {
   public function configure()
   {
+  	  unset(
+  	      $this['created_at'],
+  	      $this['updated_at'],
+  	      $this['slug']
+  	  );
+  	  
+	// $this->widgetSchema->setLabels(array(
+	// 	'codigo' => 'Código',
+	// 	'inicio' => 'Fecha de Inicio',
+	// 	'fin'    => 'Fecha de Fialización',
+	// ));
+  	  
   }
 }

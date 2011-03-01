@@ -5,24 +5,26 @@ generator:
     theme:                 admin
     non_verbose_templates: true
     with_show:             false
-    singular:              ~
-    plural:                ~
+    singular:              Institución
+    plural:                Instituciones
     route_prefix:          institucion
     with_doctrine_route:   true
     actions_base_class:    sfActions
 
     config:
-      actions: ~
+      actions:
+        _new:  
+          label: "Crear Nueva Institución"
       fields:
         nombre:
-          help:   Nombre completo y oficial de la institución educativa
+          help:   Nombre completo de la institución educativa
         nombre_corto:
           help:   Nombre abreviado de la insitución educativa
         direccion_1:
           label:  Dirección
         direccion_2:
           label:  Complemento dirección
-          help:   Zona, apto., etc.
+          help:   Zona, barrio, apto., etc.
         telefono_1:
           label: Teléfono 1
         telefono_2:
@@ -31,10 +33,23 @@ generator:
           label: Tipo Institución
       list:
         title:  Administración de Instituciones Educativas
-        display:  [=nombre, slug]
+        display:  [=nombre_corto, municipio]
+        object_actions:
+          _edit:
+            label: Editar
+          _delete: Eliminar  
       filter:  ~
-      form:    ~
+      form:
+        actions:
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver al Listado
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Adicionar Nuevo
       edit:    
-        title:  Editando la institucion "%%nombre%%"
+        title:  Editando la institución "%%nombre%%"
       new:
         title:  Nueva Institución Educativa
