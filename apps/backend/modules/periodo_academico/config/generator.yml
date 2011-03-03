@@ -1,0 +1,48 @@
+generator:
+  class: sfDoctrineGenerator
+  param:
+    model_class:           PeriodoAcademico
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              PeriodoAcademico
+    plural:                PeriodosAcademicos
+    route_prefix:          periodo_academico
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+
+    config:
+      actions:
+        _new:
+          label: Nuevo Período Académico
+      fields:
+        codigo: 
+          label: Código
+        inicio:
+          label: Fecha de inicio
+        fin:
+          label: Fecha de finalización
+      list:
+        title: Administración de Períodos Académicos
+        display: [ =id, =codigo, inicio, fin ]
+        object_actions:
+          _edit:
+            label: Editar
+          _delete:
+            label: Eliminar
+      filter:  ~
+      form:
+        display: [ codigo, Calendario_id, inicio, fin, comentarios ]
+        actions:
+          _delete:
+            label: Eliminar
+          _list:
+            label: Volver al Listado
+          _save:
+            label: Guardar
+          _save_and_add:
+            label: Guardar y Adicionar Nuevo
+      edit:
+        title:  Editando el  Período Académico "%%codigo%%"
+      new:
+        title:  Nuevo Período Académico

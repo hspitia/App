@@ -50,7 +50,7 @@ Perfil:
     descripcion:  Acceso a gestión de pagos e informes de cargos y pagos.
   digitador:
     nombre:       Digitador
-    descripcion:  Acceso a gestion de asistencia de estudiantes.
+    descripcion:  Acceso a gestión de asistencia de estudiantes.
 
 TipoInstitucion:
   publica:
@@ -67,3 +67,58 @@ Calendario:
   b:
     nombre:       B
     descripcion:  Calendario B
+
+Institucion:
+<?php for ($i = 1; $i <= 4; $i++): ?>
+  institucion_<?php echo $i ?>:
+    nombre:   Institución Educativa No. <?php echo $i."\n" ?>
+    nombre_corto:   Institución <?php echo $i."\n" ?>
+    direccion_1:  Cll <?php echo $i ?> No. <?php echo $i."\n" ?>
+    direccion_2:  Barrio
+    telefono_1:   272000<?php echo $i."\n"?>
+    telefono_2:   287000<?php echo $i."\n"?>
+    fax:          273010<?php echo $i."\n"?>
+    email:        institucion_<?php echo $i ?>@notmail.com
+    web:          www.institucion_<?php echo $i ?>.com
+    TipoInstitucion:  publica
+    Municipio:    palmira
+    
+<?php endfor ?>
+
+Estudiante:
+<?php for ($i = 1; $i <= 4; $i++): ?>
+  estudiante_<?php echo $i?>:
+    apellidos: Apellido <?php echo $i."\n" ?>
+    nombres:   Nombre Estudiante <?php echo $i."\n" ?>
+    numero_documento: 1020300<?php echo $i."\n"?>
+    direccion_1:  Cll <?php echo $i ?> No. <?php echo $i."\n" ?>
+    direccion_2:  Barrio
+    acudiente:    Nombre Acudiente <?php echo $i."\n"?>
+    telefono:     272000<?php echo $i."\n"?>
+    movil:        311472000<?php echo $i."\n"?>
+    email:        estudiante_<?php echo $i ?>@notmail.com
+    Municipio:    <?php echo (fmod($i, 2) ? 'palmira' : 'candelaria') . "\n"?>
+    Genero:       <?php echo (fmod($i, 2) ? 'masculino' : 'femenino') . "\n"?>
+    Institucion:   institucion_<?php echo (fmod($i, 2) ? 1 : 2 ). "\n"?>
+    TipoDocumento:  tarjetaIdentidad
+    
+<?php endfor ?>
+
+Servicio:
+<?php for ($i = 1; $i <= 4; $i++): ?>
+  servicio_<?php echo $i ?>:
+    nombre:       Servicio <?php echo $i."\n" ?>
+    descripcion:  Servicio de prueba No. <?php echo $i."\n" ?>
+    valor:        120.000,0
+
+<?php endfor ?>
+
+Curso:
+<?php for ($i=1; $i <= 4; $i++): ?>
+  curso_<?php echo $i?>:
+    nombre:       Curso <?php echo $i . "\n" ?>
+    nombre_corto: Cur <?php echo $i?>
+    descripcion:  Curso de prueba No. <?php echo $i . "\n" ?>
+    Servicio:     servicio_<?php echo fmod($i, 2) ? 1 : 2 . "\n"?>
+
+<?php endfor ?>

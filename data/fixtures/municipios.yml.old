@@ -1,0 +1,4395 @@
+## YAML Template.
+---
+Municipio:
+  medellin:
+    id: 1
+    codigo: 5001
+    nombre: MEDELLIN (ANTIOQUIA)
+  abejorral:
+    id: 2
+    codigo: 5002
+    nombre: ABEJORRAL (ANTIOQUIA)
+  abriaqui:
+    id: 3
+    codigo: 5004
+    nombre: ABRIAQUI (ANTIOQUIA)
+  alejandria:
+    id: 4
+    codigo: 5021
+    nombre: ALEJANDRIA (ANTIOQUIA)
+  amaga:
+    id: 5
+    codigo: 5030
+    nombre: AMAGA (ANTIOQUIA)
+  amalfi:
+    id: 6
+    codigo: 5031
+    nombre: AMALFI (ANTIOQUIA)
+  andes:
+    id: 7
+    codigo: 5034
+    nombre: ANDES (ANTIOQUIA)
+  angelopolis:
+    id: 8
+    codigo: 5036
+    nombre: ANGELOPOLIS (ANTIOQUIA)
+  angostura:
+    id: 9
+    codigo: 5038
+    nombre: ANGOSTURA (ANTIOQUIA)
+  anori:
+    id: 10
+    codigo: 5040
+    nombre: ANORI (ANTIOQUIA)
+  antioquia:
+    id: 11
+    codigo: 5042
+    nombre: ANTIOQUIA (ANTIOQUIA)
+  anza:
+    id: 12
+    codigo: 5044
+    nombre: ANZA (ANTIOQUIA)
+  apartado:
+    id: 13
+    codigo: 5045
+    nombre: APARTADO (ANTIOQUIA)
+  arboletes:
+    id: 14
+    codigo: 5051
+    nombre: ARBOLETES (ANTIOQUIA)
+  argelia:
+    id: 15
+    codigo: 5055
+    nombre: ARGELIA (ANTIOQUIA)
+  armenia:
+    id: 16
+    codigo: 5059
+    nombre: ARMENIA (ANTIOQUIA)
+  barbosa:
+    id: 17
+    codigo: 5079
+    nombre: BARBOSA (ANTIOQUIA)
+  belmira:
+    id: 18
+    codigo: 5086
+    nombre: BELMIRA (ANTIOQUIA)
+  bello:
+    id: 19
+    codigo: 5088
+    nombre: BELLO (ANTIOQUIA)
+  betania:
+    id: 20
+    codigo: 5091
+    nombre: BETANIA (ANTIOQUIA)
+  betulia:
+    id: 21
+    codigo: 5093
+    nombre: BETULIA (ANTIOQUIA)
+  ciudad_bolivar:
+    id: 22
+    codigo: 5101
+    nombre: CIUDAD BOLIVAR (ANTIOQUIA)
+  briceño:
+    id: 23
+    codigo: 5107
+    nombre: BRICEÑO (ANTIOQUIA)
+  buritica:
+    id: 24
+    codigo: 5113
+    nombre: BURITICA (ANTIOQUIA)
+  caceres:
+    id: 25
+    codigo: 5120
+    nombre: CACERES (ANTIOQUIA)
+  caicedo:
+    id: 26
+    codigo: 5125
+    nombre: CAICEDO (ANTIOQUIA)
+  caldas:
+    id: 27
+    codigo: 5129
+    nombre: CALDAS (ANTIOQUIA)
+  campamento:
+    id: 28
+    codigo: 5134
+    nombre: CAMPAMENTO (ANTIOQUIA)
+  cañasgordas:
+    id: 29
+    codigo: 5138
+    nombre: CAÑASGORDAS (ANTIOQUIA)
+  caracoli:
+    id: 30
+    codigo: 5142
+    nombre: CARACOLI (ANTIOQUIA)
+  caramanta:
+    id: 31
+    codigo: 5145
+    nombre: CARAMANTA (ANTIOQUIA)
+  carepa:
+    id: 32
+    codigo: 5147
+    nombre: CAREPA (ANTIOQUIA)
+  carmen_de_viboral:
+    id: 33
+    codigo: 5148
+    nombre: CARMEN DE VIBORAL (ANTIOQUIA)
+  carolina:
+    id: 34
+    codigo: 5150
+    nombre: CAROLINA (ANTIOQUIA)
+  caucasia:
+    id: 35
+    codigo: 5154
+    nombre: CAUCASIA (ANTIOQUIA)
+  chigorodo:
+    id: 36
+    codigo: 5172
+    nombre: CHIGORODO (ANTIOQUIA)
+  cisneros:
+    id: 37
+    codigo: 5190
+    nombre: CISNEROS (ANTIOQUIA)
+  cocorna:
+    id: 38
+    codigo: 5197
+    nombre: COCORNA (ANTIOQUIA)
+  concepcion:
+    id: 39
+    codigo: 5206
+    nombre: CONCEPCION (ANTIOQUIA)
+  concordia:
+    id: 40
+    codigo: 5209
+    nombre: CONCORDIA (ANTIOQUIA)
+  copacabana:
+    id: 41
+    codigo: 5212
+    nombre: COPACABANA (ANTIOQUIA)
+  dabeiba:
+    id: 42
+    codigo: 5234
+    nombre: DABEIBA (ANTIOQUIA)
+  don_matias:
+    id: 43
+    codigo: 5237
+    nombre: DON MATIAS (ANTIOQUIA)
+  ebejico:
+    id: 44
+    codigo: 5240
+    nombre: EBEJICO (ANTIOQUIA)
+  el_bagre:
+    id: 45
+    codigo: 5250
+    nombre: EL BAGRE (ANTIOQUIA)
+  entrerrios:
+    id: 46
+    codigo: 5264
+    nombre: ENTRERRIOS (ANTIOQUIA)
+  envigado:
+    id: 47
+    codigo: 5266
+    nombre: ENVIGADO (ANTIOQUIA)
+  fredonia:
+    id: 48
+    codigo: 5282
+    nombre: FREDONIA (ANTIOQUIA)
+  frontino:
+    id: 49
+    codigo: 5284
+    nombre: FRONTINO (ANTIOQUIA)
+  giraldo:
+    id: 50
+    codigo: 5306
+    nombre: GIRALDO (ANTIOQUIA)
+  girardota:
+    id: 51
+    codigo: 5308
+    nombre: GIRARDOTA (ANTIOQUIA)
+  gomez_plata:
+    id: 52
+    codigo: 5310
+    nombre: GOMEZ PLATA (ANTIOQUIA)
+  granada:
+    id: 53
+    codigo: 5313
+    nombre: GRANADA (ANTIOQUIA)
+  guadalupe:
+    id: 54
+    codigo: 5315
+    nombre: GUADALUPE (ANTIOQUIA)
+  guarne:
+    id: 55
+    codigo: 5318
+    nombre: GUARNE (ANTIOQUIA)
+  guatape:
+    id: 56
+    codigo: 5321
+    nombre: GUATAPE (ANTIOQUIA)
+  heliconia:
+    id: 57
+    codigo: 5347
+    nombre: HELICONIA (ANTIOQUIA)
+  hispania:
+    id: 58
+    codigo: 5353
+    nombre: HISPANIA (ANTIOQUIA)
+  itagui:
+    id: 59
+    codigo: 5360
+    nombre: ITAGUI (ANTIOQUIA)
+  ituango:
+    id: 60
+    codigo: 5361
+    nombre: ITUANGO (ANTIOQUIA)
+  jardin:
+    id: 61
+    codigo: 5364
+    nombre: JARDIN (ANTIOQUIA)
+  jerico:
+    id: 62
+    codigo: 5368
+    nombre: JERICO (ANTIOQUIA)
+  la_ceja:
+    id: 63
+    codigo: 5376
+    nombre: LA CEJA (ANTIOQUIA)
+  la_estrella:
+    id: 64
+    codigo: 5380
+    nombre: LA ESTRELLA (ANTIOQUIA)
+  la_pintada:
+    id: 65
+    codigo: 5390
+    nombre: LA PINTADA (ANTIOQUIA)
+  la_union:
+    id: 66
+    codigo: 5400
+    nombre: LA UNION (ANTIOQUIA)
+  liborina:
+    id: 67
+    codigo: 5411
+    nombre: LIBORINA (ANTIOQUIA)
+  maceo:
+    id: 68
+    codigo: 5425
+    nombre: MACEO (ANTIOQUIA)
+  marinilla:
+    id: 69
+    codigo: 5440
+    nombre: MARINILLA (ANTIOQUIA)
+  montebello:
+    id: 70
+    codigo: 5467
+    nombre: MONTEBELLO (ANTIOQUIA)
+  murindo:
+    id: 71
+    codigo: 5475
+    nombre: MURINDO (ANTIOQUIA)
+  mutata:
+    id: 72
+    codigo: 5480
+    nombre: MUTATA (ANTIOQUIA)
+  nariño:
+    id: 73
+    codigo: 5483
+    nombre: NARIÑO (ANTIOQUIA)
+  necocli:
+    id: 74
+    codigo: 5490
+    nombre: NECOCLI (ANTIOQUIA)
+  nechi:
+    id: 75
+    codigo: 5495
+    nombre: NECHI (ANTIOQUIA)
+  olaya:
+    id: 76
+    codigo: 5501
+    nombre: OLAYA (ANTIOQUIA)
+  peñol:
+    id: 77
+    codigo: 5541
+    nombre: PEÑOL (ANTIOQUIA)
+  peque:
+    id: 78
+    codigo: 5543
+    nombre: PEQUE (ANTIOQUIA)
+  pueblorrico:
+    id: 79
+    codigo: 5576
+    nombre: PUEBLORRICO (ANTIOQUIA)
+  puerto_berrio:
+    id: 80
+    codigo: 5579
+    nombre: PUERTO BERRIO (ANTIOQUIA)
+  puerto_nare:
+    id: 81
+    codigo: 5585
+    nombre: PUERTO NARE (ANTIOQUIA)
+  puerto_triunfo:
+    id: 82
+    codigo: 5591
+    nombre: PUERTO TRIUNFO (ANTIOQUIA)
+  remedios:
+    id: 83
+    codigo: 5604
+    nombre: REMEDIOS (ANTIOQUIA)
+  retiro:
+    id: 84
+    codigo: 5607
+    nombre: RETIRO (ANTIOQUIA)
+  rionegro:
+    id: 85
+    codigo: 5615
+    nombre: RIONEGRO (ANTIOQUIA)
+  sabanalarga:
+    id: 86
+    codigo: 5628
+    nombre: SABANALARGA (ANTIOQUIA)
+  sabaneta:
+    id: 87
+    codigo: 5631
+    nombre: SABANETA (ANTIOQUIA)
+  salgar:
+    id: 88
+    codigo: 5642
+    nombre: SALGAR (ANTIOQUIA)
+  san_andres:
+    id: 89
+    codigo: 5647
+    nombre: SAN ANDRES (ANTIOQUIA)
+  san_carlos:
+    id: 90
+    codigo: 5649
+    nombre: SAN CARLOS (ANTIOQUIA)
+  san_francisco:
+    id: 91
+    codigo: 5652
+    nombre: SAN FRANCISCO (ANTIOQUIA)
+  san_jeronimo:
+    id: 92
+    codigo: 5656
+    nombre: SAN JERONIMO (ANTIOQUIA)
+  san_jose_de_la_montaña:
+    id: 93
+    codigo: 5658
+    nombre: SAN JOSE DE LA MONTAÑA (ANTIOQUIA)
+  san_juan_de_uraba:
+    id: 94
+    codigo: 5659
+    nombre: SAN JUAN DE URABA (ANTIOQUIA)
+  san_luis:
+    id: 95
+    codigo: 5660
+    nombre: SAN LUIS (ANTIOQUIA)
+  san_pedro:
+    id: 96
+    codigo: 5664
+    nombre: SAN PEDRO (ANTIOQUIA)
+  san_pedro_de_uraba:
+    id: 97
+    codigo: 5665
+    nombre: SAN PEDRO DE URABA (ANTIOQUIA)
+  san_rafael:
+    id: 98
+    codigo: 5667
+    nombre: SAN RAFAEL (ANTIOQUIA)
+  san_roque:
+    id: 99
+    codigo: 5670
+    nombre: SAN ROQUE (ANTIOQUIA)
+  san_vicente:
+    id: 100
+    codigo: 5674
+    nombre: SAN VICENTE (ANTIOQUIA)
+  santa_barbara:
+    id: 101
+    codigo: 5679
+    nombre: SANTA BARBARA (ANTIOQUIA)
+  santa_rosa_de_osos:
+    id: 102
+    codigo: 5686
+    nombre: SANTA ROSA DE OSOS (ANTIOQUIA)
+  santo_domingo:
+    id: 103
+    codigo: 5690
+    nombre: SANTO DOMINGO (ANTIOQUIA)
+  santuario:
+    id: 104
+    codigo: 5697
+    nombre: SANTUARIO (ANTIOQUIA)
+  segovia:
+    id: 105
+    codigo: 5736
+    nombre: SEGOVIA (ANTIOQUIA)
+  sonson:
+    id: 106
+    codigo: 5756
+    nombre: SONSON (ANTIOQUIA)
+  sopetran:
+    id: 107
+    codigo: 5761
+    nombre: SOPETRAN (ANTIOQUIA)
+  tamesis:
+    id: 108
+    codigo: 5789
+    nombre: TAMESIS (ANTIOQUIA)
+  taraza:
+    id: 109
+    codigo: 5790
+    nombre: TARAZA (ANTIOQUIA)
+  tarso:
+    id: 110
+    codigo: 5792
+    nombre: TARSO (ANTIOQUIA)
+  titiribi:
+    id: 111
+    codigo: 5809
+    nombre: TITIRIBI (ANTIOQUIA)
+  toledo:
+    id: 112
+    codigo: 5819
+    nombre: TOLEDO (ANTIOQUIA)
+  turbo:
+    id: 113
+    codigo: 5837
+    nombre: TURBO (ANTIOQUIA)
+  uramita:
+    id: 114
+    codigo: 5842
+    nombre: URAMITA (ANTIOQUIA)
+  urrao:
+    id: 115
+    codigo: 5847
+    nombre: URRAO (ANTIOQUIA)
+  valdivia:
+    id: 116
+    codigo: 5854
+    nombre: VALDIVIA (ANTIOQUIA)
+  valparaiso:
+    id: 117
+    codigo: 5856
+    nombre: VALPARAISO (ANTIOQUIA)
+  vegachi:
+    id: 118
+    codigo: 5858
+    nombre: VEGACHI (ANTIOQUIA)
+  venecia:
+    id: 119
+    codigo: 5861
+    nombre: VENECIA (ANTIOQUIA)
+  vigia_del_fuerte:
+    id: 120
+    codigo: 5873
+    nombre: VIGIA DEL FUERTE (ANTIOQUIA)
+  yali:
+    id: 121
+    codigo: 5885
+    nombre: YALI (ANTIOQUIA)
+  yarumal:
+    id: 122
+    codigo: 5887
+    nombre: YARUMAL (ANTIOQUIA)
+  yolombo:
+    id: 123
+    codigo: 5890
+    nombre: YOLOMBO (ANTIOQUIA)
+  yondo:
+    id: 124
+    codigo: 5893
+    nombre: YONDO (ANTIOQUIA)
+  zaragoza:
+    id: 125
+    codigo: 5895
+    nombre: ZARAGOZA (ANTIOQUIA)
+  barranquilla:
+    id: 126
+    codigo: 8001
+    nombre: BARRANQUILLA (ATLANTICO)
+  baranoa:
+    id: 127
+    codigo: 8078
+    nombre: BARANOA (ATLANTICO)
+  campo_de_la_cruz:
+    id: 128
+    codigo: 8137
+    nombre: CAMPO DE LA CRUZ (ATLANTICO)
+  candelaria:
+    id: 129
+    codigo: 8141
+    nombre: CANDELARIA (ATLANTICO)
+  galapa:
+    id: 130
+    codigo: 8296
+    nombre: GALAPA (ATLANTICO)
+  juan_de_acosta:
+    id: 131
+    codigo: 8372
+    nombre: JUAN DE ACOSTA (ATLANTICO)
+  luruaco:
+    id: 132
+    codigo: 8421
+    nombre: LURUACO (ATLANTICO)
+  malambo:
+    id: 133
+    codigo: 8433
+    nombre: MALAMBO (ATLANTICO)
+  manati:
+    id: 134
+    codigo: 8436
+    nombre: MANATI (ATLANTICO)
+  palmar_de_varela:
+    id: 135
+    codigo: 8520
+    nombre: PALMAR DE VARELA (ATLANTICO)
+  piojo:
+    id: 136
+    codigo: 8549
+    nombre: PIOJO (ATLANTICO)
+  polo_nuevo:
+    id: 137
+    codigo: 8558
+    nombre: POLO NUEVO (ATLANTICO)
+  ponedera:
+    id: 138
+    codigo: 8560
+    nombre: PONEDERA (ATLANTICO)
+  puerto_colombia:
+    id: 139
+    codigo: 8573
+    nombre: PUERTO COLOMBIA (ATLANTICO)
+  repelon:
+    id: 140
+    codigo: 8606
+    nombre: REPELON (ATLANTICO)
+  sabanagrande:
+    id: 141
+    codigo: 8634
+    nombre: SABANAGRANDE (ATLANTICO)
+  sabanalarga:
+    id: 142
+    codigo: 8638
+    nombre: SABANALARGA (ATLANTICO)
+  santa_lucia:
+    id: 143
+    codigo: 8675
+    nombre: SANTA LUCIA (ATLANTICO)
+  santo_tomas:
+    id: 144
+    codigo: 8685
+    nombre: SANTO TOMAS (ATLANTICO)
+  soledad:
+    id: 145
+    codigo: 8758
+    nombre: SOLEDAD (ATLANTICO)
+  suan:
+    id: 146
+    codigo: 8770
+    nombre: SUAN (ATLANTICO)
+  tubara:
+    id: 147
+    codigo: 8832
+    nombre: TUBARA (ATLANTICO)
+  usiacuri:
+    id: 148
+    codigo: 8849
+    nombre: USIACURI (ATLANTICO)
+  bogota:
+    id: 149
+    codigo: 11001
+    nombre: BOGOTA (CUNDINAMARCA)
+  cartagena:
+    id: 150
+    codigo: 13001
+    nombre: CARTAGENA (BOLIVAR)
+  achi:
+    id: 151
+    codigo: 13006
+    nombre: ACHI (BOLIVAR)
+  altos_del_rosario:
+    id: 152
+    codigo: 13030
+    nombre: ALTOS DEL ROSARIO (BOLIVAR)
+  arenal:
+    id: 153
+    codigo: 13042
+    nombre: ARENAL (BOLIVAR)
+  arjona:
+    id: 154
+    codigo: 13052
+    nombre: ARJONA (BOLIVAR)
+  arroyohondo:
+    id: 155
+    codigo: 13062
+    nombre: ARROYOHONDO (BOLIVAR)
+  barranco_de_loba:
+    id: 156
+    codigo: 13074
+    nombre: BARRANCO DE LOBA (BOLIVAR)
+  calamar:
+    id: 157
+    codigo: 13140
+    nombre: CALAMAR (BOLIVAR)
+  cantagallo:
+    id: 158
+    codigo: 13160
+    nombre: CANTAGALLO (BOLIVAR)
+  cicuco:
+    id: 159
+    codigo: 13188
+    nombre: CICUCO (BOLIVAR)
+  cordoba:
+    id: 160
+    codigo: 13212
+    nombre: CORDOBA (BOLIVAR)
+  clemencia:
+    id: 161
+    codigo: 13222
+    nombre: CLEMENCIA (BOLIVAR)
+  el_carmen_de_bolivar:
+    id: 162
+    codigo: 13244
+    nombre: EL CARMEN DE BOLIVAR (BOLIVAR)
+  el_guamo:
+    id: 163
+    codigo: 13248
+    nombre: EL GUAMO (BOLIVAR)
+  el_peñon:
+    id: 164
+    codigo: 13268
+    nombre: EL PEÑON (BOLIVAR)
+  hatillo_de_loba:
+    id: 165
+    codigo: 13300
+    nombre: HATILLO DE LOBA (BOLIVAR)
+  magangue:
+    id: 166
+    codigo: 13430
+    nombre: MAGANGUE (BOLIVAR)
+  mahates:
+    id: 167
+    codigo: 13433
+    nombre: MAHATES (BOLIVAR)
+  margarita:
+    id: 168
+    codigo: 13440
+    nombre: MARGARITA (BOLIVAR)
+  maria_la_baja:
+    id: 169
+    codigo: 13442
+    nombre: MARIA LA BAJA (BOLIVAR)
+  montecristo:
+    id: 170
+    codigo: 13458
+    nombre: MONTECRISTO (BOLIVAR)
+  mompos:
+    id: 171
+    codigo: 13468
+    nombre: MOMPOS (BOLIVAR)
+  morales:
+    id: 172
+    codigo: 13473
+    nombre: MORALES (BOLIVAR)
+  pinillos:
+    id: 173
+    codigo: 13549
+    nombre: PINILLOS (BOLIVAR)
+  regidor:
+    id: 174
+    codigo: 13580
+    nombre: REGIDOR (BOLIVAR)
+  rio_viejo:
+    id: 175
+    codigo: 13600
+    nombre: RIO VIEJO (BOLIVAR)
+  san_cristobal:
+    id: 176
+    codigo: 13620
+    nombre: SAN CRISTOBAL (BOLIVAR)
+  san_estanislao:
+    id: 177
+    codigo: 13647
+    nombre: SAN ESTANISLAO (BOLIVAR)
+  san_fernando:
+    id: 178
+    codigo: 13650
+    nombre: SAN FERNANDO (BOLIVAR)
+  san_jacinto:
+    id: 179
+    codigo: 13654
+    nombre: SAN JACINTO (BOLIVAR)
+  san_jacinto_del_cauca:
+    id: 180
+    codigo: 13655
+    nombre: SAN JACINTO DEL CAUCA (BOLIVAR)
+  san_juan_nepomuceno:
+    id: 181
+    codigo: 13657
+    nombre: SAN JUAN NEPOMUCENO (BOLIVAR)
+  san_martin_de_loba:
+    id: 182
+    codigo: 13667
+    nombre: SAN MARTIN DE LOBA (BOLIVAR)
+  san_pablo:
+    id: 183
+    codigo: 13670
+    nombre: SAN PABLO (BOLIVAR)
+  santa_catalina:
+    id: 184
+    codigo: 13673
+    nombre: SANTA CATALINA (BOLIVAR)
+  santa_rosa:
+    id: 185
+    codigo: 13683
+    nombre: SANTA ROSA (BOLIVAR)
+  santa_rosa_del_sur:
+    id: 186
+    codigo: 13688
+    nombre: SANTA ROSA DEL SUR (BOLIVAR)
+  simiti:
+    id: 187
+    codigo: 13744
+    nombre: SIMITI (BOLIVAR)
+  soplaviento:
+    id: 188
+    codigo: 13760
+    nombre: SOPLAVIENTO (BOLIVAR)
+  talaigua_nuevo:
+    id: 189
+    codigo: 13780
+    nombre: TALAIGUA NUEVO (BOLIVAR)
+  tiquisio:
+    id: 190
+    codigo: 13810
+    nombre: TIQUISIO (BOLIVAR)
+  turbaco:
+    id: 191
+    codigo: 13836
+    nombre: TURBACO (BOLIVAR)
+  turbana:
+    id: 192
+    codigo: 13838
+    nombre: TURBANA (BOLIVAR)
+  villanueva:
+    id: 193
+    codigo: 13873
+    nombre: VILLANUEVA (BOLIVAR)
+  zambrano:
+    id: 194
+    codigo: 13894
+    nombre: ZAMBRANO (BOLIVAR)
+  tunja:
+    id: 195
+    codigo: 15001
+    nombre: TUNJA (BOYACA)
+  almeida:
+    id: 196
+    codigo: 15022
+    nombre: ALMEIDA (BOYACA)
+  aquitania:
+    id: 197
+    codigo: 15047
+    nombre: AQUITANIA (BOYACA)
+  arcabuco:
+    id: 198
+    codigo: 15051
+    nombre: ARCABUCO (BOYACA)
+  belen:
+    id: 199
+    codigo: 15087
+    nombre: BELEN (BOYACA)
+  berbeo:
+    id: 200
+    codigo: 15090
+    nombre: BERBEO (BOYACA)
+  beteitiva:
+    id: 201
+    codigo: 15092
+    nombre: BETEITIVA (BOYACA)
+  boavita:
+    id: 202
+    codigo: 15097
+    nombre: BOAVITA (BOYACA)
+  boyaca:
+    id: 203
+    codigo: 15104
+    nombre: BOYACA (BOYACA)
+  briceño:
+    id: 204
+    codigo: 15106
+    nombre: BRICEÑO (BOYACA)
+  buenavista:
+    id: 205
+    codigo: 15109
+    nombre: BUENAVISTA (BOYACA)
+  busbanza:
+    id: 206
+    codigo: 15114
+    nombre: BUSBANZA (BOYACA)
+  caldas:
+    id: 207
+    codigo: 15131
+    nombre: CALDAS (BOYACA)
+  campohermoso:
+    id: 208
+    codigo: 15135
+    nombre: CAMPOHERMOSO (BOYACA)
+  cerinza:
+    id: 209
+    codigo: 15162
+    nombre: CERINZA (BOYACA)
+  chinavita:
+    id: 210
+    codigo: 15172
+    nombre: CHINAVITA (BOYACA)
+  chiquinquira:
+    id: 211
+    codigo: 15176
+    nombre: CHIQUINQUIRA (BOYACA)
+  chiscas:
+    id: 212
+    codigo: 15180
+    nombre: CHISCAS (BOYACA)
+  chita:
+    id: 213
+    codigo: 15183
+    nombre: CHITA (BOYACA)
+  chitaraque:
+    id: 214
+    codigo: 15185
+    nombre: CHITARAQUE (BOYACA)
+  chivata:
+    id: 215
+    codigo: 15187
+    nombre: CHIVATA (BOYACA)
+  cienega:
+    id: 216
+    codigo: 15189
+    nombre: CIENEGA (BOYACA)
+  combita:
+    id: 217
+    codigo: 15204
+    nombre: COMBITA (BOYACA)
+  coper:
+    id: 218
+    codigo: 15212
+    nombre: COPER (BOYACA)
+  corrales:
+    id: 219
+    codigo: 15215
+    nombre: CORRALES (BOYACA)
+  covarachia:
+    id: 220
+    codigo: 15218
+    nombre: COVARACHIA (BOYACA)
+  cubara:
+    id: 221
+    codigo: 15223
+    nombre: CUBARA (BOYACA)
+  cucaita:
+    id: 222
+    codigo: 15224
+    nombre: CUCAITA (BOYACA)
+  cuitiva:
+    id: 223
+    codigo: 15226
+    nombre: CUITIVA (BOYACA)
+  chiquiza:
+    id: 224
+    codigo: 15232
+    nombre: CHIQUIZA (BOYACA)
+  chivor:
+    id: 225
+    codigo: 15236
+    nombre: CHIVOR (BOYACA)
+  duitama:
+    id: 226
+    codigo: 15238
+    nombre: DUITAMA (BOYACA)
+  el_cocuy:
+    id: 227
+    codigo: 15244
+    nombre: EL COCUY (BOYACA)
+  el_espino:
+    id: 228
+    codigo: 15248
+    nombre: EL ESPINO (BOYACA)
+  firavitoba:
+    id: 229
+    codigo: 15272
+    nombre: FIRAVITOBA (BOYACA)
+  floresta:
+    id: 230
+    codigo: 15276
+    nombre: FLORESTA (BOYACA)
+  gachantiva:
+    id: 231
+    codigo: 15293
+    nombre: GACHANTIVA (BOYACA)
+  gameza:
+    id: 232
+    codigo: 15296
+    nombre: GAMEZA (BOYACA)
+  garagoa:
+    id: 233
+    codigo: 15299
+    nombre: GARAGOA (BOYACA)
+  guacamayas:
+    id: 234
+    codigo: 15317
+    nombre: GUACAMAYAS (BOYACA)
+  guateque:
+    id: 235
+    codigo: 15322
+    nombre: GUATEQUE (BOYACA)
+  guayata:
+    id: 236
+    codigo: 15325
+    nombre: GUAYATA (BOYACA)
+  guican:
+    id: 237
+    codigo: 15332
+    nombre: GUICAN (BOYACA)
+  iza:
+    id: 238
+    codigo: 15362
+    nombre: IZA (BOYACA)
+  jenesano:
+    id: 239
+    codigo: 15367
+    nombre: JENESANO (BOYACA)
+  jerico:
+    id: 240
+    codigo: 15368
+    nombre: JERICO (BOYACA)
+  labranzagrande:
+    id: 241
+    codigo: 15377
+    nombre: LABRANZAGRANDE (BOYACA)
+  la_capilla:
+    id: 242
+    codigo: 15380
+    nombre: LA CAPILLA (BOYACA)
+  la_victoria:
+    id: 243
+    codigo: 15401
+    nombre: LA VICTORIA (BOYACA)
+  la_uvita:
+    id: 244
+    codigo: 15403
+    nombre: LA UVITA (BOYACA)
+  leiva:
+    id: 245
+    codigo: 15407
+    nombre: LEIVA (BOYACA)
+  macanal:
+    id: 246
+    codigo: 15425
+    nombre: MACANAL (BOYACA)
+  maripi:
+    id: 247
+    codigo: 15442
+    nombre: MARIPI (BOYACA)
+  miraflores:
+    id: 248
+    codigo: 15455
+    nombre: MIRAFLORES (BOYACA)
+  mongua:
+    id: 249
+    codigo: 15464
+    nombre: MONGUA (BOYACA)
+  mongui:
+    id: 250
+    codigo: 15466
+    nombre: MONGUI (BOYACA)
+  moniquira:
+    id: 251
+    codigo: 15469
+    nombre: MONIQUIRA (BOYACA)
+  motavita:
+    id: 252
+    codigo: 15476
+    nombre: MOTAVITA (BOYACA)
+  muzo:
+    id: 253
+    codigo: 15480
+    nombre: MUZO (BOYACA)
+  nobsa:
+    id: 254
+    codigo: 15491
+    nombre: NOBSA (BOYACA)
+  nuevo_colon:
+    id: 255
+    codigo: 15494
+    nombre: NUEVO COLON (BOYACA)
+  oicata:
+    id: 256
+    codigo: 15500
+    nombre: OICATA (BOYACA)
+  otanche:
+    id: 257
+    codigo: 15507
+    nombre: OTANCHE (BOYACA)
+  pachavita:
+    id: 258
+    codigo: 15511
+    nombre: PACHAVITA (BOYACA)
+  paez:
+    id: 259
+    codigo: 15514
+    nombre: PAEZ (BOYACA)
+  paipa:
+    id: 260
+    codigo: 15516
+    nombre: PAIPA (BOYACA)
+  pajarito:
+    id: 261
+    codigo: 15518
+    nombre: PAJARITO (BOYACA)
+  panqueba:
+    id: 262
+    codigo: 15522
+    nombre: PANQUEBA (BOYACA)
+  pauna:
+    id: 263
+    codigo: 15531
+    nombre: PAUNA (BOYACA)
+  paya:
+    id: 264
+    codigo: 15533
+    nombre: PAYA (BOYACA)
+  paz_del_rio:
+    id: 265
+    codigo: 15537
+    nombre: PAZ DEL RIO (BOYACA)
+  pesca:
+    id: 266
+    codigo: 15542
+    nombre: PESCA (BOYACA)
+  pisba:
+    id: 267
+    codigo: 15550
+    nombre: PISBA (BOYACA)
+  puerto_boyaca:
+    id: 268
+    codigo: 15572
+    nombre: PUERTO BOYACA (BOYACA)
+  quipama:
+    id: 269
+    codigo: 15580
+    nombre: QUIPAMA (BOYACA)
+  ramiriqui:
+    id: 270
+    codigo: 15599
+    nombre: RAMIRIQUI (BOYACA)
+  raquira:
+    id: 271
+    codigo: 15600
+    nombre: RAQUIRA (BOYACA)
+  rondon:
+    id: 272
+    codigo: 15621
+    nombre: RONDON (BOYACA)
+  saboya:
+    id: 273
+    codigo: 15632
+    nombre: SABOYA (BOYACA)
+  sachica:
+    id: 274
+    codigo: 15638
+    nombre: SACHICA (BOYACA)
+  samaca:
+    id: 275
+    codigo: 15646
+    nombre: SAMACA (BOYACA)
+  san_eduardo:
+    id: 276
+    codigo: 15660
+    nombre: SAN EDUARDO (BOYACA)
+  san_jose_de_pare:
+    id: 277
+    codigo: 15664
+    nombre: SAN JOSE DE PARE (BOYACA)
+  san_luis_de_gaceno:
+    id: 278
+    codigo: 15667
+    nombre: SAN LUIS DE GACENO (BOYACA)
+  san_mateo:
+    id: 279
+    codigo: 15673
+    nombre: SAN MATEO (BOYACA)
+  san_miguel_de_sema:
+    id: 280
+    codigo: 15676
+    nombre: SAN MIGUEL DE SEMA (BOYACA)
+  san_pablo_de_borbur:
+    id: 281
+    codigo: 15681
+    nombre: SAN PABLO DE BORBUR (BOYACA)
+  santana:
+    id: 282
+    codigo: 15686
+    nombre: SANTANA (BOYACA)
+  santa_maria:
+    id: 283
+    codigo: 15690
+    nombre: SANTA MARIA (BOYACA)
+  santa_rosa_de_viterbo:
+    id: 284
+    codigo: 15693
+    nombre: SANTA ROSA DE VITERBO (BOYACA)
+  santa_sofia:
+    id: 285
+    codigo: 15696
+    nombre: SANTA SOFIA (BOYACA)
+  sativanorte:
+    id: 286
+    codigo: 15720
+    nombre: SATIVANORTE (BOYACA)
+  sativasur:
+    id: 287
+    codigo: 15723
+    nombre: SATIVASUR (BOYACA)
+  siachoque:
+    id: 288
+    codigo: 15740
+    nombre: SIACHOQUE (BOYACA)
+  soata:
+    id: 289
+    codigo: 15753
+    nombre: SOATA (BOYACA)
+  socota:
+    id: 290
+    codigo: 15755
+    nombre: SOCOTA (BOYACA)
+  socha:
+    id: 291
+    codigo: 15757
+    nombre: SOCHA (BOYACA)
+  sogamoso:
+    id: 292
+    codigo: 15759
+    nombre: SOGAMOSO (BOYACA)
+  somondoco:
+    id: 293
+    codigo: 15761
+    nombre: SOMONDOCO (BOYACA)
+  sora:
+    id: 294
+    codigo: 15762
+    nombre: SORA (BOYACA)
+  sotaquira:
+    id: 295
+    codigo: 15763
+    nombre: SOTAQUIRA (BOYACA)
+  soraca:
+    id: 296
+    codigo: 15764
+    nombre: SORACA (BOYACA)
+  susacon:
+    id: 297
+    codigo: 15774
+    nombre: SUSACON (BOYACA)
+  sutamarchan:
+    id: 298
+    codigo: 15776
+    nombre: SUTAMARCHAN (BOYACA)
+  sutatenza:
+    id: 299
+    codigo: 15778
+    nombre: SUTATENZA (BOYACA)
+  tasco:
+    id: 300
+    codigo: 15790
+    nombre: TASCO (BOYACA)
+  tenza:
+    id: 301
+    codigo: 15798
+    nombre: TENZA (BOYACA)
+  tibana:
+    id: 302
+    codigo: 15804
+    nombre: TIBANA (BOYACA)
+  tibasosa:
+    id: 303
+    codigo: 15806
+    nombre: TIBASOSA (BOYACA)
+  tinjaca:
+    id: 304
+    codigo: 15808
+    nombre: TINJACA (BOYACA)
+  tipacoque:
+    id: 305
+    codigo: 15810
+    nombre: TIPACOQUE (BOYACA)
+  toca:
+    id: 306
+    codigo: 15814
+    nombre: TOCA (BOYACA)
+  togui:
+    id: 307
+    codigo: 15816
+    nombre: TOGUI (BOYACA)
+  topaga:
+    id: 308
+    codigo: 15820
+    nombre: TOPAGA (BOYACA)
+  tota:
+    id: 309
+    codigo: 15822
+    nombre: TOTA (BOYACA)
+  tunungua:
+    id: 310
+    codigo: 15832
+    nombre: TUNUNGUA (BOYACA)
+  turmeque:
+    id: 311
+    codigo: 15835
+    nombre: TURMEQUE (BOYACA)
+  tuta:
+    id: 312
+    codigo: 15837
+    nombre: TUTA (BOYACA)
+  tutasa:
+    id: 313
+    codigo: 15839
+    nombre: TUTASA (BOYACA)
+  umbita:
+    id: 314
+    codigo: 15842
+    nombre: UMBITA (BOYACA)
+  ventaquemada:
+    id: 315
+    codigo: 15861
+    nombre: VENTAQUEMADA (BOYACA)
+  viracacha:
+    id: 316
+    codigo: 15879
+    nombre: VIRACACHA (BOYACA)
+  zetaquira:
+    id: 317
+    codigo: 15897
+    nombre: ZETAQUIRA (BOYACA)
+  manizales:
+    id: 318
+    codigo: 17001
+    nombre: MANIZALES (CALDAS)
+  aguadas:
+    id: 319
+    codigo: 17013
+    nombre: AGUADAS (CALDAS)
+  anserma:
+    id: 320
+    codigo: 17042
+    nombre: ANSERMA (CALDAS)
+  aranzazu:
+    id: 321
+    codigo: 17050
+    nombre: ARANZAZU (CALDAS)
+  belalcazar:
+    id: 322
+    codigo: 17088
+    nombre: BELALCAZAR (CALDAS)
+  chinchina:
+    id: 323
+    codigo: 17174
+    nombre: CHINCHINA (CALDAS)
+  filadelfia:
+    id: 324
+    codigo: 17272
+    nombre: FILADELFIA (CALDAS)
+  la_dorada:
+    id: 325
+    codigo: 17380
+    nombre: LA DORADA (CALDAS)
+  la_merced:
+    id: 326
+    codigo: 17388
+    nombre: LA MERCED (CALDAS)
+  manzanares:
+    id: 327
+    codigo: 17433
+    nombre: MANZANARES (CALDAS)
+  marmato:
+    id: 328
+    codigo: 17442
+    nombre: MARMATO (CALDAS)
+  marquetalia:
+    id: 329
+    codigo: 17444
+    nombre: MARQUETALIA (CALDAS)
+  marulanda:
+    id: 330
+    codigo: 17446
+    nombre: MARULANDA (CALDAS)
+  neira:
+    id: 331
+    codigo: 17486
+    nombre: NEIRA (CALDAS)
+  norcasia:
+    id: 332
+    codigo: 17495
+    nombre: NORCASIA (CALDAS)
+  pacora:
+    id: 333
+    codigo: 17513
+    nombre: PACORA (CALDAS)
+  palestina:
+    id: 334
+    codigo: 17524
+    nombre: PALESTINA (CALDAS)
+  pensilvania:
+    id: 335
+    codigo: 17541
+    nombre: PENSILVANIA (CALDAS)
+  riosucio:
+    id: 336
+    codigo: 17614
+    nombre: RIOSUCIO (CALDAS)
+  risaralda:
+    id: 337
+    codigo: 17616
+    nombre: RISARALDA (CALDAS)
+  salamina:
+    id: 338
+    codigo: 17653
+    nombre: SALAMINA (CALDAS)
+  samana:
+    id: 339
+    codigo: 17662
+    nombre: SAMANA (CALDAS)
+  san_jose:
+    id: 340
+    codigo: 17665
+    nombre: SAN JOSE (CALDAS)
+  supia:
+    id: 341
+    codigo: 17777
+    nombre: SUPIA (CALDAS)
+  victoria:
+    id: 342
+    codigo: 17867
+    nombre: VICTORIA (CALDAS)
+  villamaria:
+    id: 343
+    codigo: 17873
+    nombre: VILLAMARIA (CALDAS)
+  viterbo:
+    id: 344
+    codigo: 17877
+    nombre: VITERBO (CALDAS)
+  florencia:
+    id: 345
+    codigo: 18001
+    nombre: FLORENCIA (CAQUETA)
+  albania:
+    id: 346
+    codigo: 18029
+    nombre: ALBANIA (CAQUETA)
+  belen_andaquies:
+    id: 347
+    codigo: 18094
+    nombre: BELEN ANDAQUIES (CAQUETA)
+  cartagena_del_chaira:
+    id: 348
+    codigo: 18150
+    nombre: CARTAGENA DEL CHAIRA (CAQUETA)
+  curillo:
+    id: 349
+    codigo: 18205
+    nombre: CURILLO (CAQUETA)
+  el_doncello:
+    id: 350
+    codigo: 18247
+    nombre: EL DONCELLO (CAQUETA)
+  el_paujil:
+    id: 351
+    codigo: 18256
+    nombre: EL PAUJIL (CAQUETA)
+  la_montañita:
+    id: 352
+    codigo: 18410
+    nombre: LA MONTAÑITA (CAQUETA)
+  milan:
+    id: 353
+    codigo: 18460
+    nombre: MILAN (CAQUETA)
+  morelia:
+    id: 354
+    codigo: 18479
+    nombre: MORELIA (CAQUETA)
+  puerto_rico:
+    id: 355
+    codigo: 18592
+    nombre: PUERTO RICO (CAQUETA)
+  san_jose_de_fragua:
+    id: 356
+    codigo: 18610
+    nombre: SAN JOSE DE FRAGUA (CAQUETA)
+  san__vicente_del_caguan:
+    id: 357
+    codigo: 18753
+    nombre: SAN  VICENTE DEL CAGUAN (CAQUETA)
+  solano:
+    id: 358
+    codigo: 18756
+    nombre: SOLANO (CAQUETA)
+  solita:
+    id: 359
+    codigo: 18785
+    nombre: SOLITA (CAQUETA)
+  valparaiso:
+    id: 360
+    codigo: 18860
+    nombre: VALPARAISO (CAQUETA)
+  popayan:
+    id: 361
+    codigo: 19001
+    nombre: POPAYAN (CAUCA)
+  almaguer:
+    id: 362
+    codigo: 19022
+    nombre: ALMAGUER (CAUCA)
+  argelia:
+    id: 363
+    codigo: 19050
+    nombre: ARGELIA (CAUCA)
+  balboa:
+    id: 364
+    codigo: 19075
+    nombre: BALBOA (CAUCA)
+  bolivar:
+    id: 365
+    codigo: 19100
+    nombre: BOLIVAR (CAUCA)
+  buenos_aires:
+    id: 366
+    codigo: 19110
+    nombre: BUENOS AIRES (CAUCA)
+  cajibio:
+    id: 367
+    codigo: 19130
+    nombre: CAJIBIO (CAUCA)
+  caldono:
+    id: 368
+    codigo: 19137
+    nombre: CALDONO (CAUCA)
+  caloto:
+    id: 369
+    codigo: 19142
+    nombre: CALOTO (CAUCA)
+  corinto:
+    id: 370
+    codigo: 19212
+    nombre: CORINTO (CAUCA)
+  el_tambo:
+    id: 371
+    codigo: 19256
+    nombre: EL TAMBO (CAUCA)
+  florencia:
+    id: 372
+    codigo: 19290
+    nombre: FLORENCIA (CAUCA)
+  guapi:
+    id: 373
+    codigo: 19318
+    nombre: GUAPI (CAUCA)
+  inza:
+    id: 374
+    codigo: 19355
+    nombre: INZA (CAUCA)
+  jambalo:
+    id: 375
+    codigo: 19364
+    nombre: JAMBALO (CAUCA)
+  la_sierra:
+    id: 376
+    codigo: 19392
+    nombre: LA SIERRA (CAUCA)
+  la_vega:
+    id: 377
+    codigo: 19397
+    nombre: LA VEGA (CAUCA)
+  lopez:
+    id: 378
+    codigo: 19418
+    nombre: LOPEZ (CAUCA)
+  mercaderes:
+    id: 379
+    codigo: 19450
+    nombre: MERCADERES (CAUCA)
+  miranda:
+    id: 380
+    codigo: 19455
+    nombre: MIRANDA (CAUCA)
+  morales:
+    id: 381
+    codigo: 19473
+    nombre: MORALES (CAUCA)
+  padilla:
+    id: 382
+    codigo: 19513
+    nombre: PADILLA (CAUCA)
+  paez:
+    id: 383
+    codigo: 19517
+    nombre: PAEZ (CAUCA)
+  patia(el_bordo):
+    id: 384
+    codigo: 19532
+    nombre: PATIA(EL BORDO) (CAUCA)
+  piamonte:
+    id: 385
+    codigo: 19533
+    nombre: PIAMONTE (CAUCA)
+  piendamo:
+    id: 386
+    codigo: 19548
+    nombre: PIENDAMO (CAUCA)
+  puerto_tejada:
+    id: 387
+    codigo: 19573
+    nombre: PUERTO TEJADA (CAUCA)
+  purace:
+    id: 388
+    codigo: 19585
+    nombre: PURACE (CAUCA)
+  rosas:
+    id: 389
+    codigo: 19622
+    nombre: ROSAS (CAUCA)
+  san_sebastian:
+    id: 390
+    codigo: 19693
+    nombre: SAN SEBASTIAN (CAUCA)
+  santander_de_quilichao:
+    id: 391
+    codigo: 19698
+    nombre: SANTANDER DE QUILICHAO (CAUCA)
+  sta_rosa:
+    id: 392
+    codigo: 19701
+    nombre: STA ROSA (CAUCA)
+  silvia:
+    id: 393
+    codigo: 19743
+    nombre: SILVIA (CAUCA)
+  sotara:
+    id: 394
+    codigo: 19760
+    nombre: SOTARA (CAUCA)
+  suarez:
+    id: 395
+    codigo: 19780
+    nombre: SUAREZ (CAUCA)
+  sucre:
+    id: 396
+    codigo: 19785
+    nombre: SUCRE (CAUCA)
+  timbio:
+    id: 397
+    codigo: 19807
+    nombre: TIMBIO (CAUCA)
+  timbiqui:
+    id: 398
+    codigo: 19809
+    nombre: TIMBIQUI (CAUCA)
+  toribio:
+    id: 399
+    codigo: 19821
+    nombre: TORIBIO (CAUCA)
+  totoro:
+    id: 400
+    codigo: 19824
+    nombre: TOTORO (CAUCA)
+  villa_rica:
+    id: 401
+    codigo: 19845
+    nombre: VILLA RICA (CAUCA)
+  valledupar:
+    id: 402
+    codigo: 20001
+    nombre: VALLEDUPAR (CESAR)
+  aguachica:
+    id: 403
+    codigo: 20011
+    nombre: AGUACHICA (CESAR)
+  agustin_codazzi:
+    id: 404
+    codigo: 20013
+    nombre: AGUSTIN CODAZZI (CESAR)
+  astrea:
+    id: 405
+    codigo: 20032
+    nombre: ASTREA (CESAR)
+  becerril:
+    id: 406
+    codigo: 20045
+    nombre: BECERRIL (CESAR)
+  bosconia:
+    id: 407
+    codigo: 20060
+    nombre: BOSCONIA (CESAR)
+  chimichagua:
+    id: 408
+    codigo: 20175
+    nombre: CHIMICHAGUA (CESAR)
+  chiriguana:
+    id: 409
+    codigo: 20178
+    nombre: CHIRIGUANA (CESAR)
+  curumani:
+    id: 410
+    codigo: 20228
+    nombre: CURUMANI (CESAR)
+  el_copey:
+    id: 411
+    codigo: 20238
+    nombre: EL COPEY (CESAR)
+  el_paso:
+    id: 412
+    codigo: 20250
+    nombre: EL PASO (CESAR)
+  gamarra:
+    id: 413
+    codigo: 20295
+    nombre: GAMARRA (CESAR)
+  gonzalez:
+    id: 414
+    codigo: 20310
+    nombre: GONZALEZ (CESAR)
+  la_gloria:
+    id: 415
+    codigo: 20383
+    nombre: LA GLORIA (CESAR)
+  la_jagua_ibirico:
+    id: 416
+    codigo: 20400
+    nombre: LA JAGUA IBIRICO (CESAR)
+  manaure_balcon_del_cesar:
+    id: 417
+    codigo: 20443
+    nombre: MANAURE BALCON DEL CESAR (CESAR)
+  pailitas:
+    id: 418
+    codigo: 20517
+    nombre: PAILITAS (CESAR)
+  pelaya:
+    id: 419
+    codigo: 20550
+    nombre: PELAYA (CESAR)
+  pueblo_bello:
+    id: 420
+    codigo: 20570
+    nombre: PUEBLO BELLO (CESAR)
+  rio_de_oro:
+    id: 421
+    codigo: 20614
+    nombre: RIO DE ORO (CESAR)
+  robles_(la_paz):
+    id: 422
+    codigo: 20621
+    nombre: ROBLES (LA PAZ) (CESAR)
+  san_alberto:
+    id: 423
+    codigo: 20710
+    nombre: SAN ALBERTO (CESAR)
+  san_diego:
+    id: 424
+    codigo: 20750
+    nombre: SAN DIEGO (CESAR)
+  san_martin:
+    id: 425
+    codigo: 20770
+    nombre: SAN MARTIN (CESAR)
+  tamalameque:
+    id: 426
+    codigo: 20787
+    nombre: TAMALAMEQUE (CESAR)
+  monteria:
+    id: 427
+    codigo: 23001
+    nombre: MONTERIA (CORDOBA)
+  ayapel:
+    id: 428
+    codigo: 23068
+    nombre: AYAPEL (CORDOBA)
+  buenavista:
+    id: 429
+    codigo: 23079
+    nombre: BUENAVISTA (CORDOBA)
+  canalete:
+    id: 430
+    codigo: 23090
+    nombre: CANALETE (CORDOBA)
+  cerete:
+    id: 431
+    codigo: 23162
+    nombre: CERETE (CORDOBA)
+  chima:
+    id: 432
+    codigo: 23168
+    nombre: CHIMA (CORDOBA)
+  chinu:
+    id: 433
+    codigo: 23182
+    nombre: CHINU (CORDOBA)
+  cienaga_de_oro:
+    id: 434
+    codigo: 23189
+    nombre: CIENAGA DE ORO (CORDOBA)
+  cotorra:
+    id: 435
+    codigo: 23300
+    nombre: COTORRA (CORDOBA)
+  la_apartada:
+    id: 436
+    codigo: 23350
+    nombre: LA APARTADA (CORDOBA)
+  lorica:
+    id: 437
+    codigo: 23417
+    nombre: LORICA (CORDOBA)
+  los_cordobas:
+    id: 438
+    codigo: 23419
+    nombre: LOS CORDOBAS (CORDOBA)
+  momil:
+    id: 439
+    codigo: 23464
+    nombre: MOMIL (CORDOBA)
+  montelibano:
+    id: 440
+    codigo: 23466
+    nombre: MONTELIBANO (CORDOBA)
+  moñitos:
+    id: 441
+    codigo: 23500
+    nombre: MOÑITOS (CORDOBA)
+  planeta_rica:
+    id: 442
+    codigo: 23555
+    nombre: PLANETA RICA (CORDOBA)
+  pueblo_nuevo:
+    id: 443
+    codigo: 23570
+    nombre: PUEBLO NUEVO (CORDOBA)
+  puerto_escondido:
+    id: 444
+    codigo: 23574
+    nombre: PUERTO ESCONDIDO (CORDOBA)
+  puerto_libertador:
+    id: 445
+    codigo: 23580
+    nombre: PUERTO LIBERTADOR (CORDOBA)
+  purisima:
+    id: 446
+    codigo: 23586
+    nombre: PURISIMA (CORDOBA)
+  sahagun:
+    id: 447
+    codigo: 23660
+    nombre: SAHAGUN (CORDOBA)
+  san_andres_sotavento:
+    id: 448
+    codigo: 23670
+    nombre: SAN ANDRES SOTAVENTO (CORDOBA)
+  san_antero:
+    id: 449
+    codigo: 23672
+    nombre: SAN ANTERO (CORDOBA)
+  san_bernardo_viento:
+    id: 450
+    codigo: 23675
+    nombre: SAN BERNARDO VIENTO (CORDOBA)
+  san_carlos:
+    id: 451
+    codigo: 23678
+    nombre: SAN CARLOS (CORDOBA)
+  san_pelayo:
+    id: 452
+    codigo: 23686
+    nombre: SAN PELAYO (CORDOBA)
+  tierralta:
+    id: 453
+    codigo: 23807
+    nombre: TIERRALTA (CORDOBA)
+  valencia:
+    id: 454
+    codigo: 23855
+    nombre: VALENCIA (CORDOBA)
+  agua_de_dios:
+    id: 455
+    codigo: 25001
+    nombre: AGUA DE DIOS (CUNDINAMARCA)
+  alban:
+    id: 456
+    codigo: 25019
+    nombre: ALBAN (CUNDINAMARCA)
+  anapoima:
+    id: 457
+    codigo: 25035
+    nombre: ANAPOIMA (CUNDINAMARCA)
+  anolaima:
+    id: 458
+    codigo: 25040
+    nombre: ANOLAIMA (CUNDINAMARCA)
+  arbelaez:
+    id: 459
+    codigo: 25053
+    nombre: ARBELAEZ (CUNDINAMARCA)
+  beltran:
+    id: 460
+    codigo: 25086
+    nombre: BELTRAN (CUNDINAMARCA)
+  bituima:
+    id: 461
+    codigo: 25095
+    nombre: BITUIMA (CUNDINAMARCA)
+  bojaca:
+    id: 462
+    codigo: 25099
+    nombre: BOJACA (CUNDINAMARCA)
+  cabrera:
+    id: 463
+    codigo: 25120
+    nombre: CABRERA (CUNDINAMARCA)
+  cachipay:
+    id: 464
+    codigo: 25123
+    nombre: CACHIPAY (CUNDINAMARCA)
+  cajica:
+    id: 465
+    codigo: 25126
+    nombre: CAJICA (CUNDINAMARCA)
+  caparrapi:
+    id: 466
+    codigo: 25148
+    nombre: CAPARRAPI (CUNDINAMARCA)
+  caqueza:
+    id: 467
+    codigo: 25151
+    nombre: CAQUEZA (CUNDINAMARCA)
+  carmen_de_carupa:
+    id: 468
+    codigo: 25154
+    nombre: CARMEN DE CARUPA (CUNDINAMARCA)
+  chaguani:
+    id: 469
+    codigo: 25168
+    nombre: CHAGUANI (CUNDINAMARCA)
+  chia:
+    id: 470
+    codigo: 25175
+    nombre: CHIA (CUNDINAMARCA)
+  chipaque:
+    id: 471
+    codigo: 25178
+    nombre: CHIPAQUE (CUNDINAMARCA)
+  choachi:
+    id: 472
+    codigo: 25181
+    nombre: CHOACHI (CUNDINAMARCA)
+  choconta:
+    id: 473
+    codigo: 25183
+    nombre: CHOCONTA (CUNDINAMARCA)
+  cogua:
+    id: 474
+    codigo: 25200
+    nombre: COGUA (CUNDINAMARCA)
+  cota:
+    id: 475
+    codigo: 25214
+    nombre: COTA (CUNDINAMARCA)
+  cucunuba:
+    id: 476
+    codigo: 25224
+    nombre: CUCUNUBA (CUNDINAMARCA)
+  el_colegio:
+    id: 477
+    codigo: 25245
+    nombre: EL COLEGIO (CUNDINAMARCA)
+  el_peñon:
+    id: 478
+    codigo: 25258
+    nombre: EL PEÑON (CUNDINAMARCA)
+  el_rosal:
+    id: 479
+    codigo: 25260
+    nombre: EL ROSAL (CUNDINAMARCA)
+  facatativa:
+    id: 480
+    codigo: 25269
+    nombre: FACATATIVA (CUNDINAMARCA)
+  fomeque:
+    id: 481
+    codigo: 25279
+    nombre: FOMEQUE (CUNDINAMARCA)
+  fosca:
+    id: 482
+    codigo: 25281
+    nombre: FOSCA (CUNDINAMARCA)
+  funza:
+    id: 483
+    codigo: 25286
+    nombre: FUNZA (CUNDINAMARCA)
+  fuquene:
+    id: 484
+    codigo: 25288
+    nombre: FUQUENE (CUNDINAMARCA)
+  fusagasuga:
+    id: 485
+    codigo: 25290
+    nombre: FUSAGASUGA (CUNDINAMARCA)
+  gachala:
+    id: 486
+    codigo: 25293
+    nombre: GACHALA (CUNDINAMARCA)
+  gachancipa:
+    id: 487
+    codigo: 25295
+    nombre: GACHANCIPA (CUNDINAMARCA)
+  gacheta:
+    id: 488
+    codigo: 25297
+    nombre: GACHETA (CUNDINAMARCA)
+  gama:
+    id: 489
+    codigo: 25299
+    nombre: GAMA (CUNDINAMARCA)
+  girardot:
+    id: 490
+    codigo: 25307
+    nombre: GIRARDOT (CUNDINAMARCA)
+  granada:
+    id: 491
+    codigo: 25312
+    nombre: GRANADA (CUNDINAMARCA)
+  guacheta:
+    id: 492
+    codigo: 25317
+    nombre: GUACHETA (CUNDINAMARCA)
+  guaduas:
+    id: 493
+    codigo: 25320
+    nombre: GUADUAS (CUNDINAMARCA)
+  guasca:
+    id: 494
+    codigo: 25322
+    nombre: GUASCA (CUNDINAMARCA)
+  guataqui:
+    id: 495
+    codigo: 25324
+    nombre: GUATAQUI (CUNDINAMARCA)
+  guatavita:
+    id: 496
+    codigo: 25326
+    nombre: GUATAVITA (CUNDINAMARCA)
+  guayabal_de_siquima:
+    id: 497
+    codigo: 25328
+    nombre: GUAYABAL DE SIQUIMA (CUNDINAMARCA)
+  guayabetal:
+    id: 498
+    codigo: 25335
+    nombre: GUAYABETAL (CUNDINAMARCA)
+  gutierrez:
+    id: 499
+    codigo: 25339
+    nombre: GUTIERREZ (CUNDINAMARCA)
+  jerusalen:
+    id: 500
+    codigo: 25368
+    nombre: JERUSALEN (CUNDINAMARCA)
+  junin:
+    id: 501
+    codigo: 25372
+    nombre: JUNIN (CUNDINAMARCA)
+  la_calera:
+    id: 502
+    codigo: 25377
+    nombre: LA CALERA (CUNDINAMARCA)
+  la_mesa:
+    id: 503
+    codigo: 25386
+    nombre: LA MESA (CUNDINAMARCA)
+  la_palma:
+    id: 504
+    codigo: 25394
+    nombre: LA PALMA (CUNDINAMARCA)
+  la_peña:
+    id: 505
+    codigo: 25398
+    nombre: LA PEÑA (CUNDINAMARCA)
+  la_vega:
+    id: 506
+    codigo: 25402
+    nombre: LA VEGA (CUNDINAMARCA)
+  lenguazaque:
+    id: 507
+    codigo: 25407
+    nombre: LENGUAZAQUE (CUNDINAMARCA)
+  macheta:
+    id: 508
+    codigo: 25426
+    nombre: MACHETA (CUNDINAMARCA)
+  madrid:
+    id: 509
+    codigo: 25430
+    nombre: MADRID (CUNDINAMARCA)
+  manta:
+    id: 510
+    codigo: 25436
+    nombre: MANTA (CUNDINAMARCA)
+  medina:
+    id: 511
+    codigo: 25438
+    nombre: MEDINA (CUNDINAMARCA)
+  mosquera:
+    id: 512
+    codigo: 25473
+    nombre: MOSQUERA (CUNDINAMARCA)
+  nariño:
+    id: 513
+    codigo: 25483
+    nombre: NARIÑO (CUNDINAMARCA)
+  nemocon:
+    id: 514
+    codigo: 25486
+    nombre: NEMOCON (CUNDINAMARCA)
+  nilo:
+    id: 515
+    codigo: 25488
+    nombre: NILO (CUNDINAMARCA)
+  nimaima:
+    id: 516
+    codigo: 25489
+    nombre: NIMAIMA (CUNDINAMARCA)
+  nocaima:
+    id: 517
+    codigo: 25491
+    nombre: NOCAIMA (CUNDINAMARCA)
+  venecia_(ospina_perez):
+    id: 518
+    codigo: 25506
+    nombre: VENECIA (OSPINA PEREZ) (CUNDINAMARCA)
+  pacho:
+    id: 519
+    codigo: 25513
+    nombre: PACHO (CUNDINAMARCA)
+  paime:
+    id: 520
+    codigo: 25518
+    nombre: PAIME (CUNDINAMARCA)
+  pandi:
+    id: 521
+    codigo: 25524
+    nombre: PANDI (CUNDINAMARCA)
+  paratebueno:
+    id: 522
+    codigo: 25530
+    nombre: PARATEBUENO (CUNDINAMARCA)
+  pasca:
+    id: 523
+    codigo: 25535
+    nombre: PASCA (CUNDINAMARCA)
+  puerto_salgar:
+    id: 524
+    codigo: 25572
+    nombre: PUERTO SALGAR (CUNDINAMARCA)
+  puli:
+    id: 525
+    codigo: 25580
+    nombre: PULI (CUNDINAMARCA)
+  quebradanegra:
+    id: 526
+    codigo: 25592
+    nombre: QUEBRADANEGRA (CUNDINAMARCA)
+  quetame:
+    id: 527
+    codigo: 25594
+    nombre: QUETAME (CUNDINAMARCA)
+  quipile:
+    id: 528
+    codigo: 25596
+    nombre: QUIPILE (CUNDINAMARCA)
+  rafael_reyes:
+    id: 529
+    codigo: 25599
+    nombre: RAFAEL REYES (CUNDINAMARCA)
+  ricaurte:
+    id: 530
+    codigo: 25612
+    nombre: RICAURTE (CUNDINAMARCA)
+  san__antonio_del__tequendama:
+    id: 531
+    codigo: 25645
+    nombre: SAN  ANTONIO DEL  TEQUENDAMA (CUNDINAMARCA)
+  san_bernardo:
+    id: 532
+    codigo: 25649
+    nombre: SAN BERNARDO (CUNDINAMARCA)
+  san_cayetano:
+    id: 533
+    codigo: 25653
+    nombre: SAN CAYETANO (CUNDINAMARCA)
+  san_francisco:
+    id: 534
+    codigo: 25658
+    nombre: SAN FRANCISCO (CUNDINAMARCA)
+  san_juan_de_rioseco:
+    id: 535
+    codigo: 25662
+    nombre: SAN JUAN DE RIOSECO (CUNDINAMARCA)
+  sasaima:
+    id: 536
+    codigo: 25718
+    nombre: SASAIMA (CUNDINAMARCA)
+  sesquile:
+    id: 537
+    codigo: 25736
+    nombre: SESQUILE (CUNDINAMARCA)
+  sibate:
+    id: 538
+    codigo: 25740
+    nombre: SIBATE (CUNDINAMARCA)
+  silvania:
+    id: 539
+    codigo: 25743
+    nombre: SILVANIA (CUNDINAMARCA)
+  simijaca:
+    id: 540
+    codigo: 25745
+    nombre: SIMIJACA (CUNDINAMARCA)
+  soacha:
+    id: 541
+    codigo: 25754
+    nombre: SOACHA (CUNDINAMARCA)
+  sopo:
+    id: 542
+    codigo: 25758
+    nombre: SOPO (CUNDINAMARCA)
+  subachoque:
+    id: 543
+    codigo: 25769
+    nombre: SUBACHOQUE (CUNDINAMARCA)
+  suesca:
+    id: 544
+    codigo: 25772
+    nombre: SUESCA (CUNDINAMARCA)
+  supata:
+    id: 545
+    codigo: 25777
+    nombre: SUPATA (CUNDINAMARCA)
+  susa:
+    id: 546
+    codigo: 25779
+    nombre: SUSA (CUNDINAMARCA)
+  sutatausa:
+    id: 547
+    codigo: 25781
+    nombre: SUTATAUSA (CUNDINAMARCA)
+  tabio:
+    id: 548
+    codigo: 25785
+    nombre: TABIO (CUNDINAMARCA)
+  tausa:
+    id: 549
+    codigo: 25793
+    nombre: TAUSA (CUNDINAMARCA)
+  tena:
+    id: 550
+    codigo: 25797
+    nombre: TENA (CUNDINAMARCA)
+  tenjo:
+    id: 551
+    codigo: 25799
+    nombre: TENJO (CUNDINAMARCA)
+  tibacuy:
+    id: 552
+    codigo: 25805
+    nombre: TIBACUY (CUNDINAMARCA)
+  tibirita:
+    id: 553
+    codigo: 25807
+    nombre: TIBIRITA (CUNDINAMARCA)
+  tocaima:
+    id: 554
+    codigo: 25815
+    nombre: TOCAIMA (CUNDINAMARCA)
+  tocancipa:
+    id: 555
+    codigo: 25817
+    nombre: TOCANCIPA (CUNDINAMARCA)
+  topaipi:
+    id: 556
+    codigo: 25823
+    nombre: TOPAIPI (CUNDINAMARCA)
+  ubala:
+    id: 557
+    codigo: 25839
+    nombre: UBALA (CUNDINAMARCA)
+  ubaque:
+    id: 558
+    codigo: 25841
+    nombre: UBAQUE (CUNDINAMARCA)
+  ubate:
+    id: 559
+    codigo: 25843
+    nombre: UBATE (CUNDINAMARCA)
+  une:
+    id: 560
+    codigo: 25845
+    nombre: UNE (CUNDINAMARCA)
+  utica:
+    id: 561
+    codigo: 25851
+    nombre: UTICA (CUNDINAMARCA)
+  vergara:
+    id: 562
+    codigo: 25862
+    nombre: VERGARA (CUNDINAMARCA)
+  viani:
+    id: 563
+    codigo: 25867
+    nombre: VIANI (CUNDINAMARCA)
+  villagomez:
+    id: 564
+    codigo: 25871
+    nombre: VILLAGOMEZ (CUNDINAMARCA)
+  villapinzon:
+    id: 565
+    codigo: 25873
+    nombre: VILLAPINZON (CUNDINAMARCA)
+  villeta:
+    id: 566
+    codigo: 25875
+    nombre: VILLETA (CUNDINAMARCA)
+  viota:
+    id: 567
+    codigo: 25878
+    nombre: VIOTA (CUNDINAMARCA)
+  yacopi:
+    id: 568
+    codigo: 25885
+    nombre: YACOPI (CUNDINAMARCA)
+  zipacon:
+    id: 569
+    codigo: 25898
+    nombre: ZIPACON (CUNDINAMARCA)
+  zipaquira:
+    id: 570
+    codigo: 25899
+    nombre: ZIPAQUIRA (CUNDINAMARCA)
+  quibdo:
+    id: 571
+    codigo: 27001
+    nombre: QUIBDO (CHOCO)
+  acandi:
+    id: 572
+    codigo: 27006
+    nombre: ACANDI (CHOCO)
+  alto_baudo_(pie_de_pato):
+    id: 573
+    codigo: 27025
+    nombre: ALTO BAUDO (PIE DE PATO) (CHOCO)
+  atrato:
+    id: 574
+    codigo: 27050
+    nombre: ATRATO (CHOCO)
+  bagado:
+    id: 575
+    codigo: 27073
+    nombre: BAGADO (CHOCO)
+  bahia_solano_(mutis):
+    id: 576
+    codigo: 27075
+    nombre: BAHIA SOLANO (MUTIS) (CHOCO)
+  bajo_baudo_(pizarro):
+    id: 577
+    codigo: 27077
+    nombre: BAJO BAUDO (PIZARRO) (CHOCO)
+  bojaya_(bellavista):
+    id: 578
+    codigo: 27099
+    nombre: BOJAYA (BELLAVISTA) (CHOCO)
+  canton_de_san_pablo:
+    id: 579
+    codigo: 27135
+    nombre: CANTON DE SAN PABLO (CHOCO)
+  carmen_del_darien:
+    id: 580
+    codigo: 27150
+    nombre: CARMEN DEL DARIEN (CHOCO)
+  certegui:
+    id: 581
+    codigo: 27160
+    nombre: CERTEGUI (CHOCO)
+  condoto:
+    id: 582
+    codigo: 27205
+    nombre: CONDOTO (CHOCO)
+  el_carmen:
+    id: 583
+    codigo: 27245
+    nombre: EL CARMEN (CHOCO)
+  litoral_del_san_juan:
+    id: 584
+    codigo: 27250
+    nombre: LITORAL DEL SAN JUAN (CHOCO)
+  istmina:
+    id: 585
+    codigo: 27361
+    nombre: ISTMINA (CHOCO)
+  jurado:
+    id: 586
+    codigo: 27372
+    nombre: JURADO (CHOCO)
+  lloro:
+    id: 587
+    codigo: 27413
+    nombre: LLORO (CHOCO)
+  medio_atrato:
+    id: 588
+    codigo: 27425
+    nombre: MEDIO ATRATO (CHOCO)
+  medio_baudo_(boca_de_pepe):
+    id: 589
+    codigo: 27430
+    nombre: MEDIO BAUDO (BOCA DE PEPE) (CHOCO)
+  medio_san_juan:
+    id: 590
+    codigo: 27450
+    nombre: MEDIO SAN JUAN (CHOCO)
+  novita:
+    id: 591
+    codigo: 27491
+    nombre: NOVITA (CHOCO)
+  nuqui:
+    id: 592
+    codigo: 27495
+    nombre: NUQUI (CHOCO)
+  rio_iro:
+    id: 593
+    codigo: 27580
+    nombre: RIO IRO (CHOCO)
+  rio_quito:
+    id: 594
+    codigo: 27600
+    nombre: RIO QUITO (CHOCO)
+  riosucio:
+    id: 595
+    codigo: 27615
+    nombre: RIOSUCIO (CHOCO)
+  san_jose_del_palmar:
+    id: 596
+    codigo: 27660
+    nombre: SAN JOSE DEL PALMAR (CHOCO)
+  sipi:
+    id: 597
+    codigo: 27745
+    nombre: SIPI (CHOCO)
+  tado:
+    id: 598
+    codigo: 27787
+    nombre: TADO (CHOCO)
+  unguia:
+    id: 599
+    codigo: 27800
+    nombre: UNGUIA (CHOCO)
+  union_panamericana:
+    id: 600
+    codigo: 27810
+    nombre: UNION PANAMERICANA (CHOCO)
+  neiva:
+    id: 601
+    codigo: 41001
+    nombre: NEIVA (HUILA)
+  acevedo:
+    id: 602
+    codigo: 41006
+    nombre: ACEVEDO (HUILA)
+  agrado:
+    id: 603
+    codigo: 41013
+    nombre: AGRADO (HUILA)
+  aipe:
+    id: 604
+    codigo: 41016
+    nombre: AIPE (HUILA)
+  algeciras:
+    id: 605
+    codigo: 41020
+    nombre: ALGECIRAS (HUILA)
+  altamira:
+    id: 606
+    codigo: 41026
+    nombre: ALTAMIRA (HUILA)
+  baraya:
+    id: 607
+    codigo: 41078
+    nombre: BARAYA (HUILA)
+  campoalegre:
+    id: 608
+    codigo: 41132
+    nombre: CAMPOALEGRE (HUILA)
+  colombia:
+    id: 609
+    codigo: 41206
+    nombre: COLOMBIA (HUILA)
+  elias:
+    id: 610
+    codigo: 41244
+    nombre: ELIAS (HUILA)
+  garzon:
+    id: 611
+    codigo: 41298
+    nombre: GARZON (HUILA)
+  gigante:
+    id: 612
+    codigo: 41306
+    nombre: GIGANTE (HUILA)
+  guadalupe:
+    id: 613
+    codigo: 41319
+    nombre: GUADALUPE (HUILA)
+  hobo:
+    id: 614
+    codigo: 41349
+    nombre: HOBO (HUILA)
+  iquira:
+    id: 615
+    codigo: 41357
+    nombre: IQUIRA (HUILA)
+  isnos:
+    id: 616
+    codigo: 41359
+    nombre: ISNOS (HUILA)
+  la_argentina:
+    id: 617
+    codigo: 41378
+    nombre: LA ARGENTINA (HUILA)
+  la_plata:
+    id: 618
+    codigo: 41396
+    nombre: LA PLATA (HUILA)
+  nataga:
+    id: 619
+    codigo: 41483
+    nombre: NATAGA (HUILA)
+  oporapa:
+    id: 620
+    codigo: 41503
+    nombre: OPORAPA (HUILA)
+  paicol:
+    id: 621
+    codigo: 41518
+    nombre: PAICOL (HUILA)
+  palermo:
+    id: 622
+    codigo: 41524
+    nombre: PALERMO (HUILA)
+  palestina:
+    id: 623
+    codigo: 41530
+    nombre: PALESTINA (HUILA)
+  pital:
+    id: 624
+    codigo: 41548
+    nombre: PITAL (HUILA)
+  pitalito:
+    id: 625
+    codigo: 41551
+    nombre: PITALITO (HUILA)
+  rivera:
+    id: 626
+    codigo: 41615
+    nombre: RIVERA (HUILA)
+  saladoblanco:
+    id: 627
+    codigo: 41660
+    nombre: SALADOBLANCO (HUILA)
+  san_agustin:
+    id: 628
+    codigo: 41668
+    nombre: SAN AGUSTIN (HUILA)
+  santa_maria:
+    id: 629
+    codigo: 41676
+    nombre: SANTA MARIA (HUILA)
+  suaza:
+    id: 630
+    codigo: 41770
+    nombre: SUAZA (HUILA)
+  tarqui:
+    id: 631
+    codigo: 41791
+    nombre: TARQUI (HUILA)
+  tesalia:
+    id: 632
+    codigo: 41797
+    nombre: TESALIA (HUILA)
+  tello:
+    id: 633
+    codigo: 41799
+    nombre: TELLO (HUILA)
+  teruel:
+    id: 634
+    codigo: 41801
+    nombre: TERUEL (HUILA)
+  timana:
+    id: 635
+    codigo: 41807
+    nombre: TIMANA (HUILA)
+  villavieja:
+    id: 636
+    codigo: 41872
+    nombre: VILLAVIEJA (HUILA)
+  yaguara:
+    id: 637
+    codigo: 41885
+    nombre: YAGUARA (HUILA)
+  riohacha:
+    id: 638
+    codigo: 44001
+    nombre: RIOHACHA (GUAJIRA)
+  albania:
+    id: 639
+    codigo: 44035
+    nombre: ALBANIA (GUAJIRA)
+  barrancas:
+    id: 640
+    codigo: 44078
+    nombre: BARRANCAS (GUAJIRA)
+  dibulla:
+    id: 641
+    codigo: 44090
+    nombre: DIBULLA (GUAJIRA)
+  distraccion:
+    id: 642
+    codigo: 44098
+    nombre: DISTRACCION (GUAJIRA)
+  el_molino:
+    id: 643
+    codigo: 44110
+    nombre: EL MOLINO (GUAJIRA)
+  fonseca:
+    id: 644
+    codigo: 44279
+    nombre: FONSECA (GUAJIRA)
+  hatonuevo:
+    id: 645
+    codigo: 44378
+    nombre: HATONUEVO (GUAJIRA)
+  la_jagua_del_pilar:
+    id: 646
+    codigo: 44420
+    nombre: LA JAGUA DEL PILAR (GUAJIRA)
+  maicao:
+    id: 647
+    codigo: 44430
+    nombre: MAICAO (GUAJIRA)
+  manaure:
+    id: 648
+    codigo: 44560
+    nombre: MANAURE (GUAJIRA)
+  san_juan_del_cesar:
+    id: 649
+    codigo: 44650
+    nombre: SAN JUAN DEL CESAR (GUAJIRA)
+  uribia:
+    id: 650
+    codigo: 44847
+    nombre: URIBIA (GUAJIRA)
+  urumita:
+    id: 651
+    codigo: 44855
+    nombre: URUMITA (GUAJIRA)
+  villanueva:
+    id: 652
+    codigo: 44874
+    nombre: VILLANUEVA (GUAJIRA)
+  santa_marta:
+    id: 653
+    codigo: 47001
+    nombre: SANTA MARTA (MAGDALENA)
+  algarrobo:
+    id: 654
+    codigo: 47030
+    nombre: ALGARROBO (MAGDALENA)
+  aracataca:
+    id: 655
+    codigo: 47053
+    nombre: ARACATACA (MAGDALENA)
+  ariguani:
+    id: 656
+    codigo: 47058
+    nombre: ARIGUANI (MAGDALENA)
+  cerro_san_antonio:
+    id: 657
+    codigo: 47161
+    nombre: CERRO SAN ANTONIO (MAGDALENA)
+  chivolo:
+    id: 658
+    codigo: 47170
+    nombre: CHIVOLO (MAGDALENA)
+  cienaga:
+    id: 659
+    codigo: 47189
+    nombre: CIENAGA (MAGDALENA)
+  concordia:
+    id: 660
+    codigo: 47205
+    nombre: CONCORDIA (MAGDALENA)
+  el_banco:
+    id: 661
+    codigo: 47245
+    nombre: EL BANCO (MAGDALENA)
+  el_piñon:
+    id: 662
+    codigo: 47258
+    nombre: EL PIÑON (MAGDALENA)
+  el_reten:
+    id: 663
+    codigo: 47268
+    nombre: EL RETEN (MAGDALENA)
+  fundacion:
+    id: 664
+    codigo: 47288
+    nombre: FUNDACION (MAGDALENA)
+  guamal:
+    id: 665
+    codigo: 47318
+    nombre: GUAMAL (MAGDALENA)
+  nueva_granada:
+    id: 666
+    codigo: 47460
+    nombre: NUEVA GRANADA (MAGDALENA)
+  pedraza:
+    id: 667
+    codigo: 47541
+    nombre: PEDRAZA (MAGDALENA)
+  pijiño_del_carmen:
+    id: 668
+    codigo: 47545
+    nombre: PIJIÑO DEL CARMEN (MAGDALENA)
+  pivijay:
+    id: 669
+    codigo: 47551
+    nombre: PIVIJAY (MAGDALENA)
+  plato:
+    id: 670
+    codigo: 47555
+    nombre: PLATO (MAGDALENA)
+  puebloviejo:
+    id: 671
+    codigo: 47570
+    nombre: PUEBLOVIEJO (MAGDALENA)
+  remolino:
+    id: 672
+    codigo: 47605
+    nombre: REMOLINO (MAGDALENA)
+  sabanas_de_san_angel:
+    id: 673
+    codigo: 47660
+    nombre: SABANAS DE SAN ANGEL (MAGDALENA)
+  salamina:
+    id: 674
+    codigo: 47675
+    nombre: SALAMINA (MAGDALENA)
+  san_sebastian_de_buenavista:
+    id: 675
+    codigo: 47692
+    nombre: SAN SEBASTIAN DE BUENAVISTA (MAGDALENA)
+  san_zenon:
+    id: 676
+    codigo: 47703
+    nombre: SAN ZENON (MAGDALENA)
+  santa_ana:
+    id: 677
+    codigo: 47707
+    nombre: SANTA ANA (MAGDALENA)
+  santa_barbara_de_pinto:
+    id: 678
+    codigo: 47720
+    nombre: SANTA BARBARA DE PINTO (MAGDALENA)
+  sitionuevo:
+    id: 679
+    codigo: 47745
+    nombre: SITIONUEVO (MAGDALENA)
+  tenerife:
+    id: 680
+    codigo: 47798
+    nombre: TENERIFE (MAGDALENA)
+  zapayan:
+    id: 681
+    codigo: 47960
+    nombre: ZAPAYAN (MAGDALENA)
+  zona_bananera:
+    id: 682
+    codigo: 47980
+    nombre: ZONA BANANERA (MAGDALENA)
+  villavicencio:
+    id: 683
+    codigo: 50001
+    nombre: VILLAVICENCIO (META)
+  acacias:
+    id: 684
+    codigo: 50006
+    nombre: ACACIAS (META)
+  barranca_de_upia:
+    id: 685
+    codigo: 50110
+    nombre: BARRANCA DE UPIA (META)
+  cabuyaro:
+    id: 686
+    codigo: 50124
+    nombre: CABUYARO (META)
+  castilla_la_nueva:
+    id: 687
+    codigo: 50150
+    nombre: CASTILLA LA NUEVA (META)
+  cubarral:
+    id: 688
+    codigo: 50223
+    nombre: CUBARRAL (META)
+  cumaral:
+    id: 689
+    codigo: 50226
+    nombre: CUMARAL (META)
+  el_calvario:
+    id: 690
+    codigo: 50245
+    nombre: EL CALVARIO (META)
+  el_castillo:
+    id: 691
+    codigo: 50251
+    nombre: EL CASTILLO (META)
+  el_dorado:
+    id: 692
+    codigo: 50270
+    nombre: EL DORADO (META)
+  fuente_de_oro:
+    id: 693
+    codigo: 50287
+    nombre: FUENTE DE ORO (META)
+  granada:
+    id: 694
+    codigo: 50313
+    nombre: GRANADA (META)
+  guamal:
+    id: 695
+    codigo: 50318
+    nombre: GUAMAL (META)
+  mapiripan:
+    id: 696
+    codigo: 50325
+    nombre: MAPIRIPAN (META)
+  mesetas:
+    id: 697
+    codigo: 50330
+    nombre: MESETAS (META)
+  la_macarena:
+    id: 698
+    codigo: 50350
+    nombre: LA MACARENA (META)
+  la_uribe:
+    id: 699
+    codigo: 50370
+    nombre: LA URIBE (META)
+  lejanias:
+    id: 700
+    codigo: 50400
+    nombre: LEJANIAS (META)
+  puerto_concordia:
+    id: 701
+    codigo: 50450
+    nombre: PUERTO CONCORDIA (META)
+  puerto_gaitan:
+    id: 702
+    codigo: 50568
+    nombre: PUERTO GAITAN (META)
+  puerto_lopez:
+    id: 703
+    codigo: 50573
+    nombre: PUERTO LOPEZ (META)
+  puerto_lleras:
+    id: 704
+    codigo: 50577
+    nombre: PUERTO LLERAS (META)
+  puerto_rico:
+    id: 705
+    codigo: 50590
+    nombre: PUERTO RICO (META)
+  restrepo:
+    id: 706
+    codigo: 50606
+    nombre: RESTREPO (META)
+  san_carlos_guaroa:
+    id: 707
+    codigo: 50680
+    nombre: SAN CARLOS GUAROA (META)
+  san__juan_de_arama:
+    id: 708
+    codigo: 50683
+    nombre: SAN  JUAN DE ARAMA (META)
+  san_juanito:
+    id: 709
+    codigo: 50686
+    nombre: SAN JUANITO (META)
+  san_martin:
+    id: 710
+    codigo: 50689
+    nombre: SAN MARTIN (META)
+  vista_hermosa:
+    id: 711
+    codigo: 50711
+    nombre: VISTA HERMOSA (META)
+  pasto:
+    id: 712
+    codigo: 52001
+    nombre: PASTO (NARIÑO)
+  alban:
+    id: 713
+    codigo: 52019
+    nombre: ALBAN (NARIÑO)
+  aldaña:
+    id: 714
+    codigo: 52022
+    nombre: ALDAÑA (NARIÑO)
+  ancuya:
+    id: 715
+    codigo: 52036
+    nombre: ANCUYA (NARIÑO)
+  arboleda:
+    id: 716
+    codigo: 52051
+    nombre: ARBOLEDA (NARIÑO)
+  barbacoas:
+    id: 717
+    codigo: 52079
+    nombre: BARBACOAS (NARIÑO)
+  belen:
+    id: 718
+    codigo: 52083
+    nombre: BELEN (NARIÑO)
+  buesaco:
+    id: 719
+    codigo: 52110
+    nombre: BUESACO (NARIÑO)
+  colon(genova):
+    id: 720
+    codigo: 52203
+    nombre: COLON(GENOVA) (NARIÑO)
+  consaca:
+    id: 721
+    codigo: 52207
+    nombre: CONSACA (NARIÑO)
+  contadero:
+    id: 722
+    codigo: 52210
+    nombre: CONTADERO (NARIÑO)
+  cordoba:
+    id: 723
+    codigo: 52215
+    nombre: CORDOBA (NARIÑO)
+  cuaspud:
+    id: 724
+    codigo: 52224
+    nombre: CUASPUD (NARIÑO)
+  cumbal:
+    id: 725
+    codigo: 52227
+    nombre: CUMBAL (NARIÑO)
+  cumbitara:
+    id: 726
+    codigo: 52233
+    nombre: CUMBITARA (NARIÑO)
+  chachagui:
+    id: 727
+    codigo: 52240
+    nombre: CHACHAGUI (NARIÑO)
+  el_charco:
+    id: 728
+    codigo: 52250
+    nombre: EL CHARCO (NARIÑO)
+  el_peñol:
+    id: 729
+    codigo: 52254
+    nombre: EL PEÑOL (NARIÑO)
+  el_rosario:
+    id: 730
+    codigo: 52256
+    nombre: EL ROSARIO (NARIÑO)
+  el_tablon:
+    id: 731
+    codigo: 52258
+    nombre: EL TABLON (NARIÑO)
+  el_tambo:
+    id: 732
+    codigo: 52260
+    nombre: EL TAMBO (NARIÑO)
+  funes:
+    id: 733
+    codigo: 52287
+    nombre: FUNES (NARIÑO)
+  guachucal:
+    id: 734
+    codigo: 52317
+    nombre: GUACHUCAL (NARIÑO)
+  guaitarilla:
+    id: 735
+    codigo: 52320
+    nombre: GUAITARILLA (NARIÑO)
+  gualmatan:
+    id: 736
+    codigo: 52323
+    nombre: GUALMATAN (NARIÑO)
+  iles:
+    id: 737
+    codigo: 52352
+    nombre: ILES (NARIÑO)
+  imues:
+    id: 738
+    codigo: 52354
+    nombre: IMUES (NARIÑO)
+  ipiales:
+    id: 739
+    codigo: 52356
+    nombre: IPIALES (NARIÑO)
+  la_cruz:
+    id: 740
+    codigo: 52378
+    nombre: LA CRUZ (NARIÑO)
+  la_florida:
+    id: 741
+    codigo: 52381
+    nombre: LA FLORIDA (NARIÑO)
+  la_llanada:
+    id: 742
+    codigo: 52385
+    nombre: LA LLANADA (NARIÑO)
+  la_tola:
+    id: 743
+    codigo: 52390
+    nombre: LA TOLA (NARIÑO)
+  la_union:
+    id: 744
+    codigo: 52399
+    nombre: LA UNION (NARIÑO)
+  leiva:
+    id: 745
+    codigo: 52405
+    nombre: LEIVA (NARIÑO)
+  linares:
+    id: 746
+    codigo: 52411
+    nombre: LINARES (NARIÑO)
+  los_andes:
+    id: 747
+    codigo: 52418
+    nombre: LOS ANDES (NARIÑO)
+  magui:
+    id: 748
+    codigo: 52427
+    nombre: MAGUI (NARIÑO)
+  mallama:
+    id: 749
+    codigo: 52435
+    nombre: MALLAMA (NARIÑO)
+  mosquera:
+    id: 750
+    codigo: 52473
+    nombre: MOSQUERA (NARIÑO)
+  nariño:
+    id: 751
+    codigo: 52480
+    nombre: NARIÑO (NARIÑO)
+  olaya_herrera:
+    id: 752
+    codigo: 52490
+    nombre: OLAYA HERRERA (NARIÑO)
+  ospina:
+    id: 753
+    codigo: 52506
+    nombre: OSPINA (NARIÑO)
+  pizarro:
+    id: 754
+    codigo: 52520
+    nombre: PIZARRO (NARIÑO)
+  policarpa:
+    id: 755
+    codigo: 52540
+    nombre: POLICARPA (NARIÑO)
+  potosi:
+    id: 756
+    codigo: 52560
+    nombre: POTOSI (NARIÑO)
+  providencia:
+    id: 757
+    codigo: 52565
+    nombre: PROVIDENCIA (NARIÑO)
+  puerres:
+    id: 758
+    codigo: 52573
+    nombre: PUERRES (NARIÑO)
+  pupiales:
+    id: 759
+    codigo: 52585
+    nombre: PUPIALES (NARIÑO)
+  ricaurte:
+    id: 760
+    codigo: 52612
+    nombre: RICAURTE (NARIÑO)
+  roberto_payan:
+    id: 761
+    codigo: 52621
+    nombre: ROBERTO PAYAN (NARIÑO)
+  samaniego:
+    id: 762
+    codigo: 52678
+    nombre: SAMANIEGO (NARIÑO)
+  sandona:
+    id: 763
+    codigo: 52683
+    nombre: SANDONA (NARIÑO)
+  san_bernardo:
+    id: 764
+    codigo: 52685
+    nombre: SAN BERNARDO (NARIÑO)
+  san_lorenzo:
+    id: 765
+    codigo: 52687
+    nombre: SAN LORENZO (NARIÑO)
+  san_pablo:
+    id: 766
+    codigo: 52693
+    nombre: SAN PABLO (NARIÑO)
+  san_pedro_de_cartago:
+    id: 767
+    codigo: 52694
+    nombre: SAN PEDRO DE CARTAGO (NARIÑO)
+  santa_barbara:
+    id: 768
+    codigo: 52696
+    nombre: SANTA BARBARA (NARIÑO)
+  santacruz:
+    id: 769
+    codigo: 52699
+    nombre: SANTACRUZ (NARIÑO)
+  sapuyes:
+    id: 770
+    codigo: 52720
+    nombre: SAPUYES (NARIÑO)
+  taminango:
+    id: 771
+    codigo: 52786
+    nombre: TAMINANGO (NARIÑO)
+  tangua:
+    id: 772
+    codigo: 52788
+    nombre: TANGUA (NARIÑO)
+  tumaco:
+    id: 773
+    codigo: 52835
+    nombre: TUMACO (NARIÑO)
+  tuquerres:
+    id: 774
+    codigo: 52838
+    nombre: TUQUERRES (NARIÑO)
+  yacuanquer:
+    id: 775
+    codigo: 52885
+    nombre: YACUANQUER (NARIÑO)
+  cucuta:
+    id: 776
+    codigo: 54001
+    nombre: CUCUTA (N DE SANTANDER)
+  abrego:
+    id: 777
+    codigo: 54003
+    nombre: ABREGO (N DE SANTANDER)
+  arboledas:
+    id: 778
+    codigo: 54051
+    nombre: ARBOLEDAS (N DE SANTANDER)
+  bochalema:
+    id: 779
+    codigo: 54099
+    nombre: BOCHALEMA (N DE SANTANDER)
+  bucarasica:
+    id: 780
+    codigo: 54109
+    nombre: BUCARASICA (N DE SANTANDER)
+  cacota:
+    id: 781
+    codigo: 54125
+    nombre: CACOTA (N DE SANTANDER)
+  cachira:
+    id: 782
+    codigo: 54128
+    nombre: CACHIRA (N DE SANTANDER)
+  chinacota:
+    id: 783
+    codigo: 54172
+    nombre: CHINACOTA (N DE SANTANDER)
+  chitaga:
+    id: 784
+    codigo: 54174
+    nombre: CHITAGA (N DE SANTANDER)
+  convencion:
+    id: 785
+    codigo: 54206
+    nombre: CONVENCION (N DE SANTANDER)
+  cucutilla:
+    id: 786
+    codigo: 54223
+    nombre: CUCUTILLA (N DE SANTANDER)
+  durania:
+    id: 787
+    codigo: 54239
+    nombre: DURANIA (N DE SANTANDER)
+  el_carmen:
+    id: 788
+    codigo: 54245
+    nombre: EL CARMEN (N DE SANTANDER)
+  el_tarra:
+    id: 789
+    codigo: 54250
+    nombre: EL TARRA (N DE SANTANDER)
+  el_zulia:
+    id: 790
+    codigo: 54261
+    nombre: EL ZULIA (N DE SANTANDER)
+  gramalote:
+    id: 791
+    codigo: 54313
+    nombre: GRAMALOTE (N DE SANTANDER)
+  hacari:
+    id: 792
+    codigo: 54344
+    nombre: HACARI (N DE SANTANDER)
+  herran:
+    id: 793
+    codigo: 54347
+    nombre: HERRAN (N DE SANTANDER)
+  labateca:
+    id: 794
+    codigo: 54377
+    nombre: LABATECA (N DE SANTANDER)
+  la_esperanza:
+    id: 795
+    codigo: 54385
+    nombre: LA ESPERANZA (N DE SANTANDER)
+  la_playa:
+    id: 796
+    codigo: 54398
+    nombre: LA PLAYA (N DE SANTANDER)
+  los_patios:
+    id: 797
+    codigo: 54405
+    nombre: LOS PATIOS (N DE SANTANDER)
+  lourdes:
+    id: 798
+    codigo: 54418
+    nombre: LOURDES (N DE SANTANDER)
+  mutiscua:
+    id: 799
+    codigo: 54480
+    nombre: MUTISCUA (N DE SANTANDER)
+  ocaña:
+    id: 800
+    codigo: 54498
+    nombre: OCAÑA (N DE SANTANDER)
+  pamplona:
+    id: 801
+    codigo: 54518
+    nombre: PAMPLONA (N DE SANTANDER)
+  pamplonita:
+    id: 802
+    codigo: 54520
+    nombre: PAMPLONITA (N DE SANTANDER)
+  puerto_santander:
+    id: 803
+    codigo: 54553
+    nombre: PUERTO SANTANDER (N DE SANTANDER)
+  ragonvalia:
+    id: 804
+    codigo: 54599
+    nombre: RAGONVALIA (N DE SANTANDER)
+  salazar:
+    id: 805
+    codigo: 54660
+    nombre: SALAZAR (N DE SANTANDER)
+  san_calixto:
+    id: 806
+    codigo: 54670
+    nombre: SAN CALIXTO (N DE SANTANDER)
+  san_cayetano:
+    id: 807
+    codigo: 54673
+    nombre: SAN CAYETANO (N DE SANTANDER)
+  santiago:
+    id: 808
+    codigo: 54680
+    nombre: SANTIAGO (N DE SANTANDER)
+  sardinata:
+    id: 809
+    codigo: 54720
+    nombre: SARDINATA (N DE SANTANDER)
+  silos:
+    id: 810
+    codigo: 54743
+    nombre: SILOS (N DE SANTANDER)
+  teorama:
+    id: 811
+    codigo: 54800
+    nombre: TEORAMA (N DE SANTANDER)
+  tibu:
+    id: 812
+    codigo: 54810
+    nombre: TIBU (N DE SANTANDER)
+  toledo:
+    id: 813
+    codigo: 54820
+    nombre: TOLEDO (N DE SANTANDER)
+  villacaro:
+    id: 814
+    codigo: 54871
+    nombre: VILLACARO (N DE SANTANDER)
+  villa_del_rosario:
+    id: 815
+    codigo: 54874
+    nombre: VILLA DEL ROSARIO (N DE SANTANDER)
+  armenia:
+    id: 816
+    codigo: 63001
+    nombre: ARMENIA (QUINDIO)
+  buenavista:
+    id: 817
+    codigo: 63111
+    nombre: BUENAVISTA (QUINDIO)
+  calarca:
+    id: 818
+    codigo: 63130
+    nombre: CALARCA (QUINDIO)
+  circasia:
+    id: 819
+    codigo: 63190
+    nombre: CIRCASIA (QUINDIO)
+  cordoba:
+    id: 820
+    codigo: 63212
+    nombre: CORDOBA (QUINDIO)
+  filandia:
+    id: 821
+    codigo: 63272
+    nombre: FILANDIA (QUINDIO)
+  genova:
+    id: 822
+    codigo: 63302
+    nombre: GENOVA (QUINDIO)
+  la_tebaida:
+    id: 823
+    codigo: 63401
+    nombre: LA TEBAIDA (QUINDIO)
+  montenegro:
+    id: 824
+    codigo: 63470
+    nombre: MONTENEGRO (QUINDIO)
+  pijao:
+    id: 825
+    codigo: 63548
+    nombre: PIJAO (QUINDIO)
+  quimbaya:
+    id: 826
+    codigo: 63594
+    nombre: QUIMBAYA (QUINDIO)
+  salento:
+    id: 827
+    codigo: 63690
+    nombre: SALENTO (QUINDIO)
+  pereira:
+    id: 828
+    codigo: 66001
+    nombre: PEREIRA (RISARALDA)
+  apia:
+    id: 829
+    codigo: 66045
+    nombre: APIA (RISARALDA)
+  balboa:
+    id: 830
+    codigo: 66075
+    nombre: BALBOA (RISARALDA)
+  belen_de_umbria:
+    id: 831
+    codigo: 66088
+    nombre: BELEN DE UMBRIA (RISARALDA)
+  dos_quebradas:
+    id: 832
+    codigo: 66170
+    nombre: DOS QUEBRADAS (RISARALDA)
+  guatica:
+    id: 833
+    codigo: 66318
+    nombre: GUATICA (RISARALDA)
+  la_celia:
+    id: 834
+    codigo: 66383
+    nombre: LA CELIA (RISARALDA)
+  la_virginia:
+    id: 835
+    codigo: 66400
+    nombre: LA VIRGINIA (RISARALDA)
+  marsella:
+    id: 836
+    codigo: 66440
+    nombre: MARSELLA (RISARALDA)
+  mistrato:
+    id: 837
+    codigo: 66456
+    nombre: MISTRATO (RISARALDA)
+  pueblo_rico:
+    id: 838
+    codigo: 66572
+    nombre: PUEBLO RICO (RISARALDA)
+  quinchia:
+    id: 839
+    codigo: 66594
+    nombre: QUINCHIA (RISARALDA)
+  santa_rosa_de_cabal:
+    id: 840
+    codigo: 66682
+    nombre: SANTA ROSA DE CABAL (RISARALDA)
+  santuario:
+    id: 841
+    codigo: 66687
+    nombre: SANTUARIO (RISARALDA)
+  bucaramanga:
+    id: 842
+    codigo: 68001
+    nombre: BUCARAMANGA (SANTANDER)
+  aguada:
+    id: 843
+    codigo: 68013
+    nombre: AGUADA (SANTANDER)
+  albania:
+    id: 844
+    codigo: 68020
+    nombre: ALBANIA (SANTANDER)
+  aratoca:
+    id: 845
+    codigo: 68051
+    nombre: ARATOCA (SANTANDER)
+  barbosa:
+    id: 846
+    codigo: 68077
+    nombre: BARBOSA (SANTANDER)
+  barichara:
+    id: 847
+    codigo: 68079
+    nombre: BARICHARA (SANTANDER)
+  barrancabermeja:
+    id: 848
+    codigo: 68081
+    nombre: BARRANCABERMEJA (SANTANDER)
+  betulia:
+    id: 849
+    codigo: 68092
+    nombre: BETULIA (SANTANDER)
+  bolivar:
+    id: 850
+    codigo: 68101
+    nombre: BOLIVAR (SANTANDER)
+  cabrera:
+    id: 851
+    codigo: 68121
+    nombre: CABRERA (SANTANDER)
+  california:
+    id: 852
+    codigo: 68132
+    nombre: CALIFORNIA (SANTANDER)
+  capitanejo:
+    id: 853
+    codigo: 68147
+    nombre: CAPITANEJO (SANTANDER)
+  carcasi:
+    id: 854
+    codigo: 68152
+    nombre: CARCASI (SANTANDER)
+  cepita:
+    id: 855
+    codigo: 68160
+    nombre: CEPITA (SANTANDER)
+  cerrito:
+    id: 856
+    codigo: 68162
+    nombre: CERRITO (SANTANDER)
+  charala:
+    id: 857
+    codigo: 68167
+    nombre: CHARALA (SANTANDER)
+  charta:
+    id: 858
+    codigo: 68169
+    nombre: CHARTA (SANTANDER)
+  chima:
+    id: 859
+    codigo: 68176
+    nombre: CHIMA (SANTANDER)
+  chipata:
+    id: 860
+    codigo: 68179
+    nombre: CHIPATA (SANTANDER)
+  cimitarra:
+    id: 861
+    codigo: 68190
+    nombre: CIMITARRA (SANTANDER)
+  concepcion:
+    id: 862
+    codigo: 68207
+    nombre: CONCEPCION (SANTANDER)
+  confines:
+    id: 863
+    codigo: 68209
+    nombre: CONFINES (SANTANDER)
+  contratacion:
+    id: 864
+    codigo: 68211
+    nombre: CONTRATACION (SANTANDER)
+  coromoro:
+    id: 865
+    codigo: 68217
+    nombre: COROMORO (SANTANDER)
+  curiti:
+    id: 866
+    codigo: 68229
+    nombre: CURITI (SANTANDER)
+  el_carmen:
+    id: 867
+    codigo: 68235
+    nombre: EL CARMEN (SANTANDER)
+  el_guacamayo:
+    id: 868
+    codigo: 68245
+    nombre: EL GUACAMAYO (SANTANDER)
+  el_peñon:
+    id: 869
+    codigo: 68250
+    nombre: EL PEÑON (SANTANDER)
+  el_playon:
+    id: 870
+    codigo: 68255
+    nombre: EL PLAYON (SANTANDER)
+  encino:
+    id: 871
+    codigo: 68264
+    nombre: ENCINO (SANTANDER)
+  enciso:
+    id: 872
+    codigo: 68266
+    nombre: ENCISO (SANTANDER)
+  florian:
+    id: 873
+    codigo: 68271
+    nombre: FLORIAN (SANTANDER)
+  floridablanca:
+    id: 874
+    codigo: 68276
+    nombre: FLORIDABLANCA (SANTANDER)
+  galan:
+    id: 875
+    codigo: 68296
+    nombre: GALAN (SANTANDER)
+  gambita:
+    id: 876
+    codigo: 68298
+    nombre: GAMBITA (SANTANDER)
+  giron:
+    id: 877
+    codigo: 68307
+    nombre: GIRON (SANTANDER)
+  guaca:
+    id: 878
+    codigo: 68318
+    nombre: GUACA (SANTANDER)
+  guadalupe:
+    id: 879
+    codigo: 68320
+    nombre: GUADALUPE (SANTANDER)
+  guapota:
+    id: 880
+    codigo: 68322
+    nombre: GUAPOTA (SANTANDER)
+  guavata:
+    id: 881
+    codigo: 68324
+    nombre: GUAVATA (SANTANDER)
+  guepsa:
+    id: 882
+    codigo: 68327
+    nombre: GUEPSA (SANTANDER)
+  hato:
+    id: 883
+    codigo: 68344
+    nombre: HATO (SANTANDER)
+  jesus_maria:
+    id: 884
+    codigo: 68368
+    nombre: JESUS MARIA (SANTANDER)
+  jordan:
+    id: 885
+    codigo: 68370
+    nombre: JORDAN (SANTANDER)
+  la_belleza:
+    id: 886
+    codigo: 68377
+    nombre: LA BELLEZA (SANTANDER)
+  landazuri:
+    id: 887
+    codigo: 68385
+    nombre: LANDAZURI (SANTANDER)
+  la_paz:
+    id: 888
+    codigo: 68397
+    nombre: LA PAZ (SANTANDER)
+  lebrija:
+    id: 889
+    codigo: 68406
+    nombre: LEBRIJA (SANTANDER)
+  los_santos:
+    id: 890
+    codigo: 68418
+    nombre: LOS SANTOS (SANTANDER)
+  macaravita:
+    id: 891
+    codigo: 68425
+    nombre: MACARAVITA (SANTANDER)
+  malaga:
+    id: 892
+    codigo: 68432
+    nombre: MALAGA (SANTANDER)
+  matanza:
+    id: 893
+    codigo: 68444
+    nombre: MATANZA (SANTANDER)
+  mogotes:
+    id: 894
+    codigo: 68464
+    nombre: MOGOTES (SANTANDER)
+  molagavita:
+    id: 895
+    codigo: 68468
+    nombre: MOLAGAVITA (SANTANDER)
+  ocamonte:
+    id: 896
+    codigo: 68498
+    nombre: OCAMONTE (SANTANDER)
+  oiba:
+    id: 897
+    codigo: 68500
+    nombre: OIBA (SANTANDER)
+  onzaga:
+    id: 898
+    codigo: 68502
+    nombre: ONZAGA (SANTANDER)
+  palmar:
+    id: 899
+    codigo: 68522
+    nombre: PALMAR (SANTANDER)
+  palmas_del_socorro:
+    id: 900
+    codigo: 68524
+    nombre: PALMAS DEL SOCORRO (SANTANDER)
+  paramo:
+    id: 901
+    codigo: 68533
+    nombre: PARAMO (SANTANDER)
+  piedecuesta:
+    id: 902
+    codigo: 68547
+    nombre: PIEDECUESTA (SANTANDER)
+  pinchote:
+    id: 903
+    codigo: 68549
+    nombre: PINCHOTE (SANTANDER)
+  puente_nacional:
+    id: 904
+    codigo: 68572
+    nombre: PUENTE NACIONAL (SANTANDER)
+  puerto_parra:
+    id: 905
+    codigo: 68573
+    nombre: PUERTO PARRA (SANTANDER)
+  puerto_wilches:
+    id: 906
+    codigo: 68575
+    nombre: PUERTO WILCHES (SANTANDER)
+  rionegro:
+    id: 907
+    codigo: 68615
+    nombre: RIONEGRO (SANTANDER)
+  sabana_de_torres:
+    id: 908
+    codigo: 68655
+    nombre: SABANA DE TORRES (SANTANDER)
+  san_andres:
+    id: 909
+    codigo: 68669
+    nombre: SAN ANDRES (SANTANDER)
+  san_benito:
+    id: 910
+    codigo: 68673
+    nombre: SAN BENITO (SANTANDER)
+  san_gil:
+    id: 911
+    codigo: 68679
+    nombre: SAN GIL (SANTANDER)
+  san_joaquin:
+    id: 912
+    codigo: 68682
+    nombre: SAN JOAQUIN (SANTANDER)
+  san_jose_de_miranda:
+    id: 913
+    codigo: 68684
+    nombre: SAN JOSE DE MIRANDA (SANTANDER)
+  san_miguel:
+    id: 914
+    codigo: 68686
+    nombre: SAN MIGUEL (SANTANDER)
+  san_vicente_de_chucuri:
+    id: 915
+    codigo: 68689
+    nombre: SAN VICENTE DE CHUCURI (SANTANDER)
+  santa_barbara:
+    id: 916
+    codigo: 68705
+    nombre: SANTA BARBARA (SANTANDER)
+  santa_helena:
+    id: 917
+    codigo: 68720
+    nombre: SANTA HELENA (SANTANDER)
+  simacota:
+    id: 918
+    codigo: 68745
+    nombre: SIMACOTA (SANTANDER)
+  socorro:
+    id: 919
+    codigo: 68755
+    nombre: SOCORRO (SANTANDER)
+  suaita:
+    id: 920
+    codigo: 68770
+    nombre: SUAITA (SANTANDER)
+  sucre:
+    id: 921
+    codigo: 68773
+    nombre: SUCRE (SANTANDER)
+  surata:
+    id: 922
+    codigo: 68780
+    nombre: SURATA (SANTANDER)
+  tona:
+    id: 923
+    codigo: 68820
+    nombre: TONA (SANTANDER)
+  valle_san_jose:
+    id: 924
+    codigo: 68855
+    nombre: VALLE SAN JOSE (SANTANDER)
+  velez:
+    id: 925
+    codigo: 68861
+    nombre: VELEZ (SANTANDER)
+  vetas:
+    id: 926
+    codigo: 68867
+    nombre: VETAS (SANTANDER)
+  villanueva:
+    id: 927
+    codigo: 68872
+    nombre: VILLANUEVA (SANTANDER)
+  zapatoca:
+    id: 928
+    codigo: 68895
+    nombre: ZAPATOCA (SANTANDER)
+  sincelejo:
+    id: 929
+    codigo: 70001
+    nombre: SINCELEJO (SUCRE)
+  buenavista:
+    id: 930
+    codigo: 70110
+    nombre: BUENAVISTA (SUCRE)
+  caimito:
+    id: 931
+    codigo: 70124
+    nombre: CAIMITO (SUCRE)
+  coloso:
+    id: 932
+    codigo: 70204
+    nombre: COLOSO (SUCRE)
+  corozal:
+    id: 933
+    codigo: 70215
+    nombre: COROZAL (SUCRE)
+  coveñas:
+    id: 934
+    codigo: 70221
+    nombre: COVEÑAS (SUCRE)
+  chalan:
+    id: 935
+    codigo: 70230
+    nombre: CHALAN (SUCRE)
+  el_roble:
+    id: 936
+    codigo: 70233
+    nombre: EL ROBLE (SUCRE)
+  galeras:
+    id: 937
+    codigo: 70235
+    nombre: GALERAS (SUCRE)
+  guaranda:
+    id: 938
+    codigo: 70265
+    nombre: GUARANDA (SUCRE)
+  la_union:
+    id: 939
+    codigo: 70400
+    nombre: LA UNION (SUCRE)
+  los_palmitos:
+    id: 940
+    codigo: 70418
+    nombre: LOS PALMITOS (SUCRE)
+  majagual:
+    id: 941
+    codigo: 70429
+    nombre: MAJAGUAL (SUCRE)
+  morroa:
+    id: 942
+    codigo: 70473
+    nombre: MORROA (SUCRE)
+  ovejas:
+    id: 943
+    codigo: 70508
+    nombre: OVEJAS (SUCRE)
+  palmito:
+    id: 944
+    codigo: 70523
+    nombre: PALMITO (SUCRE)
+  sampues:
+    id: 945
+    codigo: 70670
+    nombre: SAMPUES (SUCRE)
+  san_benito_abad:
+    id: 946
+    codigo: 70678
+    nombre: SAN BENITO ABAD (SUCRE)
+  san_juan_de_betulia:
+    id: 947
+    codigo: 70702
+    nombre: SAN JUAN DE BETULIA (SUCRE)
+  san_marcos:
+    id: 948
+    codigo: 70708
+    nombre: SAN MARCOS (SUCRE)
+  san_onofre:
+    id: 949
+    codigo: 70713
+    nombre: SAN ONOFRE (SUCRE)
+  san_pedro:
+    id: 950
+    codigo: 70717
+    nombre: SAN PEDRO (SUCRE)
+  since:
+    id: 951
+    codigo: 70742
+    nombre: SINCE (SUCRE)
+  sucre:
+    id: 952
+    codigo: 70771
+    nombre: SUCRE (SUCRE)
+  tolu:
+    id: 953
+    codigo: 70820
+    nombre: TOLU (SUCRE)
+  toluviejo:
+    id: 954
+    codigo: 70823
+    nombre: TOLUVIEJO (SUCRE)
+  ibague:
+    id: 955
+    codigo: 73001
+    nombre: IBAGUE (TOLIMA)
+  alpujarra:
+    id: 956
+    codigo: 73024
+    nombre: ALPUJARRA (TOLIMA)
+  alvarado:
+    id: 957
+    codigo: 73026
+    nombre: ALVARADO (TOLIMA)
+  ambalema:
+    id: 958
+    codigo: 73030
+    nombre: AMBALEMA (TOLIMA)
+  anzoategui:
+    id: 959
+    codigo: 73043
+    nombre: ANZOATEGUI (TOLIMA)
+  armero_(guayabal):
+    id: 960
+    codigo: 73055
+    nombre: ARMERO (GUAYABAL) (TOLIMA)
+  ataco:
+    id: 961
+    codigo: 73067
+    nombre: ATACO (TOLIMA)
+  cajamarca:
+    id: 962
+    codigo: 73124
+    nombre: CAJAMARCA (TOLIMA)
+  carmen_apicala:
+    id: 963
+    codigo: 73148
+    nombre: CARMEN APICALA (TOLIMA)
+  casabianca:
+    id: 964
+    codigo: 73152
+    nombre: CASABIANCA (TOLIMA)
+  chaparral:
+    id: 965
+    codigo: 73168
+    nombre: CHAPARRAL (TOLIMA)
+  coello:
+    id: 966
+    codigo: 73200
+    nombre: COELLO (TOLIMA)
+  coyaima:
+    id: 967
+    codigo: 73217
+    nombre: COYAIMA (TOLIMA)
+  cunday:
+    id: 968
+    codigo: 73226
+    nombre: CUNDAY (TOLIMA)
+  dolores:
+    id: 969
+    codigo: 73236
+    nombre: DOLORES (TOLIMA)
+  espinal:
+    id: 970
+    codigo: 73268
+    nombre: ESPINAL (TOLIMA)
+  falan:
+    id: 971
+    codigo: 73270
+    nombre: FALAN (TOLIMA)
+  flandes:
+    id: 972
+    codigo: 73275
+    nombre: FLANDES (TOLIMA)
+  fresno:
+    id: 973
+    codigo: 73283
+    nombre: FRESNO (TOLIMA)
+  guamo:
+    id: 974
+    codigo: 73319
+    nombre: GUAMO (TOLIMA)
+  herveo:
+    id: 975
+    codigo: 73347
+    nombre: HERVEO (TOLIMA)
+  honda:
+    id: 976
+    codigo: 73349
+    nombre: HONDA (TOLIMA)
+  icononzo:
+    id: 977
+    codigo: 73352
+    nombre: ICONONZO (TOLIMA)
+  lerida:
+    id: 978
+    codigo: 73408
+    nombre: LERIDA (TOLIMA)
+  libano:
+    id: 979
+    codigo: 73411
+    nombre: LIBANO (TOLIMA)
+  mariquita:
+    id: 980
+    codigo: 73443
+    nombre: MARIQUITA (TOLIMA)
+  melgar:
+    id: 981
+    codigo: 73449
+    nombre: MELGAR (TOLIMA)
+  murillo:
+    id: 982
+    codigo: 73461
+    nombre: MURILLO (TOLIMA)
+  natagaima:
+    id: 983
+    codigo: 73483
+    nombre: NATAGAIMA (TOLIMA)
+  ortega:
+    id: 984
+    codigo: 73504
+    nombre: ORTEGA (TOLIMA)
+  palocabildo:
+    id: 985
+    codigo: 73520
+    nombre: PALOCABILDO (TOLIMA)
+  piedras:
+    id: 986
+    codigo: 73547
+    nombre: PIEDRAS (TOLIMA)
+  planadas:
+    id: 987
+    codigo: 73555
+    nombre: PLANADAS (TOLIMA)
+  prado:
+    id: 988
+    codigo: 73563
+    nombre: PRADO (TOLIMA)
+  purificacion:
+    id: 989
+    codigo: 73585
+    nombre: PURIFICACION (TOLIMA)
+  rioblanco:
+    id: 990
+    codigo: 73616
+    nombre: RIOBLANCO (TOLIMA)
+  roncesvalles:
+    id: 991
+    codigo: 73622
+    nombre: RONCESVALLES (TOLIMA)
+  rovira:
+    id: 992
+    codigo: 73624
+    nombre: ROVIRA (TOLIMA)
+  saldaña:
+    id: 993
+    codigo: 73671
+    nombre: SALDAÑA (TOLIMA)
+  san_antonio:
+    id: 994
+    codigo: 73675
+    nombre: SAN ANTONIO (TOLIMA)
+  san_luis:
+    id: 995
+    codigo: 73678
+    nombre: SAN LUIS (TOLIMA)
+  santa_isabel:
+    id: 996
+    codigo: 73686
+    nombre: SANTA ISABEL (TOLIMA)
+  suarez:
+    id: 997
+    codigo: 73770
+    nombre: SUAREZ (TOLIMA)
+  valle_de_s_juan:
+    id: 998
+    codigo: 73854
+    nombre: VALLE DE S JUAN (TOLIMA)
+  venadillo:
+    id: 999
+    codigo: 73861
+    nombre: VENADILLO (TOLIMA)
+  villahermosa:
+    id: 1000
+    codigo: 73870
+    nombre: VILLAHERMOSA (TOLIMA)
+  villarrica:
+    id: 1001
+    codigo: 73873
+    nombre: VILLARRICA (TOLIMA)
+  cali:
+    id: 1002
+    codigo: 76001
+    nombre: CALI (VALLE DEL CAUCA)
+  alcala:
+    id: 1003
+    codigo: 76020
+    nombre: ALCALA (VALLE DEL CAUCA)
+  andalucia:
+    id: 1004
+    codigo: 76036
+    nombre: ANDALUCIA (VALLE DEL CAUCA)
+  ansermanuevo:
+    id: 1005
+    codigo: 76041
+    nombre: ANSERMANUEVO (VALLE DEL CAUCA)
+  argelia:
+    id: 1006
+    codigo: 76054
+    nombre: ARGELIA (VALLE DEL CAUCA)
+  bolivar:
+    id: 1007
+    codigo: 76100
+    nombre: BOLIVAR (VALLE DEL CAUCA)
+  buenaventura:
+    id: 1008
+    codigo: 76109
+    nombre: BUENAVENTURA (VALLE DEL CAUCA)
+  buga:
+    id: 1009
+    codigo: 76111
+    nombre: BUGA (VALLE DEL CAUCA)
+  bugalagrande:
+    id: 1010
+    codigo: 76113
+    nombre: BUGALAGRANDE (VALLE DEL CAUCA)
+  caicedonia:
+    id: 1011
+    codigo: 76122
+    nombre: CAICEDONIA (VALLE DEL CAUCA)
+  calima:
+    id: 1012
+    codigo: 76126
+    nombre: CALIMA (VALLE DEL CAUCA)
+  candelaria:
+    id: 1013
+    codigo: 76130
+    nombre: CANDELARIA (VALLE DEL CAUCA)
+  cartago:
+    id: 1014
+    codigo: 76147
+    nombre: CARTAGO (VALLE DEL CAUCA)
+  dagua:
+    id: 1015
+    codigo: 76233
+    nombre: DAGUA (VALLE DEL CAUCA)
+  el_aguila:
+    id: 1016
+    codigo: 76243
+    nombre: EL AGUILA (VALLE DEL CAUCA)
+  el_cairo:
+    id: 1017
+    codigo: 76246
+    nombre: EL CAIRO (VALLE DEL CAUCA)
+  el_cerrito:
+    id: 1018
+    codigo: 76248
+    nombre: EL CERRITO (VALLE DEL CAUCA)
+  el_dovio:
+    id: 1019
+    codigo: 76250
+    nombre: EL DOVIO (VALLE DEL CAUCA)
+  florida:
+    id: 1020
+    codigo: 76275
+    nombre: FLORIDA (VALLE DEL CAUCA)
+  ginebra:
+    id: 1021
+    codigo: 76306
+    nombre: GINEBRA (VALLE DEL CAUCA)
+  guacari:
+    id: 1022
+    codigo: 76318
+    nombre: GUACARI (VALLE DEL CAUCA)
+  jamundi:
+    id: 1023
+    codigo: 76364
+    nombre: JAMUNDI (VALLE DEL CAUCA)
+  la_cumbre:
+    id: 1024
+    codigo: 76377
+    nombre: LA CUMBRE (VALLE DEL CAUCA)
+  la_union:
+    id: 1025
+    codigo: 76400
+    nombre: LA UNION (VALLE DEL CAUCA)
+  la_victoria:
+    id: 1026
+    codigo: 76403
+    nombre: LA VICTORIA (VALLE DEL CAUCA)
+  obando:
+    id: 1027
+    codigo: 76497
+    nombre: OBANDO (VALLE DEL CAUCA)
+  palmira:
+    id: 1028
+    codigo: 76520
+    nombre: PALMIRA (VALLE DEL CAUCA)
+  pradera:
+    id: 1029
+    codigo: 76563
+    nombre: PRADERA (VALLE DEL CAUCA)
+  restrepo:
+    id: 1030
+    codigo: 76606
+    nombre: RESTREPO (VALLE DEL CAUCA)
+  riofrio:
+    id: 1031
+    codigo: 76616
+    nombre: RIOFRIO (VALLE DEL CAUCA)
+  roldanillo:
+    id: 1032
+    codigo: 76622
+    nombre: ROLDANILLO (VALLE DEL CAUCA)
+  san_pedro:
+    id: 1033
+    codigo: 76670
+    nombre: SAN PEDRO (VALLE DEL CAUCA)
+  sevilla:
+    id: 1034
+    codigo: 76736
+    nombre: SEVILLA (VALLE DEL CAUCA)
+  toro:
+    id: 1035
+    codigo: 76823
+    nombre: TORO (VALLE DEL CAUCA)
+  trujillo:
+    id: 1036
+    codigo: 76828
+    nombre: TRUJILLO (VALLE DEL CAUCA)
+  tulua:
+    id: 1037
+    codigo: 76834
+    nombre: TULUA (VALLE DEL CAUCA)
+  ulloa:
+    id: 1038
+    codigo: 76845
+    nombre: ULLOA (VALLE DEL CAUCA)
+  versalles:
+    id: 1039
+    codigo: 76863
+    nombre: VERSALLES (VALLE DEL CAUCA)
+  vijes:
+    id: 1040
+    codigo: 76869
+    nombre: VIJES (VALLE DEL CAUCA)
+  yotoco:
+    id: 1041
+    codigo: 76890
+    nombre: YOTOCO (VALLE DEL CAUCA)
+  yumbo:
+    id: 1042
+    codigo: 76892
+    nombre: YUMBO (VALLE DEL CAUCA)
+  zarzal:
+    id: 1043
+    codigo: 76895
+    nombre: ZARZAL (VALLE DEL CAUCA)
+  arauca:
+    id: 1044
+    codigo: 81001
+    nombre: ARAUCA (ARAUCA)
+  arauquita:
+    id: 1045
+    codigo: 81065
+    nombre: ARAUQUITA (ARAUCA)
+  cravo_norte:
+    id: 1046
+    codigo: 81220
+    nombre: CRAVO NORTE (ARAUCA)
+  fortul:
+    id: 1047
+    codigo: 81300
+    nombre: FORTUL (ARAUCA)
+  puerto_rondon:
+    id: 1048
+    codigo: 81591
+    nombre: PUERTO RONDON (ARAUCA)
+  saravena:
+    id: 1049
+    codigo: 81736
+    nombre: SARAVENA (ARAUCA)
+  tame:
+    id: 1050
+    codigo: 81794
+    nombre: TAME (ARAUCA)
+  yopal:
+    id: 1051
+    codigo: 85001
+    nombre: YOPAL (CASANARE)
+  aguazul:
+    id: 1052
+    codigo: 85010
+    nombre: AGUAZUL (CASANARE)
+  chameza:
+    id: 1053
+    codigo: 85015
+    nombre: CHAMEZA (CASANARE)
+  hato_corozal:
+    id: 1054
+    codigo: 85125
+    nombre: HATO COROZAL (CASANARE)
+  la_salina:
+    id: 1055
+    codigo: 85136
+    nombre: LA SALINA (CASANARE)
+  mani:
+    id: 1056
+    codigo: 85139
+    nombre: MANI (CASANARE)
+  monterrey:
+    id: 1057
+    codigo: 85162
+    nombre: MONTERREY (CASANARE)
+  nunchia:
+    id: 1058
+    codigo: 85225
+    nombre: NUNCHIA (CASANARE)
+  orocue:
+    id: 1059
+    codigo: 85230
+    nombre: OROCUE (CASANARE)
+  paz_de_ariporo:
+    id: 1060
+    codigo: 85250
+    nombre: PAZ DE ARIPORO (CASANARE)
+  pore:
+    id: 1061
+    codigo: 85263
+    nombre: PORE (CASANARE)
+  recetor:
+    id: 1062
+    codigo: 85279
+    nombre: RECETOR (CASANARE)
+  sabanalarga:
+    id: 1063
+    codigo: 85300
+    nombre: SABANALARGA (CASANARE)
+  sacama:
+    id: 1064
+    codigo: 85315
+    nombre: SACAMA (CASANARE)
+  san_luis_de_palenque:
+    id: 1065
+    codigo: 85325
+    nombre: SAN LUIS DE PALENQUE (CASANARE)
+  tamara:
+    id: 1066
+    codigo: 85400
+    nombre: TAMARA (CASANARE)
+  tauramena:
+    id: 1067
+    codigo: 85410
+    nombre: TAURAMENA (CASANARE)
+  trinidad:
+    id: 1068
+    codigo: 85430
+    nombre: TRINIDAD (CASANARE)
+  villanueva:
+    id: 1069
+    codigo: 85440
+    nombre: VILLANUEVA (CASANARE)
+  mocoa:
+    id: 1070
+    codigo: 86001
+    nombre: MOCOA (PUTUMAYO)
+  colon:
+    id: 1071
+    codigo: 86219
+    nombre: COLON (PUTUMAYO)
+  orito:
+    id: 1072
+    codigo: 86320
+    nombre: ORITO (PUTUMAYO)
+  puerto_asis:
+    id: 1073
+    codigo: 86568
+    nombre: PUERTO ASIS (PUTUMAYO)
+  puerto_caycedo:
+    id: 1074
+    codigo: 86569
+    nombre: PUERTO CAYCEDO (PUTUMAYO)
+  puerto_guzman:
+    id: 1075
+    codigo: 86571
+    nombre: PUERTO GUZMAN (PUTUMAYO)
+  puerto_leguizamo:
+    id: 1076
+    codigo: 86573
+    nombre: PUERTO LEGUIZAMO (PUTUMAYO)
+  sibundoy:
+    id: 1077
+    codigo: 86749
+    nombre: SIBUNDOY (PUTUMAYO)
+  san_francisco:
+    id: 1078
+    codigo: 86755
+    nombre: SAN FRANCISCO (PUTUMAYO)
+  san_miguel:
+    id: 1079
+    codigo: 86757
+    nombre: SAN MIGUEL (PUTUMAYO)
+  santiago:
+    id: 1080
+    codigo: 86760
+    nombre: SANTIAGO (PUTUMAYO)
+  valle_del_guamuez:
+    id: 1081
+    codigo: 86865
+    nombre: VALLE DEL GUAMUEZ (PUTUMAYO)
+  villagarzon:
+    id: 1082
+    codigo: 86885
+    nombre: VILLAGARZON (PUTUMAYO)
+  san_andres:
+    id: 1083
+    codigo: 88001
+    nombre: SAN ANDRES (SAN ANDRES)
+  providencia:
+    id: 1084
+    codigo: 88564
+    nombre: PROVIDENCIA (SAN ANDRES)
+  leticia:
+    id: 1085
+    codigo: 91001
+    nombre: LETICIA (AMAZONAS)
+  puerto_narinho:
+    id: 1086
+    codigo: 91540
+    nombre: PUERTO NARIÑO (AMAZONAS)
+  puerto_inirida:
+    id: 1087
+    codigo: 94001
+    nombre: PUERTO INIRIDA (GUAINIA)
+  san_jose_del_guaviare:
+    id: 1088
+    codigo: 95001
+    nombre: SAN JOSE DEL GUAVIARE (GUAVIARE)
+  calamar:
+    id: 1089
+    codigo: 95015
+    nombre: CALAMAR (GUAVIARE)
+  el_retorno:
+    id: 1090
+    codigo: 95025
+    nombre: EL RETORNO (GUAVIARE)
+  miraflores:
+    id: 1091
+    codigo: 95200
+    nombre: MIRAFLORES (GUAVIARE)
+  mitu:
+    id: 1092
+    codigo: 97001
+    nombre: MITU (VAUPES)
+  caruru:
+    id: 1093
+    codigo: 97161
+    nombre: CARURU (VAUPES)
+  taraira:
+    id: 1094
+    codigo: 97666
+    nombre: TARAIRA (VAUPES)
+  puerto_carrenho:
+    id: 1095
+    codigo: 99001
+    nombre: PUERTO CARREÑO (VICHADA)
+  la_primavera:
+    id: 1096
+    codigo: 99524
+    nombre: LA PRIMAVERA (VICHADA)
+  santa_rosalia:
+    id: 1097
+    codigo: 99624
+    nombre: SANTA ROSALIA (VICHADA)
+  cumaribo:
+    id: 1098
+    codigo: 99773
+    nombre: CUMARIBO (VICHADA)

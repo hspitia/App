@@ -12,36 +12,36 @@
  * @property date $fecha_finalizacion
  * @property integer $Curso_id
  * @property integer $Institucion_id
- * @property integer $Programacion_id
+ * @property integer $PeriodoAcademico_id
  * @property Curso $Curso
  * @property Institucion $Institucion
- * @property Programacion $Programacion
+ * @property PeriodoAcademico $PeriodoAcademico
  * @property Doctrine_Collection $Asistencias
  * 
- * @method integer             getId()                 Returns the current record's "id" value
- * @method integer             getGrado()              Returns the current record's "grado" value
- * @method string              getDescripcion()        Returns the current record's "descripcion" value
- * @method date                getFechaInicio()        Returns the current record's "fecha_inicio" value
- * @method date                getFechaFinalizacion()  Returns the current record's "fecha_finalizacion" value
- * @method integer             getCursoId()            Returns the current record's "Curso_id" value
- * @method integer             getInstitucionId()      Returns the current record's "Institucion_id" value
- * @method integer             getProgramacionId()     Returns the current record's "Programacion_id" value
- * @method Curso               getCurso()              Returns the current record's "Curso" value
- * @method Institucion         getInstitucion()        Returns the current record's "Institucion" value
- * @method Programacion        getProgramacion()       Returns the current record's "Programacion" value
- * @method Doctrine_Collection getAsistencias()        Returns the current record's "Asistencias" collection
- * @method CursoProgramado     setId()                 Sets the current record's "id" value
- * @method CursoProgramado     setGrado()              Sets the current record's "grado" value
- * @method CursoProgramado     setDescripcion()        Sets the current record's "descripcion" value
- * @method CursoProgramado     setFechaInicio()        Sets the current record's "fecha_inicio" value
- * @method CursoProgramado     setFechaFinalizacion()  Sets the current record's "fecha_finalizacion" value
- * @method CursoProgramado     setCursoId()            Sets the current record's "Curso_id" value
- * @method CursoProgramado     setInstitucionId()      Sets the current record's "Institucion_id" value
- * @method CursoProgramado     setProgramacionId()     Sets the current record's "Programacion_id" value
- * @method CursoProgramado     setCurso()              Sets the current record's "Curso" value
- * @method CursoProgramado     setInstitucion()        Sets the current record's "Institucion" value
- * @method CursoProgramado     setProgramacion()       Sets the current record's "Programacion" value
- * @method CursoProgramado     setAsistencias()        Sets the current record's "Asistencias" collection
+ * @method integer             getId()                  Returns the current record's "id" value
+ * @method integer             getGrado()               Returns the current record's "grado" value
+ * @method string              getDescripcion()         Returns the current record's "descripcion" value
+ * @method date                getFechaInicio()         Returns the current record's "fecha_inicio" value
+ * @method date                getFechaFinalizacion()   Returns the current record's "fecha_finalizacion" value
+ * @method integer             getCursoId()             Returns the current record's "Curso_id" value
+ * @method integer             getInstitucionId()       Returns the current record's "Institucion_id" value
+ * @method integer             getPeriodoAcademicoId()  Returns the current record's "PeriodoAcademico_id" value
+ * @method Curso               getCurso()               Returns the current record's "Curso" value
+ * @method Institucion         getInstitucion()         Returns the current record's "Institucion" value
+ * @method PeriodoAcademico    getPeriodoAcademico()    Returns the current record's "PeriodoAcademico" value
+ * @method Doctrine_Collection getAsistencias()         Returns the current record's "Asistencias" collection
+ * @method CursoProgramado     setId()                  Sets the current record's "id" value
+ * @method CursoProgramado     setGrado()               Sets the current record's "grado" value
+ * @method CursoProgramado     setDescripcion()         Sets the current record's "descripcion" value
+ * @method CursoProgramado     setFechaInicio()         Sets the current record's "fecha_inicio" value
+ * @method CursoProgramado     setFechaFinalizacion()   Sets the current record's "fecha_finalizacion" value
+ * @method CursoProgramado     setCursoId()             Sets the current record's "Curso_id" value
+ * @method CursoProgramado     setInstitucionId()       Sets the current record's "Institucion_id" value
+ * @method CursoProgramado     setPeriodoAcademicoId()  Sets the current record's "PeriodoAcademico_id" value
+ * @method CursoProgramado     setCurso()               Sets the current record's "Curso" value
+ * @method CursoProgramado     setInstitucion()         Sets the current record's "Institucion" value
+ * @method CursoProgramado     setPeriodoAcademico()    Sets the current record's "PeriodoAcademico" value
+ * @method CursoProgramado     setAsistencias()         Sets the current record's "Asistencias" collection
  * 
  * @package    siglo21
  * @subpackage model
@@ -85,7 +85,7 @@ abstract class BaseCursoProgramado extends sfDoctrineRecord
              'primary' => true,
              'length' => 4,
              ));
-        $this->hasColumn('Programacion_id', 'integer', 4, array(
+        $this->hasColumn('PeriodoAcademico_id', 'integer', 4, array(
              'type' => 'integer',
              'primary' => true,
              'length' => 4,
@@ -104,10 +104,10 @@ abstract class BaseCursoProgramado extends sfDoctrineRecord
               0 => 'Institucion_id',
              ),
              ));
-        $this->index('fk_CursoProgramado_Programacion1', array(
+        $this->index('fk_CursoProgramado_PeriodoAcademico1', array(
              'fields' => 
              array(
-              0 => 'Programacion_id',
+              0 => 'PeriodoAcademico_id',
              ),
              ));
         $this->option('charset', 'latin1');
@@ -129,8 +129,8 @@ abstract class BaseCursoProgramado extends sfDoctrineRecord
              'onDelete' => 'cascade',
              'onUpdate' => 'cascade'));
 
-        $this->hasOne('Programacion', array(
-             'local' => 'Programacion_id',
+        $this->hasOne('PeriodoAcademico', array(
+             'local' => 'PeriodoAcademico_id',
              'foreign' => 'id',
              'onDelete' => 'cascade',
              'onUpdate' => 'cascade'));

@@ -8,16 +8,16 @@
  * @property integer $id
  * @property string $nombre
  * @property string $descripcion
- * @property Doctrine_Collection $Programaciones
+ * @property Doctrine_Collection $PeriodosAcademicos
  * 
- * @method integer             getId()             Returns the current record's "id" value
- * @method string              getNombre()         Returns the current record's "nombre" value
- * @method string              getDescripcion()    Returns the current record's "descripcion" value
- * @method Doctrine_Collection getProgramaciones() Returns the current record's "Programaciones" collection
- * @method Calendario          setId()             Sets the current record's "id" value
- * @method Calendario          setNombre()         Sets the current record's "nombre" value
- * @method Calendario          setDescripcion()    Sets the current record's "descripcion" value
- * @method Calendario          setProgramaciones() Sets the current record's "Programaciones" collection
+ * @method integer             getId()                 Returns the current record's "id" value
+ * @method string              getNombre()             Returns the current record's "nombre" value
+ * @method string              getDescripcion()        Returns the current record's "descripcion" value
+ * @method Doctrine_Collection getPeriodosAcademicos() Returns the current record's "PeriodosAcademicos" collection
+ * @method Calendario          setId()                 Sets the current record's "id" value
+ * @method Calendario          setNombre()             Sets the current record's "nombre" value
+ * @method Calendario          setDescripcion()        Sets the current record's "descripcion" value
+ * @method Calendario          setPeriodosAcademicos() Sets the current record's "PeriodosAcademicos" collection
  * 
  * @package    siglo21
  * @subpackage model
@@ -53,7 +53,7 @@ abstract class BaseCalendario extends sfDoctrineRecord
     public function setUp()
     {
         parent::setUp();
-        $this->hasMany('Programacion as Programaciones', array(
+        $this->hasMany('PeriodoAcademico as PeriodosAcademicos', array(
              'local' => 'id',
              'foreign' => 'Calendario_id'));
 

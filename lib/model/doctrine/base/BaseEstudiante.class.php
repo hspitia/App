@@ -15,10 +15,10 @@
  * @property string $telefono
  * @property string $movil
  * @property string $email
- * @property integer $TipoDocumento_id
  * @property integer $Municipio_id
  * @property integer $Genero_id
  * @property integer $Institucion_id
+ * @property integer $TipoDocumento_id
  * @property Municipio $Municipio
  * @property Genero $Genero
  * @property Institucion $Institucion
@@ -35,10 +35,10 @@
  * @method string              getTelefono()         Returns the current record's "telefono" value
  * @method string              getMovil()            Returns the current record's "movil" value
  * @method string              getEmail()            Returns the current record's "email" value
- * @method integer             getTipoDocumentoId()  Returns the current record's "TipoDocumento_id" value
  * @method integer             getMunicipioId()      Returns the current record's "Municipio_id" value
  * @method integer             getGeneroId()         Returns the current record's "Genero_id" value
  * @method integer             getInstitucionId()    Returns the current record's "Institucion_id" value
+ * @method integer             getTipoDocumentoId()  Returns the current record's "TipoDocumento_id" value
  * @method Municipio           getMunicipio()        Returns the current record's "Municipio" value
  * @method Genero              getGenero()           Returns the current record's "Genero" value
  * @method Institucion         getInstitucion()      Returns the current record's "Institucion" value
@@ -54,10 +54,10 @@
  * @method Estudiante          setTelefono()         Sets the current record's "telefono" value
  * @method Estudiante          setMovil()            Sets the current record's "movil" value
  * @method Estudiante          setEmail()            Sets the current record's "email" value
- * @method Estudiante          setTipoDocumentoId()  Sets the current record's "TipoDocumento_id" value
  * @method Estudiante          setMunicipioId()      Sets the current record's "Municipio_id" value
  * @method Estudiante          setGeneroId()         Sets the current record's "Genero_id" value
  * @method Estudiante          setInstitucionId()    Sets the current record's "Institucion_id" value
+ * @method Estudiante          setTipoDocumentoId()  Sets the current record's "TipoDocumento_id" value
  * @method Estudiante          setMunicipio()        Sets the current record's "Municipio" value
  * @method Estudiante          setGenero()           Sets the current record's "Genero" value
  * @method Estudiante          setInstitucion()      Sets the current record's "Institucion" value
@@ -123,11 +123,6 @@ abstract class BaseEstudiante extends sfDoctrineRecord
              'notnull' => true,
              'length' => 128,
              ));
-        $this->hasColumn('TipoDocumento_id', 'integer', 4, array(
-             'type' => 'integer',
-             'notnull' => true,
-             'length' => 4,
-             ));
         $this->hasColumn('Municipio_id', 'integer', 4, array(
              'type' => 'integer',
              'notnull' => true,
@@ -139,6 +134,11 @@ abstract class BaseEstudiante extends sfDoctrineRecord
              'length' => 4,
              ));
         $this->hasColumn('Institucion_id', 'integer', 4, array(
+             'type' => 'integer',
+             'notnull' => true,
+             'length' => 4,
+             ));
+        $this->hasColumn('TipoDocumento_id', 'integer', 4, array(
              'type' => 'integer',
              'notnull' => true,
              'length' => 4,

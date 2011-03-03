@@ -9,13 +9,13 @@ FINDSTRINGS[0]=Institucions
 FINDSTRINGS[1]=Usuarioes
 FINDSTRINGS[2]=Cursoes
 FINDSTRINGS[3]=CursoProgramadoes
-FINDSTRINGS[4]=Programacions
+FINDSTRINGS[4]=PeriodoAcademicoes
 
 REPLACESTRINGS[0]=Instituciones
 REPLACESTRINGS[1]=Usuarios
 REPLACESTRINGS[2]=Cursos
 REPLACESTRINGS[3]=CursosProgramados
-REPLACESTRINGS[4]=Programaciones
+REPLACESTRINGS[4]=PeriodosAcademicos
 
 for index in 0 1 2 3 4
 do

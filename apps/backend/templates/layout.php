@@ -7,11 +7,17 @@
     <?php include_title() ?>
     <link rel="shortcut icon" href="/favicon.ico" />
     <?php use_stylesheet('admin.css') ?>
+    <?php use_stylesheet('smoothness/jquery-ui-1.8.10.custom.css') ?>
     <?php include_stylesheets() ?>
+    <?php use_javascript('jquery-1.5.1.min.js') ?>
+    <?php use_javascript('jquery-ui-1.8.10.custom.min.js') ?>
+    <?php use_javascript('jquery.ui.datepicker-es.js') ?>
+    <?php use_javascript('custom/periodoAcademicoCode.js') ?>
     <?php include_javascripts() ?>
   </head>
   
-  <div id="menu">
+  <body>
+  	<div id="menu">
         <ul>
           <li>
             <?php echo link_to('Instituciones', 'institucion') ?>
@@ -29,13 +35,10 @@
             <?php echo link_to('Cursos', 'curso') ?>
           </li>
           <li>
-            <?php echo link_to('Programaciones', 'programacion') ?>
+            <?php echo link_to('Períodos Académicos', 'periodo_academico') ?>
           </li>
         </ul>
-   </div>
-
-  
-  <body>
+	</div>
     <?php echo $sf_content ?>
   </body>
 </html>

@@ -193,9 +193,6 @@ Estudiante:
     email:
       type: string(128)
       notnull: true
-    TipoDocumento_id:
-      type: integer(4)
-      notnull: true
     Municipio_id:
       type: integer(4)
       notnull: true
@@ -386,7 +383,7 @@ CursoProgramado:
       type: integer(4)
       primary: true
       notnull: true
-    Programacion_id:
+    PeriodoAcademico_id:
       type: integer(4)
       primary: true
       notnull: true
@@ -405,9 +402,9 @@ CursoProgramado:
       foreignAlias: CursosProgramados
       onDelete: cascade
       onUpdate: cascade
-    Programacion:
-      class: Programacion
-      local: Programacion_id
+    PeriodoAcademico:
+      class: PeriodoAcademico
+      local: PeriodoAcademico_id
       foreign: id
       foreignAlias: CursosProgramados
       onDelete: cascade
@@ -417,8 +414,8 @@ CursoProgramado:
       fields: [Curso_id]
     fk_CursoProgramado_Institucion1:
       fields: [Institucion_id]
-    fk_CursoProgramado_Programacion1:
-      fields: [Programacion_id]
+    fk_CursoProgramado_PeriodoAcademico1:
+      fields: [PeriodoAcademico_id]
   options:
     charset: latin1
     collate: latin1_spanish_ci
@@ -493,7 +490,7 @@ TipoDocumento:
     charset: latin1
     collate: latin1_spanish_ci
 
-Programacion:
+PeriodoAcademico:
   actAs:
     Timestampable: ~
   columns:
@@ -520,11 +517,11 @@ Programacion:
       class: Calendario
       local: Calendario_id
       foreign: id
-      foreignAlias: Programaciones
+      foreignAlias: PeriodosAcademicos
       onDelete: cascade
       onUpdate: cascade
   indexes:
-    fk_Programacion_Calendario1:
+    fk_PeriodoAcademico_Calendario1:
       fields: [Calendario_id]
   options:
     charset: latin1

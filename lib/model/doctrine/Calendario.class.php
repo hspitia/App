@@ -12,5 +12,7 @@
  */
 class Calendario extends BaseCalendario
 {
-
+	public function __toString() {
+	    return $this->getNombre();
+	}
 }
