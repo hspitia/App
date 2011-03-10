@@ -31542,3 +31542,1067 @@ Mar 02 22:36:12 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_bat
 Mar 02 22:36:12 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_actions" 9.84 ms (1)
 Mar 02 22:36:12 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_footer" 1.38 ms (1)
 Mar 02 22:36:12 symfony [info] {sfWebResponse} Send content (174982 o)
+Mar 07 19:11:56 symfony [info] {sfPatternRouting} Match route "municipio" (/municipio.:sf_format) for /municipio with parameters array (  'module' => 'municipio',  'action' => 'index',  'sf_format' => 'html',)
+Mar 07 19:11:56 symfony [info] {sfPatternRouting} Match route "municipio" (/municipio.:sf_format) for /municipio with parameters array (  'module' => 'municipio',  'action' => 'index',  'sf_format' => 'html',)
+Mar 07 19:12:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:12:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:12:03 symfony [info] {municipioActions} Call "municipioActions->executeIndex()"
+Mar 07 19:12:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:12:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:12:03 symfony [info] {municipioActions} Call "municipioActions->executeIndex()"
+Mar 07 19:12:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 07 19:12:05 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 07 19:12:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM municipio m - ()
+Mar 07 19:12:05 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM municipio m - ()
+Mar 07 19:12:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/indexSuccess.php"
+Mar 07 19:12:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/indexSuccess.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_assets.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_assets.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_flashes.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_flashes.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_header.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_header.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters.php"
+Mar 07 19:12:06 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_th_tabular.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_th_tabular.php"
+Mar 07 19:12:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_pagination.php"
+Mar 07 19:12:07 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_pagination.php"
+Mar 07 19:12:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m LIMIT 20 - ()
+Mar 07 19:12:07 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m LIMIT 20 - ()
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_batch_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_batch_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_actions.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_footer.php"
+Mar 07 19:12:08 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_footer.php"
+Mar 07 19:12:08 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:12:08 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:12:08 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:12:08 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:12:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:12:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Configuration 4995.94 ms (11)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Factories 4330.08 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Action "municipio/index" 2131.86 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (3)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} View "Success" for "municipio/index" 3320.85 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_assets" 24.77 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_flashes" 46.23 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_header" 4.16 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_filters" 499.39 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_filters_field" 234.30 ms (5)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list" 1086.86 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_th_tabular" 44.11 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_pagination" 75.29 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_td_tabular" 162.72 ms (20)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_td_actions" 162.91 ms (20)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_batch_actions" 3.89 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_actions" 45.19 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_footer" 4.47 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:12:08 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Configuration 4979.78 ms (11)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Factories 4332.11 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Action "municipio/index" 2136.96 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} View "Success" for "municipio/index" 3329.09 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_assets" 24.70 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_flashes" 35.43 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_header" 64.66 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_filters" 462.42 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_filters_field" 257.17 ms (5)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list" 1019.04 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_th_tabular" 52.58 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_pagination" 68.33 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_td_tabular" 167.19 ms (20)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_td_actions" 100.94 ms (20)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_batch_actions" 57.68 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_actions" 36.10 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_footer" 57.11 ms (1)
+Mar 07 19:12:08 symfony [info] {sfWebResponse} Send content (139316 o)
+Mar 07 19:12:08 symfony [info] {sfWebResponse} Send content (139313 o)
+Mar 07 19:12:15 symfony [info] {sfPatternRouting} Match route "periodo_academico" (/periodo_academico.:sf_format) for /periodo_academico with parameters array (  'module' => 'periodo_academico',  'action' => 'index',  'sf_format' => 'html',)
+Mar 07 19:12:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:12:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:12:17 symfony [info] {periodo_academicoActions} Call "periodo_academicoActions->executeIndex()"
+Mar 07 19:12:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 07 19:12:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM periodo_academico p - ()
+Mar 07 19:12:17 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/indexSuccess.php"
+Mar 07 19:12:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_assets.php"
+Mar 07 19:12:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_flashes.php"
+Mar 07 19:12:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_header.php"
+Mar 07 19:12:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters_field.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters_field.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters_field.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters_field.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters_field.php"
+Mar 07 19:12:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.descripcion AS c__descripcion, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM calendario c - ()
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters_field.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_filters_field.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_th_tabular.php"
+Mar 07 19:12:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 07 19:12:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT p.id AS p__id, p.codigo AS p__codigo, p.inicio AS p__inicio, p.fin AS p__fin, p.comentarios AS p__comentarios, p.calendario_id AS p__calendario_id, p.created_at AS p__created_at, p.updated_at AS p__updated_at FROM periodo_academico p LIMIT 20 - ()
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_td_batch_actions.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_td_tabular.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_td_actions.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_td_batch_actions.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_td_tabular.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_td_actions.php"
+Mar 07 19:12:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_batch_actions.php"
+Mar 07 19:12:19 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_actions.php"
+Mar 07 19:12:19 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoPeriodo_academico/templates/_list_footer.php"
+Mar 07 19:12:19 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:12:19 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:12:19 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:12:19 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Configuration 1416.81 ms (12)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Factories 118.30 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Action "periodo_academico/index" 313.26 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (4)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} View "Success" for "periodo_academico/index" 1258.08 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_assets" 22.49 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_flashes" 35.25 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_header" 7.67 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_filters" 260.26 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_filters_field" 176.91 ms (7)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list" 728.07 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_th_tabular" 26.88 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_td_batch_actions" 63.93 ms (2)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_td_tabular" 554.71 ms (2)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_td_actions" 27.28 ms (2)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_batch_actions" 31.66 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_actions" 10.98 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebDebugLogger} Partial "periodo_academico/_list_footer" 7.92 ms (1)
+Mar 07 19:12:19 symfony [info] {sfWebResponse} Send content (115689 o)
+Mar 07 19:32:13 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /matricula with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:32:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:32:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:32:14 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:32:16 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 19:32:16 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:32:16 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:32:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:32:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:32:16 symfony [info] {sfWebDebugLogger} Configuration 2183.49 ms (11)
+Mar 07 19:32:16 symfony [info] {sfWebDebugLogger} Factories 103.54 ms (1)
+Mar 07 19:32:16 symfony [info] {sfWebDebugLogger} Action "matricula/index" 2135.53 ms (1)
+Mar 07 19:32:16 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 68.97 ms (1)
+Mar 07 19:32:16 symfony [info] {sfWebResponse} Send content (31154 o)
+Mar 07 19:32:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:32:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:32:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:32:29 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:32:29 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 19:32:29 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:32:29 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:32:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:32:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:32:29 symfony [info] {sfWebDebugLogger} Configuration 31.67 ms (9)
+Mar 07 19:32:29 symfony [info] {sfWebDebugLogger} Factories 94.76 ms (1)
+Mar 07 19:32:29 symfony [info] {sfWebDebugLogger} Action "matricula/index" 17.05 ms (1)
+Mar 07 19:32:29 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 23.20 ms (1)
+Mar 07 19:32:29 symfony [info] {sfWebResponse} Send content (31609 o)
+Mar 07 19:41:43 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:41:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:41:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:41:43 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:46:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:46:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:46:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:46:23 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:47:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:47:35 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:47:35 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:47:35 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:47:36 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 19:47:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 19:47:36 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 19:47:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:47:36 symfony [info] {sfWebDebugLogger} Configuration 427.97 ms (10)
+Mar 07 19:47:36 symfony [info] {sfWebDebugLogger} Factories 87.80 ms (1)
+Mar 07 19:47:36 symfony [info] {sfWebDebugLogger} Action "matricula/index" 435.54 ms (1)
+Mar 07 19:47:36 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 19:47:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 19:47:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:47:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:47:36 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 19:47:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:47:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:47:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:47:57 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:47:57 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 19:47:57 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 19:47:57 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 19:47:57 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:47:57 symfony [info] {sfWebDebugLogger} Configuration 25.59 ms (8)
+Mar 07 19:47:57 symfony [info] {sfWebDebugLogger} Factories 94.15 ms (1)
+Mar 07 19:47:57 symfony [info] {sfWebDebugLogger} Action "matricula/index" 12.03 ms (1)
+Mar 07 19:47:57 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 19:47:57 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 19:47:57 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:47:57 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:47:57 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 19:47:57 symfony [err] {sfRenderException} The template "selectCourseSuccess.php" does not exist or is unreadable in "".
+Mar 07 19:47:58 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 19:47:58 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:47:58 symfony [info] {sfWebDebugLogger} Configuration 414.20 ms (11)
+Mar 07 19:47:58 symfony [info] {sfWebDebugLogger} Factories 85.66 ms (1)
+Mar 07 19:47:58 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 420.09 ms (1)
+Mar 07 19:47:58 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 327.77 ms (1)
+Mar 07 19:49:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:49:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:49:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:49:22 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:49:22 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 19:49:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 19:49:22 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 19:49:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:49:22 symfony [info] {sfWebDebugLogger} Configuration 28.94 ms (8)
+Mar 07 19:49:22 symfony [info] {sfWebDebugLogger} Factories 88.18 ms (1)
+Mar 07 19:49:22 symfony [info] {sfWebDebugLogger} Action "matricula/index" 23.68 ms (1)
+Mar 07 19:49:22 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 19:49:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 19:49:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:49:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:49:22 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 19:49:22 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 19:49:22 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:49:22 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:49:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:49:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:49:22 symfony [info] {sfWebDebugLogger} Configuration 30.88 ms (9)
+Mar 07 19:49:22 symfony [info] {sfWebDebugLogger} Factories 83.32 ms (1)
+Mar 07 19:49:22 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 8.37 ms (1)
+Mar 07 19:49:22 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 40.70 ms (1)
+Mar 07 19:49:23 symfony [info] {sfWebResponse} Send content (31057 o)
+Mar 07 19:49:27 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 07 19:49:27 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 19:49:27 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 19:49:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 19:49:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:49:27 symfony [info] {sfWebDebugLogger} Configuration 16.51 ms (5)
+Mar 07 19:49:27 symfony [info] {sfWebDebugLogger} Factories 99.68 ms (1)
+Mar 07 19:57:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 07 19:57:18 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 19:57:18 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 19:57:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 19:57:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:57:18 symfony [info] {sfWebDebugLogger} Configuration 14.35 ms (5)
+Mar 07 19:57:18 symfony [info] {sfWebDebugLogger} Factories 76.03 ms (1)
+Mar 07 19:57:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 07 19:57:59 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 19:57:59 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 19:57:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 19:57:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:57:59 symfony [info] {sfWebDebugLogger} Configuration 10.87 ms (5)
+Mar 07 19:57:59 symfony [info] {sfWebDebugLogger} Factories 80.31 ms (1)
+Mar 07 19:58:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 19:58:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:58:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:58:04 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 19:58:04 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 19:58:04 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:58:04 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:58:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:58:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:58:04 symfony [info] {sfWebDebugLogger} Configuration 24.98 ms (9)
+Mar 07 19:58:04 symfony [info] {sfWebDebugLogger} Factories 80.74 ms (1)
+Mar 07 19:58:04 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 6.96 ms (1)
+Mar 07 19:58:04 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 44.51 ms (1)
+Mar 07 19:58:04 symfony [info] {sfWebResponse} Send content (31057 o)
+Mar 07 19:58:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 07 19:58:09 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 19:58:09 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 19:58:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 19:58:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:58:09 symfony [info] {sfWebDebugLogger} Configuration 13.76 ms (5)
+Mar 07 19:58:09 symfony [info] {sfWebDebugLogger} Factories 82.71 ms (1)
+Mar 07 19:58:16 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/matricula/" (/).
+Mar 07 19:58:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 19:58:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:58:16 symfony [info] {sfWebDebugLogger} Configuration 10.90 ms (5)
+Mar 07 19:58:16 symfony [info] {sfWebDebugLogger} Factories 82.53 ms (1)
+Mar 07 19:58:20 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 19:58:20 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 19:58:20 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 19:58:20 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 19:58:20 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 19:58:20 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:58:20 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 19:58:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 19:58:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:58:20 symfony [info] {sfWebDebugLogger} Configuration 22.59 ms (9)
+Mar 07 19:58:20 symfony [info] {sfWebDebugLogger} Factories 85.60 ms (1)
+Mar 07 19:58:20 symfony [info] {sfWebDebugLogger} Action "matricula/index" 22.34 ms (1)
+Mar 07 19:58:20 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 31.54 ms (1)
+Mar 07 19:58:21 symfony [info] {sfWebResponse} Send content (31159 o)
+Mar 07 19:58:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => true,)
+Mar 07 19:58:24 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 19:58:24 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 19:58:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 19:58:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 19:58:24 symfony [info] {sfWebDebugLogger} Configuration 12.69 ms (5)
+Mar 07 19:58:24 symfony [info] {sfWebDebugLogger} Factories 77.82 ms (1)
+Mar 07 21:12:49 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:12:49 symfony [info] {myUser} Automatic user logout due to timeout
+Mar 07 21:12:49 symfony [info] {myUser} User is not authenticated
+Mar 07 21:12:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:12:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:12:50 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:12:50 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:12:50 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:12:50 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:12:50 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:12:50 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:12:50 symfony [info] {sfWebDebugLogger} Configuration 25.97 ms (9)
+Mar 07 21:12:50 symfony [info] {sfWebDebugLogger} Factories 910.43 ms (1)
+Mar 07 21:12:50 symfony [info] {sfWebDebugLogger} Action "matricula/index" 11.15 ms (1)
+Mar 07 21:12:50 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 64.23 ms (1)
+Mar 07 21:12:50 symfony [info] {sfWebResponse} Send content (31867 o)
+Mar 07 21:13:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => true,)
+Mar 07 21:13:00 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:13:00 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:13:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:13:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:13:00 symfony [info] {sfWebDebugLogger} Configuration 11.21 ms (5)
+Mar 07 21:13:00 symfony [info] {sfWebDebugLogger} Factories 86.36 ms (1)
+Mar 07 21:16:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:16:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:16:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:16:04 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:16:04 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:16:04 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:16:04 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:16:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:16:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:16:04 symfony [info] {sfWebDebugLogger} Configuration 875.89 ms (9)
+Mar 07 21:16:04 symfony [info] {sfWebDebugLogger} Factories 393.65 ms (1)
+Mar 07 21:16:04 symfony [info] {sfWebDebugLogger} Action "matricula/index" 7.54 ms (1)
+Mar 07 21:16:04 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 86.45 ms (1)
+Mar 07 21:16:04 symfony [info] {sfWebResponse} Send content (31161 o)
+Mar 07 21:16:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => true,)
+Mar 07 21:16:09 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:16:09 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:16:10 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:16:10 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:16:10 symfony [info] {sfWebDebugLogger} Configuration 13.61 ms (5)
+Mar 07 21:16:10 symfony [info] {sfWebDebugLogger} Factories 90.53 ms (1)
+Mar 07 21:16:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => true,)
+Mar 07 21:16:25 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:16:25 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:16:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:16:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:16:25 symfony [info] {sfWebDebugLogger} Configuration 16.36 ms (5)
+Mar 07 21:16:25 symfony [info] {sfWebDebugLogger} Factories 82.89 ms (1)
+Mar 07 21:16:39 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => true,)
+Mar 07 21:16:39 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:16:39 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:16:40 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:16:40 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:16:40 symfony [info] {sfWebDebugLogger} Configuration 15.06 ms (5)
+Mar 07 21:16:40 symfony [info] {sfWebDebugLogger} Factories 93.71 ms (1)
+Mar 07 21:16:44 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:16:44 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:16:44 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:16:44 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:16:44 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:16:44 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:16:44 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:16:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:16:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:16:44 symfony [info] {sfWebDebugLogger} Configuration 26.84 ms (9)
+Mar 07 21:16:44 symfony [info] {sfWebDebugLogger} Factories 89.34 ms (1)
+Mar 07 21:16:44 symfony [info] {sfWebDebugLogger} Action "matricula/index" 7.34 ms (1)
+Mar 07 21:16:44 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 46.64 ms (1)
+Mar 07 21:16:44 symfony [info] {sfWebResponse} Send content (31181 o)
+Mar 07 21:16:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:16:45 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:16:45 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:16:45 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:16:45 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:16:45 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:16:45 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:16:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:16:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:16:45 symfony [info] {sfWebDebugLogger} Configuration 53.87 ms (9)
+Mar 07 21:16:45 symfony [info] {sfWebDebugLogger} Factories 140.08 ms (1)
+Mar 07 21:16:45 symfony [info] {sfWebDebugLogger} Action "matricula/index" 7.41 ms (1)
+Mar 07 21:16:45 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 42.69 ms (1)
+Mar 07 21:16:45 symfony [info] {sfWebResponse} Send content (31182 o)
+Mar 07 21:16:48 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:16:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:16:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:16:48 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:16:48 symfony [info] {sfFrontWebController} Redirect to "/selectCourse"
+Mar 07 21:16:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:16:48 symfony [info] {sfWebResponse} Send header "Location: /selectCourse"
+Mar 07 21:16:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:16:48 symfony [info] {sfWebDebugLogger} Configuration 22.56 ms (8)
+Mar 07 21:16:48 symfony [info] {sfWebDebugLogger} Factories 75.79 ms (1)
+Mar 07 21:16:48 symfony [info] {sfWebDebugLogger} Action "matricula/index" 8.86 ms (1)
+Mar 07 21:16:48 symfony [info] {sfWebResponse} Send content (84 o)
+Mar 07 21:17:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:17:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:17:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:17:02 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:17:02 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:17:02 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:17:02 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:17:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:17:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:17:02 symfony [info] {sfWebDebugLogger} Configuration 24.31 ms (9)
+Mar 07 21:17:02 symfony [info] {sfWebDebugLogger} Factories 78.40 ms (1)
+Mar 07 21:17:02 symfony [info] {sfWebDebugLogger} Action "matricula/index" 6.72 ms (1)
+Mar 07 21:17:02 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 52.00 ms (1)
+Mar 07 21:17:02 symfony [info] {sfWebResponse} Send content (31191 o)
+Mar 07 21:17:03 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:17:03 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:17:03 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:17:03 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:17:03 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:17:03 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:17:03 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:17:03 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:17:03 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:17:03 symfony [info] {sfWebDebugLogger} Configuration 40.24 ms (9)
+Mar 07 21:17:03 symfony [info] {sfWebDebugLogger} Factories 121.86 ms (1)
+Mar 07 21:17:03 symfony [info] {sfWebDebugLogger} Action "matricula/index" 7.67 ms (1)
+Mar 07 21:17:03 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 31.91 ms (1)
+Mar 07 21:17:03 symfony [info] {sfWebResponse} Send content (31191 o)
+Mar 07 21:17:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => true,)
+Mar 07 21:17:06 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:17:06 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:17:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:17:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:17:06 symfony [info] {sfWebDebugLogger} Configuration 14.48 ms (5)
+Mar 07 21:17:06 symfony [info] {sfWebDebugLogger} Factories 82.52 ms (1)
+Mar 07 21:17:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:17:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:17:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:17:59 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:17:59 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:17:59 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:17:59 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:17:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:17:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:17:59 symfony [info] {sfWebDebugLogger} Configuration 22.70 ms (9)
+Mar 07 21:17:59 symfony [info] {sfWebDebugLogger} Factories 94.70 ms (1)
+Mar 07 21:17:59 symfony [info] {sfWebDebugLogger} Action "matricula/index" 9.52 ms (1)
+Mar 07 21:17:59 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 42.91 ms (1)
+Mar 07 21:17:59 symfony [info] {sfWebResponse} Send content (31190 o)
+Mar 07 21:20:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:20:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:20:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:20:41 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:20:41 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:20:41 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:20:41 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:20:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:20:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:20:41 symfony [info] {sfWebDebugLogger} Configuration 19.67 ms (9)
+Mar 07 21:20:41 symfony [info] {sfWebDebugLogger} Factories 88.20 ms (1)
+Mar 07 21:20:41 symfony [info] {sfWebDebugLogger} Action "matricula/index" 6.24 ms (1)
+Mar 07 21:20:41 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 48.76 ms (1)
+Mar 07 21:20:41 symfony [info] {sfWebResponse} Send content (31184 o)
+Mar 07 21:20:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula with parameters array (  'module' => 'matricula',  'action' => 'matricula',)
+Mar 07 21:20:45 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:20:45 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:20:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:20:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:20:45 symfony [info] {sfWebDebugLogger} Configuration 12.88 ms (5)
+Mar 07 21:20:45 symfony [info] {sfWebDebugLogger} Factories 73.72 ms (1)
+Mar 07 21:21:15 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/matricula/" (/).
+Mar 07 21:21:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:21:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:21:15 symfony [info] {sfWebDebugLogger} Configuration 13.45 ms (5)
+Mar 07 21:21:15 symfony [info] {sfWebDebugLogger} Factories 82.74 ms (1)
+Mar 07 21:21:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:21:22 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:21:22 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:21:22 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:21:22 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:21:22 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:21:22 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:21:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:21:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:21:22 symfony [info] {sfWebDebugLogger} Configuration 23.42 ms (9)
+Mar 07 21:21:22 symfony [info] {sfWebDebugLogger} Factories 87.30 ms (1)
+Mar 07 21:21:22 symfony [info] {sfWebDebugLogger} Action "matricula/index" 6.22 ms (1)
+Mar 07 21:21:22 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 58.85 ms (1)
+Mar 07 21:21:22 symfony [info] {sfWebResponse} Send content (31163 o)
+Mar 07 21:21:30 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',  'matricula' => 'index',)
+Mar 07 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:21:30 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:21:30 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:21:30 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:21:30 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:21:30 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:21:30 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:21:30 symfony [info] {sfWebDebugLogger} Configuration 18.54 ms (8)
+Mar 07 21:21:30 symfony [info] {sfWebDebugLogger} Factories 75.21 ms (1)
+Mar 07 21:21:30 symfony [info] {sfWebDebugLogger} Action "matricula/index" 12.02 ms (1)
+Mar 07 21:21:30 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 21:21:31 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:21:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:21:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:21:31 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:21:31 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:21:31 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:21:31 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:21:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:21:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:21:31 symfony [info] {sfWebDebugLogger} Configuration 22.64 ms (9)
+Mar 07 21:21:31 symfony [info] {sfWebDebugLogger} Factories 71.02 ms (1)
+Mar 07 21:21:31 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 6.30 ms (1)
+Mar 07 21:21:31 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 29.94 ms (1)
+Mar 07 21:21:31 symfony [info] {sfWebResponse} Send content (31064 o)
+Mar 07 21:21:41 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 07 21:21:41 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:21:41 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:21:41 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:21:41 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:21:41 symfony [info] {sfWebDebugLogger} Configuration 13.39 ms (5)
+Mar 07 21:21:41 symfony [info] {sfWebDebugLogger} Factories 80.47 ms (1)
+Mar 07 21:22:15 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:22:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:22:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:22:15 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:22:15 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:22:15 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:15 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:22:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:15 symfony [info] {sfWebDebugLogger} Configuration 21.66 ms (9)
+Mar 07 21:22:15 symfony [info] {sfWebDebugLogger} Factories 78.25 ms (1)
+Mar 07 21:22:15 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 6.39 ms (1)
+Mar 07 21:22:15 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 55.46 ms (1)
+Mar 07 21:22:15 symfony [info] {sfWebResponse} Send content (31064 o)
+Mar 07 21:22:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:22:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:22:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:22:16 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:22:16 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:22:16 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:16 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:22:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:16 symfony [info] {sfWebDebugLogger} Configuration 39.72 ms (9)
+Mar 07 21:22:16 symfony [info] {sfWebDebugLogger} Factories 130.06 ms (1)
+Mar 07 21:22:16 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 9.35 ms (1)
+Mar 07 21:22:16 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 56.36 ms (1)
+Mar 07 21:22:16 symfony [info] {sfWebResponse} Send content (31066 o)
+Mar 07 21:22:18 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse/ with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => '',)
+Mar 07 21:22:18 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:22:18 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:22:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:22:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:18 symfony [info] {sfWebDebugLogger} Configuration 11.33 ms (5)
+Mar 07 21:22:18 symfony [info] {sfWebDebugLogger} Factories 72.33 ms (1)
+Mar 07 21:22:24 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:22:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:22:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:22:24 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:22:24 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:22:24 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:24 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:24 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:22:24 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:24 symfony [info] {sfWebDebugLogger} Configuration 17.48 ms (9)
+Mar 07 21:22:24 symfony [info] {sfWebDebugLogger} Factories 73.92 ms (1)
+Mar 07 21:22:24 symfony [info] {sfWebDebugLogger} Action "matricula/index" 6.26 ms (1)
+Mar 07 21:22:24 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 50.32 ms (1)
+Mar 07 21:22:24 symfony [info] {sfWebResponse} Send content (31196 o)
+Mar 07 21:22:25 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:22:25 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:22:25 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:22:25 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:22:25 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:22:25 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:25 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:22:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:25 symfony [info] {sfWebDebugLogger} Configuration 66.94 ms (9)
+Mar 07 21:22:25 symfony [info] {sfWebDebugLogger} Factories 225.69 ms (1)
+Mar 07 21:22:25 symfony [info] {sfWebDebugLogger} Action "matricula/index" 7.90 ms (1)
+Mar 07 21:22:25 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 33.28 ms (1)
+Mar 07 21:22:25 symfony [info] {sfWebResponse} Send content (31197 o)
+Mar 07 21:22:28 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',  'matricula' => 'index',)
+Mar 07 21:22:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:22:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:22:29 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:22:29 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:22:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:22:29 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:22:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:29 symfony [info] {sfWebDebugLogger} Configuration 30.91 ms (8)
+Mar 07 21:22:29 symfony [info] {sfWebDebugLogger} Factories 89.17 ms (1)
+Mar 07 21:22:29 symfony [info] {sfWebDebugLogger} Action "matricula/index" 23.12 ms (1)
+Mar 07 21:22:29 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 21:22:29 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:22:29 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:22:29 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:22:29 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:22:29 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:22:29 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:29 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:22:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:29 symfony [info] {sfWebDebugLogger} Configuration 31.92 ms (9)
+Mar 07 21:22:29 symfony [info] {sfWebDebugLogger} Factories 83.16 ms (1)
+Mar 07 21:22:29 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 6.11 ms (1)
+Mar 07 21:22:29 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 37.76 ms (1)
+Mar 07 21:22:29 symfony [info] {sfWebResponse} Send content (31065 o)
+Mar 07 21:22:33 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse/ with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => '',)
+Mar 07 21:22:33 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:22:33 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:22:33 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:22:33 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:33 symfony [info] {sfWebDebugLogger} Configuration 9.10 ms (5)
+Mar 07 21:22:33 symfony [info] {sfWebDebugLogger} Factories 80.79 ms (1)
+Mar 07 21:22:53 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:22:53 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:22:53 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:22:53 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:22:53 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:22:53 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:53 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:22:53 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:22:53 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:22:53 symfony [info] {sfWebDebugLogger} Configuration 22.58 ms (9)
+Mar 07 21:22:53 symfony [info] {sfWebDebugLogger} Factories 82.24 ms (1)
+Mar 07 21:22:53 symfony [info] {sfWebDebugLogger} Action "matricula/index" 8.10 ms (1)
+Mar 07 21:22:53 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 46.62 ms (1)
+Mar 07 21:22:53 symfony [info] {sfWebResponse} Send content (31159 o)
+Mar 07 21:23:01 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => '',)
+Mar 07 21:23:01 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:23:01 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:23:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:23:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:23:01 symfony [info] {sfWebDebugLogger} Configuration 20.70 ms (5)
+Mar 07 21:23:01 symfony [info] {sfWebDebugLogger} Factories 90.15 ms (1)
+Mar 07 21:25:17 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:25:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:25:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:25:17 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:25:17 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:25:17 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:25:17 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:25:17 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:25:17 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:25:17 symfony [info] {sfWebDebugLogger} Configuration 43.04 ms (9)
+Mar 07 21:25:17 symfony [info] {sfWebDebugLogger} Factories 87.34 ms (1)
+Mar 07 21:25:17 symfony [info] {sfWebDebugLogger} Action "matricula/index" 6.69 ms (1)
+Mar 07 21:25:17 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 40.32 ms (1)
+Mar 07 21:25:17 symfony [info] {sfWebResponse} Send content (31160 o)
+Mar 07 21:25:35 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => '',)
+Mar 07 21:25:35 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:25:35 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:25:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:25:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:25:35 symfony [info] {sfWebDebugLogger} Configuration 8.41 ms (5)
+Mar 07 21:25:35 symfony [info] {sfWebDebugLogger} Factories 82.51 ms (1)
+Mar 07 21:27:46 symfony [err] {InvalidArgumentException} You must pass a "model" option to sfDoctrineRouteCollection ("matricula" route)
+Mar 07 21:27:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 21:27:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:27:46 symfony [info] {sfWebDebugLogger} Configuration 12.98 ms (5)
+Mar 07 21:27:46 symfony [info] {sfWebDebugLogger} Factories 292.40 ms (1)
+Mar 07 21:28:29 symfony [err] {InvalidArgumentException} You must pass a "model" option to sfDoctrineRouteCollection ("matricula" route)
+Mar 07 21:28:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 21:28:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:28:29 symfony [info] {sfWebDebugLogger} Configuration 6.72 ms (5)
+Mar 07 21:28:29 symfony [info] {sfWebDebugLogger} Factories 238.99 ms (1)
+Mar 07 21:28:32 symfony [err] {InvalidArgumentException} You must pass a "model" option to sfDoctrineRouteCollection ("matricula" route)
+Mar 07 21:28:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 21:28:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:28:32 symfony [info] {sfWebDebugLogger} Configuration 7.95 ms (5)
+Mar 07 21:28:32 symfony [info] {sfWebDebugLogger} Factories 214.66 ms (1)
+Mar 07 21:28:34 symfony [err] {InvalidArgumentException} You must pass a "model" option to sfDoctrineRouteCollection ("matricula" route)
+Mar 07 21:28:34 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 21:28:34 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:28:34 symfony [info] {sfWebDebugLogger} Configuration 6.44 ms (5)
+Mar 07 21:28:34 symfony [info] {sfWebDebugLogger} Factories 217.53 ms (1)
+Mar 07 21:28:47 symfony [err] {InvalidArgumentException} You must pass a "model" option to sfDoctrineRouteCollection ("matricula" route)
+Mar 07 21:28:47 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 21:28:47 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:28:47 symfony [info] {sfWebDebugLogger} Configuration 7.95 ms (5)
+Mar 07 21:28:47 symfony [info] {sfWebDebugLogger} Factories 225.71 ms (1)
+Mar 07 21:28:48 symfony [err] {InvalidArgumentException} You must pass a "model" option to sfDoctrineRouteCollection ("matricula" route)
+Mar 07 21:28:48 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 21:28:48 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:28:48 symfony [info] {sfWebDebugLogger} Configuration 14.36 ms (5)
+Mar 07 21:28:48 symfony [info] {sfWebDebugLogger} Factories 203.80 ms (1)
+Mar 07 21:29:46 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/matricula/" (/).
+Mar 07 21:29:46 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:29:46 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:29:46 symfony [info] {sfWebDebugLogger} Configuration 183.40 ms (6)
+Mar 07 21:29:46 symfony [info] {sfWebDebugLogger} Factories 271.37 ms (1)
+Mar 07 21:30:09 symfony [err] {InvalidArgumentException} Unable to parse file "E:\vhosts\siglo21\apps\backend/config/routing.yml": Indentation problem at line 6 ( options:)
+Mar 07 21:30:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 500 Internal Server Error"
+Mar 07 21:30:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:30:09 symfony [info] {sfWebDebugLogger} Configuration 11.24 ms (5)
+Mar 07 21:30:09 symfony [info] {sfWebDebugLogger} Factories 211.66 ms (1)
+Mar 07 21:30:23 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/matricula/" (/).
+Mar 07 21:30:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:30:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:30:23 symfony [info] {sfWebDebugLogger} Configuration 194.71 ms (6)
+Mar 07 21:30:23 symfony [info] {sfWebDebugLogger} Factories 273.58 ms (1)
+Mar 07 21:30:58 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/matricula/" (/).
+Mar 07 21:30:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:30:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:30:59 symfony [info] {sfWebDebugLogger} Configuration 195.26 ms (6)
+Mar 07 21:30:59 symfony [info] {sfWebDebugLogger} Factories 278.75 ms (1)
+Mar 07 21:31:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:31:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:31:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:31:02 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:31:02 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:31:02 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:31:02 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:31:02 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:31:02 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:31:02 symfony [info] {sfWebDebugLogger} Configuration 26.90 ms (9)
+Mar 07 21:31:02 symfony [info] {sfWebDebugLogger} Factories 73.00 ms (1)
+Mar 07 21:31:02 symfony [info] {sfWebDebugLogger} Action "matricula/index" 6.46 ms (1)
+Mar 07 21:31:02 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 34.75 ms (1)
+Mar 07 21:31:02 symfony [info] {sfWebResponse} Send content (31160 o)
+Mar 07 21:31:06 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'index' => '',)
+Mar 07 21:31:06 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:31:06 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:31:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:31:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:31:06 symfony [info] {sfWebDebugLogger} Configuration 10.06 ms (5)
+Mar 07 21:31:06 symfony [info] {sfWebDebugLogger} Factories 76.98 ms (1)
+Mar 07 21:31:27 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /matricula with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:31:27 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:31:27 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:31:27 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:31:27 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:31:27 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:31:27 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:31:27 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:31:27 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:31:27 symfony [info] {sfWebDebugLogger} Configuration 203.44 ms (10)
+Mar 07 21:31:27 symfony [info] {sfWebDebugLogger} Factories 276.08 ms (1)
+Mar 07 21:31:27 symfony [info] {sfWebDebugLogger} Action "matricula/index" 8.91 ms (1)
+Mar 07 21:31:27 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 35.58 ms (1)
+Mar 07 21:31:27 symfony [info] {sfWebResponse} Send content (31128 o)
+Mar 07 21:31:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:31:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:31:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:31:36 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:31:36 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:31:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:31:36 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:31:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:31:36 symfony [info] {sfWebDebugLogger} Configuration 16.95 ms (8)
+Mar 07 21:31:36 symfony [info] {sfWebDebugLogger} Factories 72.79 ms (1)
+Mar 07 21:31:36 symfony [info] {sfWebDebugLogger} Action "matricula/index" 14.70 ms (1)
+Mar 07 21:31:36 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 21:31:36 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:31:36 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:31:36 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:31:36 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:31:36 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:31:36 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:31:36 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:31:36 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:31:36 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:31:36 symfony [info] {sfWebDebugLogger} Configuration 18.30 ms (9)
+Mar 07 21:31:36 symfony [info] {sfWebDebugLogger} Factories 67.16 ms (1)
+Mar 07 21:31:36 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 7.19 ms (1)
+Mar 07 21:31:36 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 39.64 ms (1)
+Mar 07 21:31:36 symfony [info] {sfWebResponse} Send content (31056 o)
+Mar 07 21:31:45 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 07 21:31:45 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:31:45 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:31:45 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:31:45 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:31:45 symfony [info] {sfWebDebugLogger} Configuration 14.47 ms (5)
+Mar 07 21:31:45 symfony [info] {sfWebDebugLogger} Factories 75.49 ms (1)
+Mar 07 21:32:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:32:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:32:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:32:04 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:32:04 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:32:04 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:04 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:32:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:32:04 symfony [info] {sfWebDebugLogger} Configuration 26.88 ms (9)
+Mar 07 21:32:04 symfony [info] {sfWebDebugLogger} Factories 71.54 ms (1)
+Mar 07 21:32:04 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 6.94 ms (1)
+Mar 07 21:32:04 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 46.20 ms (1)
+Mar 07 21:32:04 symfony [info] {sfWebResponse} Send content (31057 o)
+Mar 07 21:32:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:32:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:32:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:32:05 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:32:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:32:05 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:32:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} Configuration 85.58 ms (9)
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} Factories 149.17 ms (1)
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 7.14 ms (1)
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 35.63 ms (1)
+Mar 07 21:32:05 symfony [info] {sfWebResponse} Send content (31058 o)
+Mar 07 21:32:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:32:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:32:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:32:05 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:32:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:32:05 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:32:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} Configuration 25.29 ms (9)
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} Factories 89.49 ms (1)
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 8.85 ms (1)
+Mar 07 21:32:05 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 35.90 ms (1)
+Mar 07 21:32:05 symfony [info] {sfWebResponse} Send content (31057 o)
+Mar 07 21:32:09 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 07 21:32:09 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 07 21:32:09 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 07 21:32:09 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 07 21:32:09 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:32:09 symfony [info] {sfWebDebugLogger} Configuration 13.32 ms (5)
+Mar 07 21:32:09 symfony [info] {sfWebDebugLogger} Factories 73.07 ms (1)
+Mar 07 21:32:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:32:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:32:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:32:14 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:32:14 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:32:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:32:14 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:32:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:32:14 symfony [info] {sfWebDebugLogger} Configuration 19.25 ms (8)
+Mar 07 21:32:14 symfony [info] {sfWebDebugLogger} Factories 77.52 ms (1)
+Mar 07 21:32:14 symfony [info] {sfWebDebugLogger} Action "matricula/index" 11.45 ms (1)
+Mar 07 21:32:14 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 21:32:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:32:15 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:32:15 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:32:15 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:32:15 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:32:15 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:15 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:32:15 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:32:15 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:32:15 symfony [info] {sfWebDebugLogger} Configuration 19.85 ms (9)
+Mar 07 21:32:15 symfony [info] {sfWebDebugLogger} Factories 69.64 ms (1)
+Mar 07 21:32:15 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 6.87 ms (1)
+Mar 07 21:32:15 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 30.19 ms (1)
+Mar 07 21:32:15 symfony [info] {sfWebResponse} Send content (31057 o)
+Mar 07 21:35:00 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /matricula with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:35:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:35:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:35:00 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:35:00 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 07 21:35:00 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:35:00 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:35:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:35:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:35:00 symfony [info] {sfWebDebugLogger} Configuration 38.80 ms (9)
+Mar 07 21:35:00 symfony [info] {sfWebDebugLogger} Factories 76.81 ms (1)
+Mar 07 21:35:00 symfony [info] {sfWebDebugLogger} Action "matricula/index" 7.70 ms (1)
+Mar 07 21:35:00 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 53.58 ms (1)
+Mar 07 21:35:00 symfony [info] {sfWebResponse} Send content (31158 o)
+Mar 07 21:35:04 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:35:04 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:35:04 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:35:04 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:35:04 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:35:04 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:35:04 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:35:04 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:35:04 symfony [info] {sfWebDebugLogger} Configuration 17.99 ms (8)
+Mar 07 21:35:04 symfony [info] {sfWebDebugLogger} Factories 65.73 ms (1)
+Mar 07 21:35:04 symfony [info] {sfWebDebugLogger} Action "matricula/index" 11.46 ms (1)
+Mar 07 21:35:04 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 21:35:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:35:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:35:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:35:05 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:35:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:35:05 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 1 (Undefined variable: campo)
+Mar 07 21:35:05 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 5 (Undefined variable: otro)
+Mar 07 21:35:05 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:35:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:35:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:35:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:35:05 symfony [info] {sfWebDebugLogger} Configuration 19.11 ms (9)
+Mar 07 21:35:05 symfony [info] {sfWebDebugLogger} Factories 61.60 ms (1)
+Mar 07 21:35:05 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 7.79 ms (1)
+Mar 07 21:35:05 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 76.68 ms (1)
+Mar 07 21:35:05 symfony [info] {sfWebResponse} Send content (31400 o)
+Mar 07 21:42:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:42:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:42:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:42:59 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:42:59 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:42:59 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:42:59 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:42:59 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:42:59 symfony [info] {sfWebDebugLogger} Configuration 18.59 ms (8)
+Mar 07 21:42:59 symfony [info] {sfWebDebugLogger} Factories 68.48 ms (1)
+Mar 07 21:42:59 symfony [info] {sfWebDebugLogger} Action "matricula/index" 11.66 ms (1)
+Mar 07 21:42:59 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 21:42:59 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:43:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:43:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:43:00 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:43:00 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:43:00 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 1 (Undefined variable: campo)
+Mar 07 21:43:00 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 5 (Undefined variable: otro)
+Mar 07 21:43:00 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:43:00 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:43:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:43:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:43:00 symfony [info] {sfWebDebugLogger} Configuration 20.89 ms (9)
+Mar 07 21:43:00 symfony [info] {sfWebDebugLogger} Factories 57.59 ms (1)
+Mar 07 21:43:00 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 6.08 ms (1)
+Mar 07 21:43:00 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 25.66 ms (1)
+Mar 07 21:43:00 symfony [info] {sfWebResponse} Send content (31402 o)
+Mar 07 21:43:12 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 07 21:43:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:43:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:43:12 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 07 21:43:13 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:43:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 07 21:43:13 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 07 21:43:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Configuration 21.33 ms (8)
+Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Factories 70.86 ms (1)
+Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Action "matricula/index" 12.38 ms (1)
+Mar 07 21:43:13 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 07 21:43:13 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 07 21:43:13 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 07 21:43:13 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 07 21:43:13 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 07 21:43:13 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 07 21:43:13 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 1 (Undefined variable: campo)
+Mar 07 21:43:13 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 5 (Undefined variable: otro)
+Mar 07 21:43:13 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:43:13 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 07 21:43:13 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 07 21:43:13 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Configuration 24.56 ms (9)
+Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Factories 65.34 ms (1)
+Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 5.30 ms (1)
+Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 32.74 ms (1)
+Mar 07 21:43:13 symfony [info] {sfWebResponse} Send content (31402 o)

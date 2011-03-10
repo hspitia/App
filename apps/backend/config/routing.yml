@@ -4,7 +4,6 @@ periodo_academico:
     model:                PeriodoAcademico
     module:               periodo_academico
     prefix_path:          /periodo_academico
-    column:               id
     with_wildcard_routes: true
 
 programacion:
@@ -77,4 +76,4 @@ default_index:
 
 default:
   url:   /:module/:action/*
-  prefix_path: /:sf_culture
+  # prefix_path: /:sf_culture
