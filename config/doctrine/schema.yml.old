@@ -23,6 +23,9 @@ Municipio:
     nombre:
       type: string(60)
       notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Genero:
   actAs:
@@ -42,6 +45,9 @@ Genero:
     abreviacion:
       type: string(1)
       notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Perfil:
   actAs:
@@ -61,6 +67,9 @@ Perfil:
     descripcion:
       type: string(255)
       notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 TipoInstitucion:
   actAs:
@@ -79,6 +88,9 @@ TipoInstitucion:
     descripcion:
       type: string(128)
       notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Institucion:
   actAs:
@@ -141,6 +153,9 @@ Institucion:
       fields: [TipoInstitucion_id]
     fk_Institucion_Municipio1:
       fields: [Municipio_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Estudiante:
   actAs:
@@ -228,6 +243,9 @@ Estudiante:
       fields: [Institucion_id]
     fk_Estudiante_TipoDocumento1:
       fields: [TipoDocumento_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Usuario:
   actAs:
@@ -274,6 +292,9 @@ Usuario:
   indexes:
     fk_Usuario_Perfil1:
       fields: [Perfil_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Servicio:
   actAs:
@@ -296,6 +317,9 @@ Servicio:
       type: decimal(7)
 
       notnull: true
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Curso:
   actAs:
@@ -328,11 +352,19 @@ Curso:
   indexes:
     fk_Curso_Servicio1:
       fields: [Servicio_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 CursoProgramado:
   actAs:
     Timestampable: ~
   columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
     grado:
       type: integer(4)
       notnull: true
@@ -384,6 +416,9 @@ CursoProgramado:
       fields: [Institucion_id]
     fk_CursoProgramado_PeriodoAcademico1:
       fields: [PeriodoAcademico_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Asistencia:
   actAs:
@@ -420,10 +455,10 @@ Asistencia:
       foreignAlias: Asistencias
       onDelete: cascade
       onUpdate: cascade
-    CursoProgramadoCurso:
+    CursoProgramado:
       class: CursoProgramado
-      local: CursoProgramado_Curso_id
-      foreign: Curso_id
+      local: CursoProgramado_id
+      foreign: id
       foreignAlias: Asistencias
       onDelete: cascade
       onUpdate: cascade
@@ -432,6 +467,9 @@ Asistencia:
       fields: [Estudiante_id]
     fk_Asistencia_CursoProgramado1:
       fields: [CursoProgramado_id, CursoProgramado_Curso_id, CursoProgramado_Institucion_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 TipoDocumento:
   actAs:
@@ -448,6 +486,9 @@ TipoDocumento:
       type: string(6)
     descripcion:
       type: string(60)
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 PeriodoAcademico:
   actAs:
@@ -482,6 +523,9 @@ PeriodoAcademico:
   indexes:
     fk_PeriodoAcademico_Calendario1:
       fields: [Calendario_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
 Calendario:
   actAs:
@@ -500,43 +544,7 @@ Calendario:
     descripcion:
       type: string(255)
       notnull: true
-
-Matricula:
-  actAs:
-    Timestampable: ~
-  columns:
-    fecha:
-      type: date
-    CursoProgramado_Curso_id:
-      type: integer(4)
-      primary: true
-      notnull: true
-    CursoProgramado_Institucion_id:
-      type: integer(4)
-      primary: true
-      notnull: true
-    CursoProgramado_PeriodoAcademico_id:
-      type: integer(4)
-      primary: true
-      notnull: true
-    Estudiante_id:
-      type: integer(4)
-      primary: true
-      notnull: true
-  relations:
-    CursoProgramadoCurso:
-      class: CursoProgramado
-      local: CursoProgramado_Curso_id
-      foreign: Curso_id
-      foreignAlias: Matriculas
-    Estudiante:
-      class: Estudiante
-      local: Estudiante_id
-      foreign: id
-      foreignAlias: Matriculas
-  indexes:
-    fk_Matricula_CursoProgramado1:
-      fields: [CursoProgramado_Curso_id, CursoProgramado_Institucion_id, CursoProgramado_PeriodoAcademico_id]
-    fk_Matricula_Estudiante1:
-      fields: [Estudiante_id]
+  options:
+    charset: latin1
+    collate: latin1_spanish_ci
 
