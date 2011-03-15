@@ -24,6 +24,7 @@
  * @property Institucion $Institucion
  * @property TipoDocumento $TipoDocumento
  * @property Doctrine_Collection $Asistencias
+ * @property Doctrine_Collection $Matriculas
  * 
  * @method integer             getId()               Returns the current record's "id" value
  * @method string              getApellidos()        Returns the current record's "apellidos" value
@@ -44,6 +45,7 @@
  * @method Institucion         getInstitucion()      Returns the current record's "Institucion" value
  * @method TipoDocumento       getTipoDocumento()    Returns the current record's "TipoDocumento" value
  * @method Doctrine_Collection getAsistencias()      Returns the current record's "Asistencias" collection
+ * @method Doctrine_Collection getMatriculas()       Returns the current record's "Matriculas" collection
  * @method Estudiante          setId()               Sets the current record's "id" value
  * @method Estudiante          setApellidos()        Sets the current record's "apellidos" value
  * @method Estudiante          setNombres()          Sets the current record's "nombres" value
@@ -63,6 +65,7 @@
  * @method Estudiante          setInstitucion()      Sets the current record's "Institucion" value
  * @method Estudiante          setTipoDocumento()    Sets the current record's "TipoDocumento" value
  * @method Estudiante          setAsistencias()      Sets the current record's "Asistencias" collection
+ * @method Estudiante          setMatriculas()       Sets the current record's "Matriculas" collection
  * 
  * @package    siglo21
  * @subpackage model
@@ -169,8 +172,9 @@ abstract class BaseEstudiante extends sfDoctrineRecord
               0 => 'TipoDocumento_id',
              ),
              ));
-        $this->option('charset', 'latin1');
         $this->option('collate', 'latin1_spanish_ci');
+        $this->option('charset', 'latin1');
+        $this->option('type', 'InnoDB');
     }
 
     public function setUp()
@@ -201,6 +205,10 @@ abstract class BaseEstudiante extends sfDoctrineRecord
              'onUpdate' => 'cascade'));
 
         $this->hasMany('Asistencia as Asistencias', array(
+             'local' => 'id',
+             'foreign' => 'Estudiante_id'));
+
+        $this->hasMany('Matricula as Matriculas', array(
              'local' => 'id',
              'foreign' => 'Estudiante_id'));
 

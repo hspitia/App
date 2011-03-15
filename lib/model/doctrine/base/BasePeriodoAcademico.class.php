@@ -9,6 +9,7 @@
  * @property string $codigo
  * @property date $inicio
  * @property date $fin
+ * @property boolean $activo
  * @property string $comentarios
  * @property integer $Calendario_id
  * @property Calendario $Calendario
@@ -18,6 +19,7 @@
  * @method string              getCodigo()            Returns the current record's "codigo" value
  * @method date                getInicio()            Returns the current record's "inicio" value
  * @method date                getFin()               Returns the current record's "fin" value
+ * @method boolean             getActivo()            Returns the current record's "activo" value
  * @method string              getComentarios()       Returns the current record's "comentarios" value
  * @method integer             getCalendarioId()      Returns the current record's "Calendario_id" value
  * @method Calendario          getCalendario()        Returns the current record's "Calendario" value
@@ -26,6 +28,7 @@
  * @method PeriodoAcademico    setCodigo()            Sets the current record's "codigo" value
  * @method PeriodoAcademico    setInicio()            Sets the current record's "inicio" value
  * @method PeriodoAcademico    setFin()               Sets the current record's "fin" value
+ * @method PeriodoAcademico    setActivo()            Sets the current record's "activo" value
  * @method PeriodoAcademico    setComentarios()       Sets the current record's "comentarios" value
  * @method PeriodoAcademico    setCalendarioId()      Sets the current record's "Calendario_id" value
  * @method PeriodoAcademico    setCalendario()        Sets the current record's "Calendario" value
@@ -59,6 +62,9 @@ abstract class BasePeriodoAcademico extends sfDoctrineRecord
         $this->hasColumn('fin', 'date', null, array(
              'type' => 'date',
              ));
+        $this->hasColumn('activo', 'boolean', null, array(
+             'type' => 'boolean',
+             ));
         $this->hasColumn('comentarios', 'string', 255, array(
              'type' => 'string',
              'length' => 255,
@@ -76,8 +82,9 @@ abstract class BasePeriodoAcademico extends sfDoctrineRecord
               0 => 'Calendario_id',
              ),
              ));
-        $this->option('charset', 'latin1');
         $this->option('collate', 'latin1_spanish_ci');
+        $this->option('charset', 'latin1');
+        $this->option('type', 'InnoDB');
     }
 
     public function setUp()

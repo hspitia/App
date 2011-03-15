@@ -137,8 +137,9 @@ abstract class BaseInstitucion extends sfDoctrineRecord
               0 => 'Municipio_id',
              ),
              ));
-        $this->option('charset', 'latin1');
         $this->option('collate', 'latin1_spanish_ci');
+        $this->option('charset', 'latin1');
+        $this->option('type', 'InnoDB');
     }
 
     public function setUp()

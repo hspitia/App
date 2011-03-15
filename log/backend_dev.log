@@ -32606,3 +32606,667 @@ Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Factories 65.34 ms (1)
 Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 5.30 ms (1)
 Mar 07 21:43:13 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 32.74 ms (1)
 Mar 07 21:43:13 symfony [info] {sfWebResponse} Send content (31402 o)
+Mar 15 18:55:42 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /matricula with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 15 18:55:43 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:55:43 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:55:43 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 15 18:55:44 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 15 18:55:44 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:55:44 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:55:44 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:55:44 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:55:44 symfony [info] {sfWebDebugLogger} Configuration 107.13 ms (9)
+Mar 15 18:55:44 symfony [info] {sfWebDebugLogger} Factories 1694.22 ms (1)
+Mar 15 18:55:44 symfony [info] {sfWebDebugLogger} Action "matricula/index" 561.40 ms (1)
+Mar 15 18:55:44 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 713.29 ms (1)
+Mar 15 18:55:44 symfony [info] {sfWebResponse} Send content (30685 o)
+Mar 15 18:55:54 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /municipios with parameters array (  'module' => 'municipios',  'action' => 'index',)
+Mar 15 18:55:54 symfony [info] {sfFrontWebController} Action "municipios/index" does not exist
+Mar 15 18:55:54 symfony [err] {sfError404Exception} Action "municipios/index" does not exist.
+Mar 15 18:55:54 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 15 18:55:54 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:55:54 symfony [info] {sfWebDebugLogger} Configuration 19.10 ms (5)
+Mar 15 18:55:54 symfony [info] {sfWebDebugLogger} Factories 114.39 ms (1)
+Mar 15 18:55:58 symfony [info] {sfPatternRouting} Match route "municipio" (/municipio.:sf_format) for /municipio with parameters array (  'module' => 'municipio',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:02 symfony [info] {municipioActions} Call "municipioActions->executeIndex()"
+Mar 15 18:56:03 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:03 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM municipio m - ()
+Mar 15 18:56:03 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/indexSuccess.php"
+Mar 15 18:56:03 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_assets.php"
+Mar 15 18:56:03 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_flashes.php"
+Mar 15 18:56:03 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_header.php"
+Mar 15 18:56:03 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters.php"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_filters_field.php"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list.php"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_th_tabular.php"
+Mar 15 18:56:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:04 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:04 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:04 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_pagination.php"
+Mar 15 18:56:04 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m LIMIT 20 - ()
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_tabular.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_td_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_batch_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_actions.php"
+Mar 15 18:56:05 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoMunicipio/templates/_list_footer.php"
+Mar 15 18:56:05 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:05 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:05 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:05 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Configuration 3257.61 ms (12)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Factories 86.27 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Action "municipio/index" 1371.77 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.04 ms (3)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} View "Success" for "municipio/index" 1923.07 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_assets" 20.18 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_flashes" 20.45 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_header" 6.57 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_filters" 491.17 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_filters_field" 296.47 ms (5)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list" 1006.84 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_th_tabular" 22.21 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_pagination" 65.12 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_td_tabular" 128.65 ms (20)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_td_actions" 91.14 ms (20)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_batch_actions" 7.34 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_actions" 42.15 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebDebugLogger} Partial "municipio/_list_footer" 7.49 ms (1)
+Mar 15 18:56:05 symfony [info] {sfWebResponse} Send content (139561 o)
+Mar 15 18:56:08 symfony [info] {sfPatternRouting} Match route "institucion" (/institucion.:sf_format) for /institucion with parameters array (  'module' => 'institucion',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:12 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:12 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:12 symfony [info] {institucionActions} Call "institucionActions->executeIndex()"
+Mar 15 18:56:12 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:12 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM institucion i - ()
+Mar 15 18:56:12 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/indexSuccess.php"
+Mar 15 18:56:12 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_assets.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_flashes.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_header.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id AS t__id, t.nombre AS t__nombre, t.descripcion AS t__descripcion, t.created_at AS t__created_at, t.updated_at AS t__updated_at, t.slug AS t__slug FROM tipo_institucion t - ()
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m - ()
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_filters_field.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_th_tabular.php"
+Mar 15 18:56:13 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:13 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:13 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:13 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:13 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.nombre AS i__nombre, i.nombre_corto AS i__nombre_corto, i.direccion_1 AS i__direccion_1, i.direccion_2 AS i__direccion_2, i.telefono_1 AS i__telefono_1, i.telefono_2 AS i__telefono_2, i.fax AS i__fax, i.email AS i__email, i.web AS i__web, i.tipoinstitucion_id AS i__tipoinstitucion_id, i.municipio_id AS i__municipio_id, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM institucion i LIMIT 20 - ()
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_batch_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_tabular.php"
+Mar 15 18:56:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m WHERE (m.id = ?) - (1028)
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_batch_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_tabular.php"
+Mar 15 18:56:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m WHERE (m.id = ?) - (1028)
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_batch_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_tabular.php"
+Mar 15 18:56:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m WHERE (m.id = ?) - (1028)
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_batch_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_tabular.php"
+Mar 15 18:56:13 symfony [info] {Doctrine_Connection_Statement} execute : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m WHERE (m.id = ?) - (1028)
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_td_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_batch_actions.php"
+Mar 15 18:56:13 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_actions.php"
+Mar 15 18:56:14 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoInstitucion/templates/_list_footer.php"
+Mar 15 18:56:14 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:14 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Configuration 3410.97 ms (12)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Factories 106.83 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Action "institucion/index" 215.61 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.09 ms (9)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} View "Success" for "institucion/index" 1104.42 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_assets" 9.51 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_flashes" 10.13 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_header" 6.90 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_filters" 297.64 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_filters_field" 207.09 ms (14)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list" 586.92 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_th_tabular" 47.30 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_td_batch_actions" 13.53 ms (4)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_td_tabular" 427.84 ms (4)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_td_actions" 53.99 ms (4)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_batch_actions" 13.12 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_actions" 48.50 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebDebugLogger} Partial "institucion/_list_footer" 7.18 ms (1)
+Mar 15 18:56:14 symfony [info] {sfWebResponse} Send content (174485 o)
+Mar 15 18:56:16 symfony [info] {sfPatternRouting} Match route "estudiante" (/estudiante.:sf_format) for /estudiante with parameters array (  'module' => 'estudiante',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:17 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:17 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:17 symfony [info] {estudianteActions} Call "estudianteActions->executeIndex()"
+Mar 15 18:56:17 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:17 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM estudiante e - ()
+Mar 15 18:56:17 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/indexSuccess.php"
+Mar 15 18:56:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_assets.php"
+Mar 15 18:56:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_flashes.php"
+Mar 15 18:56:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_header.php"
+Mar 15 18:56:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters.php"
+Mar 15 18:56:17 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT m.id AS m__id, m.codigo AS m__codigo, m.nombre AS m__nombre, m.created_at AS m__created_at, m.updated_at AS m__updated_at, m.slug AS m__slug FROM municipio m - ()
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT g.id AS g__id, g.nombre AS g__nombre, g.abreviacion AS g__abreviacion, g.created_at AS g__created_at, g.updated_at AS g__updated_at, g.slug AS g__slug FROM genero g - ()
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT i.id AS i__id, i.nombre AS i__nombre, i.nombre_corto AS i__nombre_corto, i.direccion_1 AS i__direccion_1, i.direccion_2 AS i__direccion_2, i.telefono_1 AS i__telefono_1, i.telefono_2 AS i__telefono_2, i.fax AS i__fax, i.email AS i__email, i.web AS i__web, i.tipoinstitucion_id AS i__tipoinstitucion_id, i.municipio_id AS i__municipio_id, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM institucion i - ()
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT t.id AS t__id, t.nombre AS t__nombre, t.descripcion AS t__descripcion, t.created_at AS t__created_at, t.updated_at AS t__updated_at, t.slug AS t__slug FROM tipo_documento t - ()
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_filters_field.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_th_tabular.php"
+Mar 15 18:56:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Mysql} query : SELECT e.id AS e__id, e.apellidos AS e__apellidos, e.nombres AS e__nombres, e.numero_documento AS e__numero_documento, e.direccion_1 AS e__direccion_1, e.direccion_2 AS e__direccion_2, e.acudiente AS e__acudiente, e.telefono AS e__telefono, e.movil AS e__movil, e.email AS e__email, e.municipio_id AS e__municipio_id, e.genero_id AS e__genero_id, e.institucion_id AS e__institucion_id, e.tipodocumento_id AS e__tipodocumento_id, e.created_at AS e__created_at, e.updated_at AS e__updated_at, e.slug AS e__slug FROM estudiante e LIMIT 20 - ()
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_batch_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_tabular.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.nombre AS i__nombre, i.nombre_corto AS i__nombre_corto, i.direccion_1 AS i__direccion_1, i.direccion_2 AS i__direccion_2, i.telefono_1 AS i__telefono_1, i.telefono_2 AS i__telefono_2, i.fax AS i__fax, i.email AS i__email, i.web AS i__web, i.tipoinstitucion_id AS i__tipoinstitucion_id, i.municipio_id AS i__municipio_id, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM institucion i WHERE (i.id = ?) - (1)
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_batch_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_tabular.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.nombre AS i__nombre, i.nombre_corto AS i__nombre_corto, i.direccion_1 AS i__direccion_1, i.direccion_2 AS i__direccion_2, i.telefono_1 AS i__telefono_1, i.telefono_2 AS i__telefono_2, i.fax AS i__fax, i.email AS i__email, i.web AS i__web, i.tipoinstitucion_id AS i__tipoinstitucion_id, i.municipio_id AS i__municipio_id, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM institucion i WHERE (i.id = ?) - (2)
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_batch_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_tabular.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.nombre AS i__nombre, i.nombre_corto AS i__nombre_corto, i.direccion_1 AS i__direccion_1, i.direccion_2 AS i__direccion_2, i.telefono_1 AS i__telefono_1, i.telefono_2 AS i__telefono_2, i.fax AS i__fax, i.email AS i__email, i.web AS i__web, i.tipoinstitucion_id AS i__tipoinstitucion_id, i.municipio_id AS i__municipio_id, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM institucion i WHERE (i.id = ?) - (1)
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_batch_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_tabular.php"
+Mar 15 18:56:18 symfony [info] {Doctrine_Connection_Statement} execute : SELECT i.id AS i__id, i.nombre AS i__nombre, i.nombre_corto AS i__nombre_corto, i.direccion_1 AS i__direccion_1, i.direccion_2 AS i__direccion_2, i.telefono_1 AS i__telefono_1, i.telefono_2 AS i__telefono_2, i.fax AS i__fax, i.email AS i__email, i.web AS i__web, i.tipoinstitucion_id AS i__tipoinstitucion_id, i.municipio_id AS i__municipio_id, i.created_at AS i__created_at, i.updated_at AS i__updated_at, i.slug AS i__slug FROM institucion i WHERE (i.id = ?) - (2)
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_td_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_batch_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_actions.php"
+Mar 15 18:56:18 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoEstudiante/templates/_list_footer.php"
+Mar 15 18:56:18 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:18 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Configuration 979.54 ms (12)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Factories 107.12 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Action "estudiante/index" 203.02 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.10 ms (11)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} View "Success" for "estudiante/index" 884.75 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_assets" 12.17 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_flashes" 27.45 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_header" 7.58 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_filters" 361.69 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_filters_field" 320.91 ms (16)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list" 224.27 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_th_tabular" 29.43 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_td_batch_actions" 31.33 ms (4)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_td_tabular" 93.39 ms (4)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_td_actions" 14.58 ms (4)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_batch_actions" 26.08 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_actions" 64.79 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebDebugLogger} Partial "estudiante/_list_footer" 35.86 ms (1)
+Mar 15 18:56:18 symfony [info] {sfWebResponse} Send content (205756 o)
+Mar 15 18:56:23 symfony [info] {sfPatternRouting} Match route "servicio" (/servicio.:sf_format) for /servicio with parameters array (  'module' => 'servicio',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:24 symfony [info] {servicioActions} Call "servicioActions->executeIndex()"
+Mar 15 18:56:25 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM servicio s - ()
+Mar 15 18:56:25 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/indexSuccess.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_assets.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_flashes.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_header.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_th_tabular.php"
+Mar 15 18:56:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:25 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s LIMIT 20 - ()
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_batch_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_actions.php"
+Mar 15 18:56:25 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_footer.php"
+Mar 15 18:56:25 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:25 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Configuration 788.96 ms (12)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Factories 110.73 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Action "servicio/index" 195.12 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.16 ms (3)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} View "Success" for "servicio/index" 449.81 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_assets" 8.20 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_flashes" 7.40 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_header" 6.53 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_filters" 87.65 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_filters_field" 49.47 ms (6)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list" 142.28 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_th_tabular" 14.16 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_batch_actions" 28.61 ms (4)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_tabular" 21.31 ms (4)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_actions" 34.08 ms (4)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_batch_actions" 19.06 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_actions" 8.47 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_footer" 7.56 ms (1)
+Mar 15 18:56:25 symfony [info] {sfWebResponse} Send content (106890 o)
+Mar 15 18:56:27 symfony [info] {sfPatternRouting} Match route "curso" (/curso.:sf_format) for /curso with parameters array (  'module' => 'curso',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:28 symfony [info] {cursoActions} Call "cursoActions->executeIndex()"
+Mar 15 18:56:28 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:28 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM curso c - ()
+Mar 15 18:56:29 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/indexSuccess.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_assets.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_flashes.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_header.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s - ()
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_th_tabular.php"
+Mar 15 18:56:29 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:29 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.nombre_corto AS c__nombre_corto, c.descripcion AS c__descripcion, c.servicio_id AS c__servicio_id, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM curso c LIMIT 20 - ()
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (1)
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (2)
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (1)
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:29 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (2)
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_batch_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_actions.php"
+Mar 15 18:56:29 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_footer.php"
+Mar 15 18:56:29 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:29 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:29 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:29 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Configuration 614.54 ms (12)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Factories 103.39 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Action "curso/index" 159.46 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.07 ms (8)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} View "Success" for "curso/index" 570.30 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_assets" 8.07 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_flashes" 24.01 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_header" 6.55 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_filters" 104.64 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_filters_field" 70.08 ms (7)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list" 156.53 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_th_tabular" 29.95 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_td_batch_actions" 22.47 ms (4)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_td_tabular" 53.67 ms (4)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_td_actions" 21.98 ms (4)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_batch_actions" 42.17 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_actions" 7.31 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebDebugLogger} Partial "curso/_list_footer" 9.91 ms (1)
+Mar 15 18:56:29 symfony [info] {sfWebResponse} Send content (121627 o)
+Mar 15 18:56:31 symfony [info] {sfPatternRouting} Match route "servicio" (/servicio.:sf_format) for /servicio with parameters array (  'module' => 'servicio',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:31 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:31 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:31 symfony [info] {servicioActions} Call "servicioActions->executeIndex()"
+Mar 15 18:56:31 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM servicio s - ()
+Mar 15 18:56:31 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/indexSuccess.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_assets.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_flashes.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_header.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_th_tabular.php"
+Mar 15 18:56:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:31 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s LIMIT 20 - ()
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_batch_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_actions.php"
+Mar 15 18:56:31 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_footer.php"
+Mar 15 18:56:31 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:31 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:31 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:31 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Configuration 32.59 ms (11)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Factories 105.35 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Action "servicio/index" 57.86 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} View "Success" for "servicio/index" 198.49 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_assets" 2.52 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_flashes" 2.28 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_header" 2.32 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_filters" 63.30 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_filters_field" 47.14 ms (6)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list" 78.79 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_th_tabular" 5.74 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_batch_actions" 10.82 ms (4)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_tabular" 17.52 ms (4)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_actions" 21.26 ms (4)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_batch_actions" 4.44 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_actions" 2.86 ms (1)
+Mar 15 18:56:31 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_footer" 2.36 ms (1)
+Mar 15 18:56:32 symfony [info] {sfWebResponse} Send content (106962 o)
+Mar 15 18:56:38 symfony [info] {sfPatternRouting} Match route "curso" (/curso.:sf_format) for /curso with parameters array (  'module' => 'curso',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:38 symfony [info] {cursoActions} Call "cursoActions->executeIndex()"
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM curso c - ()
+Mar 15 18:56:38 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/indexSuccess.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_assets.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_flashes.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_header.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s - ()
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_filters_field.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_th_tabular.php"
+Mar 15 18:56:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Mysql} query : SELECT c.id AS c__id, c.nombre AS c__nombre, c.nombre_corto AS c__nombre_corto, c.descripcion AS c__descripcion, c.servicio_id AS c__servicio_id, c.created_at AS c__created_at, c.updated_at AS c__updated_at, c.slug AS c__slug FROM curso c LIMIT 20 - ()
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (1)
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (2)
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (1)
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_batch_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_tabular.php"
+Mar 15 18:56:38 symfony [info] {Doctrine_Connection_Statement} execute : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s WHERE (s.id = ?) - (2)
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_td_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_batch_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_actions.php"
+Mar 15 18:56:38 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoCurso/templates/_list_footer.php"
+Mar 15 18:56:38 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:38 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:38 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:38 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Configuration 38.48 ms (11)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Factories 98.00 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Action "curso/index" 67.08 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.07 ms (8)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} View "Success" for "curso/index" 203.89 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_assets" 1.29 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_flashes" 1.27 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_header" 1.21 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_filters" 69.66 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_filters_field" 52.58 ms (7)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list" 91.46 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_th_tabular" 5.56 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_td_batch_actions" 7.22 ms (4)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_td_tabular" 46.50 ms (4)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_td_actions" 16.34 ms (4)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_batch_actions" 2.33 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_actions" 2.94 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebDebugLogger} Partial "curso/_list_footer" 1.79 ms (1)
+Mar 15 18:56:38 symfony [info] {sfWebResponse} Send content (121646 o)
+Mar 15 18:56:41 symfony [info] {sfPatternRouting} Match route "servicio" (/servicio.:sf_format) for /servicio with parameters array (  'module' => 'servicio',  'action' => 'index',  'sf_format' => 'html',)
+Mar 15 18:56:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:56:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:56:41 symfony [info] {servicioActions} Call "servicioActions->executeIndex()"
+Mar 15 18:56:41 symfony [info] {Doctrine_Connection_Mysql} exec : SET NAMES 'UTF8' - ()
+Mar 15 18:56:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT COUNT(*) AS num_results FROM servicio s - ()
+Mar 15 18:56:41 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/indexSuccess.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_assets.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_flashes.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_header.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_filters_field.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_th_tabular.php"
+Mar 15 18:56:41 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {main} Set slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {main} Get slot "sf_admin.current_header"
+Mar 15 18:56:41 symfony [info] {Doctrine_Connection_Mysql} query : SELECT s.id AS s__id, s.nombre AS s__nombre, s.descripcion AS s__descripcion, s.valor AS s__valor, s.created_at AS s__created_at, s.updated_at AS s__updated_at, s.slug AS s__slug FROM servicio s LIMIT 20 - ()
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_batch_actions.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_tabular.php"
+Mar 15 18:56:41 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_td_actions.php"
+Mar 15 18:56:42 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_batch_actions.php"
+Mar 15 18:56:42 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_actions.php"
+Mar 15 18:56:42 symfony [info] {sfPartialView} Render "E:\vhosts\siglo21\cache\backend\dev\modules/autoServicio/templates/_list_footer.php"
+Mar 15 18:56:42 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:42 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:56:42 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:56:42 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Configuration 34.58 ms (11)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Factories 105.85 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Action "servicio/index" 64.35 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Database (Doctrine) 0.03 ms (3)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} View "Success" for "servicio/index" 197.52 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_assets" 2.83 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_flashes" 2.29 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_header" 2.22 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_filters" 62.18 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_filters_field" 44.94 ms (6)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list" 76.50 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_th_tabular" 5.77 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_batch_actions" 10.60 ms (4)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_tabular" 17.26 ms (4)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_td_actions" 20.59 ms (4)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_batch_actions" 3.29 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_actions" 2.74 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebDebugLogger} Partial "servicio/_list_footer" 3.53 ms (1)
+Mar 15 18:56:42 symfony [info] {sfWebResponse} Send content (106962 o)
+Mar 15 18:57:14 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /matricula with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 15 18:57:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:57:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:57:14 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 15 18:57:14 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/indexSuccess.php"
+Mar 15 18:57:14 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:57:14 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:57:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:57:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:57:14 symfony [info] {sfWebDebugLogger} Configuration 26.48 ms (9)
+Mar 15 18:57:14 symfony [info] {sfWebDebugLogger} Factories 99.67 ms (1)
+Mar 15 18:57:14 symfony [info] {sfWebDebugLogger} Action "matricula/index" 7.75 ms (1)
+Mar 15 18:57:14 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/index" 26.47 ms (1)
+Mar 15 18:57:14 symfony [info] {sfWebResponse} Send content (31287 o)
+Mar 15 18:57:22 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/index/ with parameters array (  'module' => 'matricula',  'action' => 'index',)
+Mar 15 18:57:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:57:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:57:23 symfony [info] {matriculaActions} Call "matriculaActions->executeIndex()"
+Mar 15 18:57:23 symfony [info] {sfFrontWebController} Redirect to "http://app/backend_dev.php/matricula/selectCourse"
+Mar 15 18:57:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 302 Found"
+Mar 15 18:57:23 symfony [info] {sfWebResponse} Send header "Location: http://app/backend_dev.php/matricula/selectCourse"
+Mar 15 18:57:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:57:23 symfony [info] {sfWebDebugLogger} Configuration 26.59 ms (8)
+Mar 15 18:57:23 symfony [info] {sfWebDebugLogger} Factories 117.16 ms (1)
+Mar 15 18:57:23 symfony [info] {sfWebDebugLogger} Action "matricula/index" 13.24 ms (1)
+Mar 15 18:57:23 symfony [info] {sfWebResponse} Send content (120 o)
+Mar 15 18:57:23 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'selectCourse',)
+Mar 15 18:57:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+Mar 15 18:57:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+Mar 15 18:57:23 symfony [info] {matriculaActions} Call "matriculaActions->executeSelectCourse()"
+Mar 15 18:57:23 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\modules/matricula/templates/selectCourseSuccess.php"
+Mar 15 18:57:23 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 1 (Undefined variable: campo)
+Mar 15 18:57:23 symfony [notice] {sfWebDebugLogger}  Notice at E:\vhosts\siglo21\apps\backend\modules\matricula\templates\selectCourseSuccess.php on line 5 (Undefined variable: otro)
+Mar 15 18:57:23 symfony [info] {sfPHPView} Decorate content with "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:57:23 symfony [info] {sfPHPView} Render "E:\vhosts\siglo21\apps\backend\templates/layout.php"
+Mar 15 18:57:23 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+Mar 15 18:57:23 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:57:23 symfony [info] {sfWebDebugLogger} Configuration 28.65 ms (9)
+Mar 15 18:57:23 symfony [info] {sfWebDebugLogger} Factories 88.98 ms (1)
+Mar 15 18:57:23 symfony [info] {sfWebDebugLogger} Action "matricula/selectCourse" 38.26 ms (1)
+Mar 15 18:57:23 symfony [info] {sfWebDebugLogger} View "Success" for "matricula/selectCourse" 71.76 ms (1)
+Mar 15 18:57:23 symfony [info] {sfWebResponse} Send content (31564 o)
+Mar 15 18:57:32 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /matricula/matricula/selectCourse with parameters array (  'module' => 'matricula',  'action' => 'matricula',  'selectCourse' => true,)
+Mar 15 18:57:32 symfony [info] {sfFrontWebController} Action "matricula/matricula" does not exist
+Mar 15 18:57:32 symfony [err] {sfError404Exception} Action "matricula/matricula" does not exist.
+Mar 15 18:57:32 symfony [info] {sfWebResponse} Send status "HTTP/1.1 404 Not Found"
+Mar 15 18:57:32 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+Mar 15 18:57:32 symfony [info] {sfWebDebugLogger} Configuration 20.04 ms (5)
+Mar 15 18:57:32 symfony [info] {sfWebDebugLogger} Factories 76.15 ms (1)

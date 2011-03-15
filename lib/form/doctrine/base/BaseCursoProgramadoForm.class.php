@@ -15,7 +15,6 @@ abstract class BaseCursoProgramadoForm extends BaseFormDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'id'                  => new sfWidgetFormInputHidden(),
       'grado'               => new sfWidgetFormInputText(),
       'descripcion'         => new sfWidgetFormInputText(),
       'fecha_inicio'        => new sfWidgetFormDate(),
@@ -28,7 +27,6 @@ abstract class BaseCursoProgramadoForm extends BaseFormDoctrine
     ));
 
     $this->setValidators(array(
-      'id'                  => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
       'grado'               => new sfValidatorInteger(),
       'descripcion'         => new sfValidatorString(array('max_length' => 128)),
       'fecha_inicio'        => new sfValidatorDate(array('required' => false)),

@@ -50,8 +50,9 @@ abstract class BaseMunicipio extends sfDoctrineRecord
              'length' => 60,
              ));
 
-        $this->option('charset', 'latin1');
         $this->option('collate', 'latin1_spanish_ci');
+        $this->option('charset', 'latin1');
+        $this->option('type', 'InnoDB');
     }
 
     public function setUp()

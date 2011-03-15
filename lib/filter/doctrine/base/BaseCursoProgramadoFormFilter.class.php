@@ -47,7 +47,6 @@ abstract class BaseCursoProgramadoFormFilter extends BaseFormFilterDoctrine
   public function getFields()
   {
     return array(
-      'id'                  => 'Number',
       'grado'               => 'Number',
       'descripcion'         => 'Text',
       'fecha_inicio'        => 'Date',

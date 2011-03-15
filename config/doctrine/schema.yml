@@ -466,6 +466,8 @@ PeriodoAcademico:
       type: date
     fin:
       type: date
+    activo:
+      type: boolean
     comentarios:
       type: string(255)
     Calendario_id:

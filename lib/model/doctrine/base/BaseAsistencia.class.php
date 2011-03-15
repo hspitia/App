@@ -12,7 +12,7 @@
  * @property integer $CursoProgramado_Curso_id
  * @property integer $CursoProgramado_Institucion_id
  * @property Estudiante $Estudiante
- * @property CursoProgramado $CursoProgramado
+ * @property CursoProgramado $CursoProgramadoCurso
  * 
  * @method timestamp       getFecha()                          Returns the current record's "fecha" value
  * @method boolean         getAsistio()                        Returns the current record's "asistio" value
@@ -21,7 +21,7 @@
  * @method integer         getCursoProgramadoCursoId()         Returns the current record's "CursoProgramado_Curso_id" value
  * @method integer         getCursoProgramadoInstitucionId()   Returns the current record's "CursoProgramado_Institucion_id" value
  * @method Estudiante      getEstudiante()                     Returns the current record's "Estudiante" value
- * @method CursoProgramado getCursoProgramado()                Returns the current record's "CursoProgramado" value
+ * @method CursoProgramado getCursoProgramadoCurso()           Returns the current record's "CursoProgramadoCurso" value
  * @method Asistencia      setFecha()                          Sets the current record's "fecha" value
  * @method Asistencia      setAsistio()                        Sets the current record's "asistio" value
  * @method Asistencia      setEstudianteId()                   Sets the current record's "Estudiante_id" value
@@ -29,7 +29,7 @@
  * @method Asistencia      setCursoProgramadoCursoId()         Sets the current record's "CursoProgramado_Curso_id" value
  * @method Asistencia      setCursoProgramadoInstitucionId()   Sets the current record's "CursoProgramado_Institucion_id" value
  * @method Asistencia      setEstudiante()                     Sets the current record's "Estudiante" value
- * @method Asistencia      setCursoProgramado()                Sets the current record's "CursoProgramado" value
+ * @method Asistencia      setCursoProgramadoCurso()           Sets the current record's "CursoProgramadoCurso" value
  * 
  * @package    siglo21
  * @subpackage model
@@ -85,8 +85,9 @@ abstract class BaseAsistencia extends sfDoctrineRecord
               2 => 'CursoProgramado_Institucion_id',
              ),
              ));
-        $this->option('charset', 'latin1');
         $this->option('collate', 'latin1_spanish_ci');
+        $this->option('charset', 'latin1');
+        $this->option('type', 'InnoDB');
     }
 
     public function setUp()
@@ -98,9 +99,9 @@ abstract class BaseAsistencia extends sfDoctrineRecord
              'onDelete' => 'cascade',
              'onUpdate' => 'cascade'));
 
-        $this->hasOne('CursoProgramado', array(
-             'local' => 'CursoProgramado_id',
-             'foreign' => 'id',
+        $this->hasOne('CursoProgramado as CursoProgramadoCurso', array(
+             'local' => 'CursoProgramado_Curso_id',
+             'foreign' => 'Curso_id',
              'onDelete' => 'cascade',
              'onUpdate' => 'cascade'));
 
