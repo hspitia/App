@@ -13,8 +13,9 @@ abstract class BaseCursoFormFilter extends BaseFormFilterDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'nombre'       => new sfWidgetFormFilterInput(),
-      'nombre_corto' => new sfWidgetFormFilterInput(),
+      'codigo'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'nombre'       => new sfWidgetFormFilterInput(array('with_empty' => false)),
+      'nombre_corto' => new sfWidgetFormFilterInput(array('with_empty' => false)),
       'descripcion'  => new sfWidgetFormFilterInput(),
       'Servicio_id'  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Servicio'), 'add_empty' => true)),
       'created_at'   => new sfWidgetFormFilterDate(array('from_date' => new sfWidgetFormDate(), 'to_date' => new sfWidgetFormDate(), 'with_empty' => false)),
@@ -23,6 +24,7 @@ abstract class BaseCursoFormFilter extends BaseFormFilterDoctrine
     ));
 
     $this->setValidators(array(
+      'codigo'       => new sfValidatorPass(array('required' => false)),
       'nombre'       => new sfValidatorPass(array('required' => false)),
       'nombre_corto' => new sfValidatorPass(array('required' => false)),
       'descripcion'  => new sfValidatorPass(array('required' => false)),
@@ -50,6 +52,7 @@ abstract class BaseCursoFormFilter extends BaseFormFilterDoctrine
   {
     return array(
       'id'           => 'Number',
+      'codigo'       => 'Text',
       'nombre'       => 'Text',
       'nombre_corto' => 'Text',
       'descripcion'  => 'Text',

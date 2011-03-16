@@ -15,23 +15,25 @@ abstract class BaseAsistenciaForm extends BaseFormDoctrine
   public function setup()
   {
     $this->setWidgets(array(
-      'fecha'                          => new sfWidgetFormInputHidden(),
+      'id'                             => new sfWidgetFormInputHidden(),
+      'fecha'                          => new sfWidgetFormDateTime(),
       'asistio'                        => new sfWidgetFormInputCheckbox(),
-      'Estudiante_id'                  => new sfWidgetFormInputHidden(),
-      'CursoProgramado_id'             => new sfWidgetFormInputHidden(),
-      'CursoProgramado_Curso_id'       => new sfWidgetFormInputHidden(),
-      'CursoProgramado_Institucion_id' => new sfWidgetFormInputHidden(),
+      'Estudiante_id'                  => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('Estudiante'), 'add_empty' => false)),
+      'CursoProgramado_id'             => new sfWidgetFormInputText(),
+      'CursoProgramado_Curso_id'       => new sfWidgetFormDoctrineChoice(array('model' => $this->getRelatedModelName('CursoProgramadoCurso'), 'add_empty' => false)),
+      'CursoProgramado_Institucion_id' => new sfWidgetFormInputText(),
       'created_at'                     => new sfWidgetFormDateTime(),
       'updated_at'                     => new sfWidgetFormDateTime(),
     ));
 
     $this->setValidators(array(
-      'fecha'                          => new sfValidatorChoice(array('choices' => array($this->getObject()->get('fecha')), 'empty_value' => $this->getObject()->get('fecha'), 'required' => false)),
+      'id'                             => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
+      'fecha'                          => new sfValidatorDateTime(),
       'asistio'                        => new sfValidatorBoolean(),
-      'Estudiante_id'                  => new sfValidatorChoice(array('choices' => array($this->getObject()->get('Estudiante_id')), 'empty_value' => $this->getObject()->get('Estudiante_id'), 'required' => false)),
-      'CursoProgramado_id'             => new sfValidatorChoice(array('choices' => array($this->getObject()->get('CursoProgramado_id')), 'empty_value' => $this->getObject()->get('CursoProgramado_id'), 'required' => false)),
-      'CursoProgramado_Curso_id'       => new sfValidatorChoice(array('choices' => array($this->getObject()->get('CursoProgramado_Curso_id')), 'empty_value' => $this->getObject()->get('CursoProgramado_Curso_id'), 'required' => false)),
-      'CursoProgramado_Institucion_id' => new sfValidatorChoice(array('choices' => array($this->getObject()->get('CursoProgramado_Institucion_id')), 'empty_value' => $this->getObject()->get('CursoProgramado_Institucion_id'), 'required' => false)),
+      'Estudiante_id'                  => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Estudiante'))),
+      'CursoProgramado_id'             => new sfValidatorInteger(),
+      'CursoProgramado_Curso_id'       => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('CursoProgramadoCurso'))),
+      'CursoProgramado_Institucion_id' => new sfValidatorInteger(),
       'created_at'                     => new sfValidatorDateTime(),
       'updated_at'                     => new sfValidatorDateTime(),
     ));

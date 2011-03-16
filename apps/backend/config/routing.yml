@@ -1,3 +1,12 @@
+curso_programado:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                CursoProgramado
+    module:               curso_programado
+    prefix_path:          /curso_programado
+    column:               Array
+    with_wildcard_routes: true
+
 periodo_academico:
   class: sfDoctrineRouteCollection
   options:

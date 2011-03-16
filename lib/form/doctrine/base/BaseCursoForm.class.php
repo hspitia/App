@@ -16,6 +16,7 @@ abstract class BaseCursoForm extends BaseFormDoctrine
   {
     $this->setWidgets(array(
       'id'           => new sfWidgetFormInputHidden(),
+      'codigo'       => new sfWidgetFormInputText(),
       'nombre'       => new sfWidgetFormInputText(),
       'nombre_corto' => new sfWidgetFormInputText(),
       'descripcion'  => new sfWidgetFormInputText(),
@@ -27,8 +28,9 @@ abstract class BaseCursoForm extends BaseFormDoctrine
 
     $this->setValidators(array(
       'id'           => new sfValidatorChoice(array('choices' => array($this->getObject()->get('id')), 'empty_value' => $this->getObject()->get('id'), 'required' => false)),
-      'nombre'       => new sfValidatorString(array('max_length' => 128, 'required' => false)),
-      'nombre_corto' => new sfValidatorString(array('max_length' => 60, 'required' => false)),
+      'codigo'       => new sfValidatorString(array('max_length' => 45)),
+      'nombre'       => new sfValidatorString(array('max_length' => 128)),
+      'nombre_corto' => new sfValidatorString(array('max_length' => 60)),
       'descripcion'  => new sfValidatorString(array('max_length' => 255, 'required' => false)),
       'Servicio_id'  => new sfValidatorDoctrineChoice(array('model' => $this->getRelatedModelName('Servicio'))),
       'created_at'   => new sfValidatorDateTime(),

@@ -308,10 +308,15 @@ Curso:
       primary: true
       notnull: true
       autoincrement: true
+    codigo:
+      type: string(45)
+      notnull: true
     nombre:
       type: string(128)
+      notnull: true
     nombre_corto:
       type: string(60)
+      notnull: true
     descripcion:
       type: string(255)
     Servicio_id:
@@ -333,27 +338,34 @@ CursoProgramado:
   actAs:
     Timestampable: ~
   columns:
-    grado:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
+    grupo:
       type: integer(4)
       notnull: true
     descripcion:
       type: string(128)
       notnull: true
+    grado:
+      type: integer(4)
+      notnull: true
     fecha_inicio:
       type: date
+      notnull: true
     fecha_finalizacion:
       type: date
+      notnull: true
     Curso_id:
       type: integer(4)
-      primary: true
       notnull: true
     Institucion_id:
       type: integer(4)
-      primary: true
       notnull: true
     PeriodoAcademico_id:
       type: integer(4)
-      primary: true
       notnull: true
   relations:
     Curso:
@@ -389,28 +401,28 @@ Asistencia:
   actAs:
     Timestampable: ~
   columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
     fecha:
       type: timestamp
-      primary: true
       notnull: true
     asistio:
       type: boolean
       notnull: true
     Estudiante_id:
       type: integer(4)
-      primary: true
       notnull: true
     CursoProgramado_id:
       type: integer(4)
-      primary: true
       notnull: true
     CursoProgramado_Curso_id:
       type: integer(4)
-      primary: true
       notnull: true
     CursoProgramado_Institucion_id:
       type: integer(4)
-      primary: true
       notnull: true
   relations:
     Estudiante:
@@ -507,23 +519,24 @@ Matricula:
   actAs:
     Timestampable: ~
   columns:
+    id:
+      type: integer(4)
+      primary: true
+      notnull: true
+      autoincrement: true
     fecha:
       type: date
     CursoProgramado_Curso_id:
       type: integer(4)
-      primary: true
       notnull: true
     CursoProgramado_Institucion_id:
       type: integer(4)
-      primary: true
       notnull: true
     CursoProgramado_PeriodoAcademico_id:
       type: integer(4)
-      primary: true
       notnull: true
     Estudiante_id:
       type: integer(4)
-      primary: true
       notnull: true
   relations:
     CursoProgramadoCurso:

@@ -109,7 +109,7 @@ Servicio:
   servicio_<?php echo $i ?>:
     nombre:       Servicio <?php echo $i."\n" ?>
     descripcion:  Servicio de prueba No. <?php echo $i."\n" ?>
-    valor:        120.000,0
+    valor:        120000.0
 
 <?php endfor ?>
 
@@ -117,7 +117,8 @@ Curso:
 <?php for ($i=1; $i <= 4; $i++): ?>
   curso_<?php echo $i?>:
     nombre:       Curso <?php echo $i . "\n" ?>
-    nombre_corto: Cur <?php echo $i?>
+    codigo:       C <?php echo $i . "\n" ?>
+    nombre_corto: Cur_ <?php echo $i?>
     descripcion:  Curso de prueba No. <?php echo $i . "\n" ?>
     Servicio:     servicio_<?php echo fmod($i, 2) ? 1 : 2 . "\n"?>
 
