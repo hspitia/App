@@ -48,10 +48,11 @@ abstract class BaseServicio extends sfDoctrineRecord
              'notnull' => true,
              'length' => 255,
              ));
-        $this->hasColumn('valor', 'decimal', 7, array(
+        $this->hasColumn('valor', 'decimal', 8, array(
              'type' => 'decimal',
              'notnull' => true,
-             'length' => 7,
+             'length' => 8,
+             'scale' => '2',
              ));
 
         $this->option('collate', 'latin1_spanish_ci');

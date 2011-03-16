@@ -293,7 +293,7 @@ Servicio:
       type: string(255)
       notnull: true
     valor:
-      type: decimal(7)
+      type: decimal(8,2)
 
       notnull: true
 
