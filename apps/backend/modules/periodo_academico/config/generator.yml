@@ -24,7 +24,7 @@ generator:
           label: Fecha de finalización
       list:
         title: Administración de Períodos Académicos
-        display: [ =id, =codigo, inicio, fin ]
+        display: [=codigo, inicio, fin, activo ]
         object_actions:
           _edit:
             label: Editar
@@ -32,7 +32,7 @@ generator:
             label: Eliminar
       filter:  ~
       form:
-        display: [ codigo, Calendario_id, inicio, fin, comentarios ]
+        display: [ codigo, Calendario_id, activo, inicio, fin, comentarios ]
         actions:
           _delete:
             label: Eliminar

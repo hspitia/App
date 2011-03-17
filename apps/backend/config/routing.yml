@@ -1,13 +1,20 @@
-curso_programado:
-  class: sfDoctrineRouteCollection
-  options:
-    model:                CursoProgramado
-    module:               curso_programado
-    prefix_path:          /curso_programado
-    column:               Array
-    with_wildcard_routes: true
+seleccion_periodo_academico:
+  url:  /curso_programado/seleccion_periodo
+  param:
+    module:   curso_programado
+    action:   seleccionarPeriodoAcademico
+
+# curso_programado:
+#   class: sfDoctrineRouteCollection
+#   options:
+#     model:                CursoProgramado
+#     module:               curso_programado
+#     prefix_path:          /curso_programado
+#     column:               Array
+#     with_wildcard_routes: true
 
 periodo_academico:
+  
   class: sfDoctrineRouteCollection
   options:
     model:                PeriodoAcademico
@@ -75,7 +82,7 @@ institucion:
 # default rules
 homepage:
   url:   /
-  param: { module: default, action: index }
+  param: { module: curso, action: index }
 
 # generic rules
 # please, remove them by adding more specific rules
@@ -83,6 +90,6 @@ default_index:
   url:   /:module
   param: { action: index }
 
-default:
+# default:
   url:   /:module/:action/*
-  # prefix_path: /:sf_culture
+#   # prefix_path: /:sf_culture

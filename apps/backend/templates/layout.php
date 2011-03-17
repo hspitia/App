@@ -35,6 +35,9 @@
             <?php echo link_to('Cursos', 'curso') ?>
           </li>
           <li>
+            <?php echo link_to('Cursos Programados', 'curso_programado/index') ?>
+          </li>
+          <li>
             <?php echo link_to('Períodos Académicos', 'periodo_academico') ?>
           </li>
         </ul>

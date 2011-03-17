@@ -14,13 +14,15 @@ generator:
     config:
       actions:
         _new:
-          label: Nuevo Curso
+          label:  Nuevo Curso
       fields:
         descripcion:
-          label: Descripción
+          label:  Descripción
+        codigo:
+          label:  Código
       list:
         title: Administración de Cursos
-        display: [ =id, =nombre, servicio, descripcion ]
+        display: [ =id, =codigo, =nombre, servicio, descripcion ]
         object_actions:
           _edit:
             label: Editar
