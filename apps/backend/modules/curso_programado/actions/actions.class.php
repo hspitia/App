@@ -35,6 +35,44 @@ class curso_programadoActions extends sfActions
 	public function executeNew(sfRequest $request) {
 		$this->periodo = $request->getParameter('PeriodoAcademico_id');
 		
-		$this->form = new CursoProgramadoForm();
+		// $this->form = new CursoProgramadoForm();
+		
+		$q = Doctrine_Core::getTable('Curso')->createQuery();
+		
+		// $q = Doctrine_Query::create()
+		// 	->from('Curso c');
+		
+		$this->pager = new sfDoctrinePager(
+			'Curso',
+			// 5
+			sfConfig::get('app_max_cursos')
+		);
+		
+		$this->pager->setQuery($q);
+		$this->pager->setPage($request->getParameter('page', 1));
+		$this->pager->init();
+		
+		$this->cursos = $this->pager->getResults();
+	}
+	
+	public function executeGetCursos(sfRequest $request) {
+		$q = Doctrine_Core::getTable('Curso')->createQuery();
+		
+		// $q = Doctrine_Query::create()
+		// 	->from('Curso c');
+		
+		$this->pager = new sfDoctrinePager(
+			'Curso',
+			// 5
+			sfConfig::get('app_max_cursos')
+		);
+		
+		$this->pager->setQuery($q);
+		$this->pager->setPage($request->getParameter('page', 1));
+		$this->pager->init();
+		
+		$this->cursos = $this->pager->getResults();
+		
+		return sfView::NONE;
 	}
 }

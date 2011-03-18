@@ -3,7 +3,8 @@
   	<?php
 	  	// echo $form['_csrf_token'];
 	  	// echo $form[$form->getCSRFFieldName()]->render();
-	  	echo $form['PeriodoAcademico_id']->renderRow(array(), 'Período Académico');
+	  	// echo $form['PeriodoAcademico_id']->renderRow(array(), 'Período Académico');
+	  	echo $form['PeriodoAcademico_id']->renderRow();
 	  	echo $form->renderHiddenFields();
   	?>
     <tr>

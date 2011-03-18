@@ -114,7 +114,7 @@ Servicio:
 <?php endfor ?>
 
 Curso:
-<?php for ($i=1; $i <= 4; $i++): ?>
+<?php for ($i=1; $i <= 20; $i++): ?>
   curso_<?php echo $i?>:
     nombre:       Curso <?php echo $i . "\n" ?>
     codigo:       C<?php echo $i . "\n" ?>

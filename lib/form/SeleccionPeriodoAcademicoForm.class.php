@@ -20,6 +20,10 @@ class SeleccionPeriodoAcademicoForm extends sfForm
 					'required' => 'Debe seleccionar un Período Académico'
 					)));
 		
+		$this->widgetSchema->setLabels(array(
+			'PeriodoAcademico_id'		=>	'Período Académico',	
+		));
+		
 		$this->widgetSchema->setNameFormat('seleccionPeriodoAcademico[%s]');
 		
 	}
