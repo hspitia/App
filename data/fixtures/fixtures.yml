@@ -118,7 +118,7 @@ Curso:
   curso_<?php echo $i?>:
     nombre:       Curso <?php echo $i . "\n" ?>
     codigo:       C<?php echo $i . "\n" ?>
-    nombre_corto: Cur_ <?php echo $i?>
+    nombre_corto: Cur_<?php echo $i . "\n" ?>
     descripcion:  Curso de prueba No. <?php echo $i . "\n" ?>
     Servicio:     servicio_<?php echo fmod($i, 2) ? 1 : 2 . "\n"?>
 

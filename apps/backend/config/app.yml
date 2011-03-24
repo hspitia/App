@@ -4,5 +4,5 @@
 # default values
 #
 all:
-  max_cursos: 5
-  icons_dir: '/images/icons/''
+  max_records_on_list:  3
+  icons_dir:            '/images/icons/''

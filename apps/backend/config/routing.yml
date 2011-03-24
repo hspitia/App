@@ -1,3 +1,21 @@
+curso_programado_new:
+  url:  /curso_programado/new/*
+  param:
+    module: curso_programado
+    action: new
+
+get_lista_cursos:
+  url:  /curso_programado/getListaCursos
+  param:
+    module: curso_programado
+    action: getListaCursos
+
+get_lista_instituciones:
+  url:  /curso_programado/getListaInstituciones
+  param:
+    module: curso_programado
+    action: getListaInstituciones
+
 seleccion_periodo_academico:
   url:  /curso_programado/seleccion_periodo
   param:

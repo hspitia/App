@@ -1,0 +1,10 @@
+PeriodoAcademico:
+<?php for ($i=1; $i <= 2; $i++): ?>
+  periodo_<?php echo $i?>:
+    codigo:         2011-<?php echo fmod($i, 2) ? 'A' : 'B' . "\n"?>
+    inicio:         <?php date(time()) . "\n" ?>
+    fin:            <?php date('d-m-Y H:i:s', time() + 86400 * 30) . "\n" ?>
+    activo:         true
+    comentarios:    periodo de prueba para calendario <?php echo fmod($i, 2) ? 'A' : 'B' . "\n"?>
+    Calendario:     <?php echo fmod($i, 2) ? 'a' : 'b' . "\n"?>     
+<?php endfor ?>

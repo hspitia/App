@@ -1,4 +1,5 @@
-- Incluir en modelo, tabla PeriodoAcademico campo activo (boolean)
-- Generar modelos
-- Cargar datos BD
+- programacion cursos
+ok - Incluir en modelo, tabla PeriodoAcademico campo activo (boolean)
+ok - Generar modelos
+ok - Cargar datos BD
 - Estructurar modulo matricula

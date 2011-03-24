@@ -23,3 +23,56 @@ body{
 	*font:x-small;
 }
 
+a:link {
+	/*
+	
+	*/
+	color:#004477;
+	text-decoration: none;
+}      
+a:visited {
+	color:#004477;
+	text-decoration: none;
+} 
+a:hover {
+	/*
+	
+	*/
+	color:#0066cc;
+	text-decoration: none;
+}  
+a:active {
+	/*color:#0000FF;*/
+	color:#004477;
+	text-decoration: none;
+} 
+
+div.loader{
+	background: url(../images/ajax-loader_2.gif) no-repeat center;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	height: 40px;
+	width: 40px;
+}
+
+ul.list_actions {
+	margin: 4px 0;
+	list-style-type: none;
+}
+
+ul.list_actions li
+{
+  list-style-type: none;
+  display: inline;
+  margin-right: 10px;
+  font-size: 90%;
+}
+
+ul.list_actions li a{
+	padding-left: 20px;
+}
+
+li.list_actions_select {
+	background: url(../images/icons/tick.png) no-repeat 0 0;
+}
